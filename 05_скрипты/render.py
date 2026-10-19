@@ -21,14 +21,19 @@ CSS = """
 --accent:#1a73e8;--good:#137333;--bad:#c5221f;--warn:#b06000}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
 --bg:#14161a;--card:#1c1f25;--ink:#e8eaed;--mute:#9aa0a6;--line:#2c3038;
---accent:#8ab4f8;--good:#81c995;--bad:#f28b82;--warn:#fdd663}}
+--accent:#8ab4f8;--good:#81c995;--bad:#f28b82;--warn:#fdd663;color-scheme:dark}}
+:root[data-theme=dark]{
+--bg:#14161a;--card:#1c1f25;--ink:#e8eaed;--mute:#9aa0a6;--line:#2c3038;
+--accent:#8ab4f8;--good:#81c995;--bad:#f28b82;--warn:#fdd663;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
 font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+.wrap{max-width:1100px;margin:0 auto;padding-block:24px 64px;
+padding-left:max(16px,env(safe-area-inset-left,0px));
+padding-right:max(16px,env(safe-area-inset-right,0px))}
 h1{font-size:24px;margin:0 0 4px}
 .sub{color:var(--mute);font-size:13px;margin:0 0 20px}
-nav{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 20px;position:sticky;top:0;
+nav{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 20px;position:sticky;top:env(safe-area-inset-top,0px);
 background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
 nav button{font:inherit;font-size:13px;padding:7px 13px;border:1px solid var(--line);
 background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer;white-space:nowrap}
@@ -191,6 +196,21 @@ p.append("<footer>Статистика аукционов — список ко�
 p.append(f"</div><script>{JS}</script></body></html>")
 
 os.makedirs(OUTDIR, exist_ok=True)
+page = "\n".join(p)
 out = os.path.join(OUTDIR, "index.html")
-open(out, "w").write("\n".join(p))
+open(out, "w").write(page)
 print("Готово:", out, os.path.getsize(out), "байт")
+
+# вариант для артефакта: без обёртки doctype/html/head/body
+art = page
+art = art.replace('<!doctype html><html lang="ru"><head><meta charset="utf-8">\n'
+                  '<meta name="viewport" content="width=device-width,initial-scale=1">\n', "")
+art = art.replace("</head><body><div class='wrap'>", "<div class='wrap'>")
+art = art.replace("</div><script>", "</div>\n<script>")
+art = art.replace("</body></html>", "")
+art = art.replace("<title>Google Ads — дашборд</title>",
+                  '<meta name="claude:viewport-fit-sides" content="cover">\n'
+                  "<title>Google Ads — дашборд</title>")
+outa = os.path.join(OUTDIR, "artifact.html")
+open(outa, "w").write(art)
+print("Готово:", outa, os.path.getsize(outa), "байт")
