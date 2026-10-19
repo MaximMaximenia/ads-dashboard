@@ -4,6 +4,7 @@ import json, os, html, datetime
 SNAP = os.path.expanduser("~/Desktop/Реклама/01_google_ads/snapshot.json")
 OUTDIR = os.path.expanduser("~/Desktop/Реклама/dashboard")
 d = json.load(open(SNAP))
+PERIOD_LABEL = {"today": "Сегодня", "week": "7 дней"}
 e = html.escape
 
 def money(x): return f"${x:,.2f}".replace(",", " ")
@@ -11,6 +12,7 @@ def pct(x): return f"{x:.1f}%" if x else "—"
 def cv(x): return f"{x:.0f}" if abs(x - round(x)) < 0.01 else f"{x:.2f}"
 def cpa(cost, conv): return money(cost / conv) if conv else "—"
 def slug(s): return "".join(c if c.isalnum() else "-" for c in s.lower())
+def pane_id(per, name): return f"{per}--{slug(name)}"
 
 STATUS = {"ENABLED": "Работает", "PAUSED": "Пауза", "REMOVED": "Удалена"}
 
@@ -30,6 +32,8 @@ nav{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 20px;position:sticky;top:0;
 background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
 nav button{font:inherit;font-size:13px;padding:7px 13px;border:1px solid var(--line);
 background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer;white-space:nowrap}
+nav.periods{border-bottom:0;padding-bottom:0;position:static;margin-bottom:8px}
+nav.periods button{border-radius:8px;font-weight:500}
 nav button[aria-selected=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
 section{display:none}section.on{display:block}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:0 0 18px}
@@ -52,14 +56,25 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 """
 
 JS = """
-const tabs=[...document.querySelectorAll('nav button')];
+const periods=[...document.querySelectorAll('nav.periods button')];
+const tabs=[...document.querySelectorAll('nav.accounts button')];
 const panes=[...document.querySelectorAll('section')];
-function show(id){tabs.forEach(t=>t.setAttribute('aria-selected',t.dataset.t===id));
-panes.forEach(p=>p.classList.toggle('on',p.id===id));
-try{localStorage.setItem('ads-tab',id)}catch(e){}}
-tabs.forEach(t=>t.onclick=()=>show(t.dataset.t));
-let saved=null;try{saved=localStorage.getItem('ads-tab')}catch(e){}
-show(panes.some(p=>p.id===saved)?saved:panes[0].id);
+let per='today', acc=tabs.length?tabs[0].dataset.t:'';
+function paint(){
+  periods.forEach(b=>b.setAttribute('aria-selected',b.dataset.p===per));
+  tabs.forEach(b=>b.setAttribute('aria-selected',b.dataset.t===acc));
+  const want=per+'--'+acc;
+  panes.forEach(s=>s.classList.toggle('on',s.id===want));
+  try{localStorage.setItem('ads-per',per);localStorage.setItem('ads-acc',acc)}catch(e){}
+}
+periods.forEach(b=>b.onclick=()=>{per=b.dataset.p;paint()});
+tabs.forEach(b=>b.onclick=()=>{acc=b.dataset.t;paint()});
+try{
+  const sp=localStorage.getItem('ads-per'), sa=localStorage.getItem('ads-acc');
+  if(periods.some(b=>b.dataset.p===sp)) per=sp;
+  if(tabs.some(b=>b.dataset.t===sa)) acc=sa;
+}catch(e){}
+paint();
 """
 
 p = []
@@ -68,30 +83,40 @@ p.append('<meta name="viewport" content="width=device-width,initial-scale=1">')
 p.append("<title>Google Ads — дашборд</title>")
 p.append(f"<style>{CSS}</style></head><body><div class='wrap'>")
 p.append("<h1>Google Ads — дашборд по аккаунтам</h1>")
-p.append(f"<p class='sub'>За последние 7 дней · собрано {datetime.datetime.now():%d.%m.%Y в %H:%M}</p>")
+p.append(f"<p class='sub'>Собрано {datetime.datetime.now():%d.%m.%Y в %H:%M}</p>")
 
-p.append("<nav>")
-for a in d["accounts"]:
+p.append("<nav class='periods'>")
+for key in ("today", "week"):
+    p.append(f"<button data-p='{key}'>{PERIOD_LABEL[key]}</button>")
+p.append("</nav>")
+
+first = d["periods"]["week"]["accounts"]
+p.append("<nav class='accounts'>")
+for a in first:
     p.append(f"<button data-t='{slug(a['name'])}'>{e(a['name'])}</button>")
 p.append("</nav>")
 
-for a in d["accounts"]:
+for per in ("today", "week"):
+  for a in d["periods"][per]["accounts"]:
     camps = a["campaigns"]
     live = [c for c in camps if c["status"] == "ENABLED"]
     cost = sum(c["cost"] for c in camps)
     clicks = sum(c["clicks"] for c in camps)
     conv = sum(c["conv"] for c in camps)
     budget = sum(c["budget"] for c in live)
-    p.append(f"<section id='{slug(a['name'])}'>")
-    cls = "bad" if not conv else ""
+    p.append(f"<section id='{pane_id(per, a['name'])}'>")
+    cls = "bad" if not conv and cost else ""
     p.append("<div class='kpis'>"
-             f"<div class='kpi'><div class='v'>{money(cost)}</div><div class='l'>расход за неделю</div></div>"
+             f"<div class='kpi'><div class='v'>{money(cost)}</div><div class='l'>расход</div></div>"
              f"<div class='kpi'><div class='v {cls}'>{cv(conv)}</div><div class='l'>обращений</div></div>"
              f"<div class='kpi'><div class='v'>{cpa(cost, conv)}</div><div class='l'>цена обращения</div></div>"
              f"<div class='kpi'><div class='v'>{clicks}</div><div class='l'>кликов</div></div>"
              f"<div class='kpi'><div class='v'>{money(budget)}</div><div class='l'>бюджет в день</div></div>"
              f"<div class='kpi'><div class='v'>{len(live)} / {len(camps)}</div><div class='l'>кампаний работает</div></div>"
              "</div>")
+    if per == "today":
+        p.append("<p class='note'>Сегодняшние цифры Google отдаёт с задержкой — "
+                 "за последние часы данные могут быть неполными.</p>")
     if a["errors"]:
         p.append("<p class='note bad'>Ошибки сбора: " + e("; ".join(a["errors"])) + "</p>")
 
@@ -104,11 +129,11 @@ for a in d["accounts"]:
         for c in rows:
             pill = "<span class='pill live'>Работает</span>" if c["status"] == "ENABLED" \
                 else f"<span class='pill'>{STATUS.get(c['status'], c['status'])}</span>"
-            zero = " class='bad'" if c["status"] == "ENABLED" and c["cost"] > 0 and not c["conv"] else ""
+            zero = " class='n bad'" if c["status"] == "ENABLED" and c["cost"] > 0 and not c["conv"] else " class='n'"
             p.append(f"<tr><td>{e(c['name'])}</td><td>{pill}</td>"
                      f"<td class='n'>{money(c['budget']) if c['status']=='ENABLED' else '—'}</td>"
                      f"<td class='n'>{money(c['cost'])}</td><td class='n'>{c['clicks']}</td>"
-                     f"<td class='n'{zero}>{cv(c['conv'])}</td>"
+                     f"<td{zero}>{cv(c['conv'])}</td>"
                      f"<td class='n'>{cpa(c['cost'], c['conv'])}</td></tr>")
         p.append("</table></div>")
 
@@ -134,7 +159,7 @@ for a in d["accounts"]:
                       key=lambda t: -t["cost"])[:15]
         burn_cost = sum(t["cost"] for t in terms if t["conv"] == 0 and t["cost"] > 0)
         tconv = sum(t["conv"] for t in terms)
-        p.append(f"<p class='note'>Всего запросов за неделю: {len(terms)}. "
+        p.append(f"<p class='note'>Всего запросов: {len(terms)}. "
                  f"С кликами, но без обращений — на {money(burn_cost)}.</p>")
         if conv and abs(tconv - conv) > 0.5:
             p.append(f"<p class='note'>По конкретным запросам отнесено {cv(tconv)} обращений "
@@ -157,7 +182,7 @@ for a in d["accounts"]:
                          f"<td class='n'>{money(t['cost'])}</td></tr>")
             p.append("</table></div>")
     else:
-        p.append("<p class='note'>За неделю запросов не было.</p>")
+        p.append("<p class='note'>Запросов не было.</p>")
     p.append("</section>")
 
 p.append("<footer>Статистика аукционов — список конкурентов и их доля показов — "

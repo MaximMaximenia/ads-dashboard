@@ -17,6 +17,8 @@ nav{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 20px;position:sticky;top:0;
 background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
 nav button{font:inherit;font-size:13px;padding:7px 13px;border:1px solid var(--line);
 background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer;white-space:nowrap}
+nav.periods{border-bottom:0;padding-bottom:0;position:static;margin-bottom:8px}
+nav.periods button{border-radius:8px;font-weight:500}
 nav button[aria-selected=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
 section{display:none}section.on{display:block}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:0 0 18px}
@@ -38,8 +40,12 @@ td.term{white-space:normal;min-width:180px}
 footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid var(--line);padding-top:14px}
 </style></head><body><div class='wrap'>
 <h1>Google Ads — дашборд по аккаунтам</h1>
-<p class='sub'>За последние 7 дней · собрано 19.10.2026 в 11:52</p>
-<nav>
+<p class='sub'>Собрано 19.10.2026 в 12:03</p>
+<nav class='periods'>
+<button data-p='today'>Сегодня</button>
+<button data-p='week'>7 дней</button>
+</nav>
+<nav class='accounts'>
 <button data-t='дасто---сто'>ДАСТО — СТО</button>
 <button data-t='тонировка-минск'>Тонировка Минск</button>
 <button data-t='aera'>aera</button>
@@ -47,14 +53,96 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 <button data-t='dtc'>DTC</button>
 <button data-t='airzon'>airzon</button>
 </nav>
-<section id='дасто---сто'>
-<div class='kpis'><div class='kpi'><div class='v'>$155.20</div><div class='l'>расход за неделю</div></div><div class='kpi'><div class='v '>39</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>$3.98</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>414</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$27.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>5 / 18</div><div class='l'>кампаний работает</div></div></div>
+<section id='today--дасто---сто'>
+<div class='kpis'><div class='kpi'><div class='v'>$5.77</div><div class='l'>расход</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>21</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$22.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>5 / 18</div><div class='l'>кампаний работает</div></div></div>
+<p class='note'>Сегодняшние цифры Google отдаёт с задержкой — за последние часы данные могут быть неполными.</p>
+<h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
+<tr><td>СТО - По маркам</td><td><span class='pill'>Пауза</span></td><td class='n'>—</td><td class='n'>$3.44</td><td class='n'>12</td><td class='n'>0</td><td class='n'>—</td></tr>
+<tr><td>Регулировка фар</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$1.29</td><td class='n'>5</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Развал-схождение</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$0.60</td><td class='n'>3</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Ремонт подвески</td><td><span class='pill live'>Работает</span></td><td class='n'>$6.00</td><td class='n'>$0.44</td><td class='n'>1</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Проточка тормозных дисков</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
+<tr><td>СТО - Общая</td><td><span class='pill live'>Работает</span></td><td class='n'>$1.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
+</table></div>
+<h3>Поисковые запросы</h3>
+<p class='note'>Всего запросов: 46. С кликами, но без обращений — на $2.12.</p>
+<h3>Тратят без обращений</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th></tr>
+<tr><td class='term'>диагностика подвески бесплатно минск</td><td class='n'>1</td><td class='n'>$0.44</td></tr>
+<tr><td class='term'>рено центр минск</td><td class='n'>1</td><td class='n'>$0.29</td></tr>
+<tr><td class='term'>hyundai сервисный центр минск</td><td class='n'>1</td><td class='n'>$0.29</td></tr>
+<tr><td class='term'>корея сервис минск</td><td class='n'>1</td><td class='n'>$0.29</td></tr>
+<tr><td class='term'>регулировка фар</td><td class='n'>1</td><td class='n'>$0.21</td></tr>
+<tr><td class='term'>развал схождение заводской район</td><td class='n'>1</td><td class='n'>$0.20</td></tr>
+<tr><td class='term'>сто новый двор 3d развал схождение</td><td class='n'>1</td><td class='n'>$0.20</td></tr>
+<tr><td class='term'>регулировка фар минск рядом</td><td class='n'>1</td><td class='n'>$0.20</td></tr>
+</table></div>
+</section>
+<section id='today--тонировка-минск'>
+<div class='kpis'><div class='kpi'><div class='v'>$1.30</div><div class='l'>расход</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>4</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 1</div><div class='l'>кампаний работает</div></div></div>
+<p class='note'>Сегодняшние цифры Google отдаёт с задержкой — за последние часы данные могут быть неполными.</p>
+<h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
+<tr><td>Тонировка Минск</td><td><span class='pill live'>Работает</span></td><td class='n'>$7.00</td><td class='n'>$1.30</td><td class='n'>4</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+</table></div>
+<h3>Поисковые запросы</h3>
+<p class='note'>Всего запросов: 5. С кликами, но без обращений — на $0.68.</p>
+<h3>Тратят без обращений</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th></tr>
+<tr><td class='term'>тонировка авто минск</td><td class='n'>1</td><td class='n'>$0.35</td></tr>
+<tr><td class='term'>тонировка минск</td><td class='n'>1</td><td class='n'>$0.33</td></tr>
+</table></div>
+</section>
+<section id='today--aera'>
+<div class='kpis'><div class='kpi'><div class='v'>$0.15</div><div class='l'>расход</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>20</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$15.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>2 / 3</div><div class='l'>кампаний работает</div></div></div>
+<p class='note'>Сегодняшние цифры Google отдаёт с задержкой — за последние часы данные могут быть неполными.</p>
+<h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
+<tr><td>Youtube</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$0.15</td><td class='n'>20</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Кондиционеры Солигорск</td><td><span class='pill live'>Работает</span></td><td class='n'>$10.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
+</table></div>
+<h3>Поисковые запросы</h3>
+<p class='note'>Всего запросов: 2. С кликами, но без обращений — на $0.00.</p>
+</section>
+<section id='today--vti'>
+<div class='kpis'><div class='kpi'><div class='v'>$8.16</div><div class='l'>расход</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>9</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$20.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>4 / 4</div><div class='l'>кампаний работает</div></div></div>
+<p class='note'>Сегодняшние цифры Google отдаёт с задержкой — за последние часы данные могут быть неполными.</p>
+<h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
+<tr><td>Монтаж водопровода</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$6.18</td><td class='n'>7</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Монтаж вентиляции</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$1.98</td><td class='n'>2</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Монтаж теплового узла</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
+<tr><td>Аварийные работы</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
+</table></div>
+<h3>Поисковые запросы</h3>
+<p class='note'>Всего запросов: 4. С кликами, но без обращений — на $2.96.</p>
+<h3>Тратят без обращений</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th></tr>
+<tr><td class='term'>приточно вытяжная установка</td><td class='n'>1</td><td class='n'>$1.00</td></tr>
+<tr><td class='term'>монтаж воздуховода вытяжки</td><td class='n'>1</td><td class='n'>$0.98</td></tr>
+<tr><td class='term'>прокладка водопровода и канализации</td><td class='n'>1</td><td class='n'>$0.98</td></tr>
+</table></div>
+</section>
+<section id='today--dtc'>
+<div class='kpis'><div class='kpi'><div class='v'>$0.95</div><div class='l'>расход</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>1</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 2</div><div class='l'>кампаний работает</div></div></div>
+<p class='note'>Сегодняшние цифры Google отдаёт с задержкой — за последние часы данные могут быть неполными.</p>
+<h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
+<tr><td>Бухгалтерские услуги</td><td><span class='pill live'>Работает</span></td><td class='n'>$7.00</td><td class='n'>$0.95</td><td class='n'>1</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+</table></div>
+<h3>Поисковые запросы</h3>
+<p class='note'>Всего запросов: 2. С кликами, но без обращений — на $0.00.</p>
+</section>
+<section id='today--airzon'>
+<div class='kpis'><div class='kpi'><div class='v'>$0.00</div><div class='l'>расход</div></div><div class='kpi'><div class='v '>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>0</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 1</div><div class='l'>кампаний работает</div></div></div>
+<p class='note'>Сегодняшние цифры Google отдаёт с задержкой — за последние часы данные могут быть неполными.</p>
+<h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
+<tr><td>Кондиционеры Брест</td><td><span class='pill live'>Работает</span></td><td class='n'>$7.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
+</table></div>
+<h3>Поисковые запросы</h3>
+<p class='note'>Запросов не было.</p>
+</section>
+<section id='week--дасто---сто'>
+<div class='kpis'><div class='kpi'><div class='v'>$155.20</div><div class='l'>расход</div></div><div class='kpi'><div class='v '>39</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>$3.98</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>414</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$22.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>5 / 18</div><div class='l'>кампаний работает</div></div></div>
 <h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
 <tr><td>Ремонт подвески</td><td><span class='pill live'>Работает</span></td><td class='n'>$6.00</td><td class='n'>$44.02</td><td class='n'>76</td><td class='n'>6</td><td class='n'>$7.34</td></tr>
-<tr><td>СТО - По маркам</td><td><span class='pill live'>Работает</span></td><td class='n'>$10.00</td><td class='n'>$32.73</td><td class='n'>125</td><td class='n'>11</td><td class='n'>$2.98</td></tr>
+<tr><td>СТО - По маркам</td><td><span class='pill'>Пауза</span></td><td class='n'>—</td><td class='n'>$32.73</td><td class='n'>125</td><td class='n'>11</td><td class='n'>$2.98</td></tr>
 <tr><td>Регулировка фар</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$30.92</td><td class='n'>76</td><td class='n'>12</td><td class='n'>$2.58</td></tr>
 <tr><td>Развал-схождение</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$30.36</td><td class='n'>99</td><td class='n'>8</td><td class='n'>$3.79</td></tr>
-<tr><td>Проточка тормозных дисков</td><td><span class='pill'>Пауза</span></td><td class='n'>—</td><td class='n'>$17.17</td><td class='n'>38</td><td class='n'>2</td><td class='n'>$8.59</td></tr>
+<tr><td>Проточка тормозных дисков</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$17.17</td><td class='n'>38</td><td class='n'>2</td><td class='n'>$8.59</td></tr>
 <tr><td>СТО - Общая</td><td><span class='pill live'>Работает</span></td><td class='n'>$1.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
 </table></div>
 <h3>Доля показов: что выкупаем и где теряем</h3><div class='tw'><table><tr><th>Кампания</th><th class='n'>Получено</th><th class='n'>Потеряно: бюджет</th><th class='n'>Потеряно: ранг</th></tr>
@@ -66,7 +154,7 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 </table></div>
 <p class='note'>Потери из-за бюджета лечатся деньгами. Потери из-за ранга — качеством объявлений, релевантностью и ставкой.</p>
 <h3>Поисковые запросы</h3>
-<p class='note'>Всего запросов за неделю: 518. С кликами, но без обращений — на $51.15.</p>
+<p class='note'>Всего запросов: 518. С кликами, но без обращений — на $51.15.</p>
 <p class='note'>По конкретным запросам отнесено 17 обращений из 39. Остальные Google к запросу не привязал — так бывает с редкими запросами и звонками.</p>
 <h3>Приносят обращения</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th><th class='n'>Обращения</th></tr>
 <tr><td class='term'>развал схождение минск</td><td class='n'>11</td><td class='n'>$3.56</td><td class='n good'>3</td></tr>
@@ -102,8 +190,8 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 <tr><td class='term'>регулировка фар минск заводской район</td><td class='n'>2</td><td class='n'>$0.64</td></tr>
 </table></div>
 </section>
-<section id='тонировка-минск'>
-<div class='kpis'><div class='kpi'><div class='v'>$36.03</div><div class='l'>расход за неделю</div></div><div class='kpi'><div class='v '>12</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>$3.00</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>103</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 1</div><div class='l'>кампаний работает</div></div></div>
+<section id='week--тонировка-минск'>
+<div class='kpis'><div class='kpi'><div class='v'>$36.03</div><div class='l'>расход</div></div><div class='kpi'><div class='v '>12</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>$3.00</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>103</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 1</div><div class='l'>кампаний работает</div></div></div>
 <h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
 <tr><td>Тонировка Минск</td><td><span class='pill live'>Работает</span></td><td class='n'>$7.00</td><td class='n'>$36.03</td><td class='n'>103</td><td class='n'>12</td><td class='n'>$3.00</td></tr>
 </table></div>
@@ -112,7 +200,7 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 </table></div>
 <p class='note'>Потери из-за бюджета лечатся деньгами. Потери из-за ранга — качеством объявлений, релевантностью и ставкой.</p>
 <h3>Поисковые запросы</h3>
-<p class='note'>Всего запросов за неделю: 30. С кликами, но без обращений — на $7.40.</p>
+<p class='note'>Всего запросов: 30. С кликами, но без обращений — на $7.40.</p>
 <p class='note'>По конкретным запросам отнесено 10 обращений из 12. Остальные Google к запросу не привязал — так бывает с редкими запросами и звонками.</p>
 <h3>Приносят обращения</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th><th class='n'>Обращения</th></tr>
 <tr><td class='term'>тонировка авто минск</td><td class='n'>45</td><td class='n'>$14.77</td><td class='n good'>7</td></tr>
@@ -134,18 +222,18 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 <tr><td class='term'>затонировать машину в минске</td><td class='n'>1</td><td class='n'>$0.26</td></tr>
 </table></div>
 </section>
-<section id='aera'>
-<div class='kpis'><div class='kpi'><div class='v'>$75.99</div><div class='l'>расход за неделю</div></div><div class='kpi'><div class='v '>2</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>$37.99</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>2904</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$15.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>2 / 3</div><div class='l'>кампаний работает</div></div></div>
+<section id='week--aera'>
+<div class='kpis'><div class='kpi'><div class='v'>$75.99</div><div class='l'>расход</div></div><div class='kpi'><div class='v '>2</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>$37.99</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>2904</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$15.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>2 / 3</div><div class='l'>кампаний работает</div></div></div>
 <h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
 <tr><td>Кондиционеры Солигорск</td><td><span class='pill live'>Работает</span></td><td class='n'>$10.00</td><td class='n'>$39.12</td><td class='n'>41</td><td class='n'>2</td><td class='n'>$19.56</td></tr>
-<tr><td>Youtube</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$36.87</td><td class='n'>2863</td><td class='n' class='bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Youtube</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$36.87</td><td class='n'>2863</td><td class='n bad'>0</td><td class='n'>—</td></tr>
 </table></div>
 <h3>Доля показов: что выкупаем и где теряем</h3><div class='tw'><table><tr><th>Кампания</th><th class='n'>Получено</th><th class='n'>Потеряно: бюджет</th><th class='n'>Потеряно: ранг</th></tr>
 <tr><td>Кондиционеры Солигорск</td><td class='n'>63.0%</td><td class='n'>—</td><td class='n warn'>37.0%</td></tr>
 </table></div>
 <p class='note'>Потери из-за бюджета лечатся деньгами. Потери из-за ранга — качеством объявлений, релевантностью и ставкой.</p>
 <h3>Поисковые запросы</h3>
-<p class='note'>Всего запросов за неделю: 53. С кликами, но без обращений — на $17.79.</p>
+<p class='note'>Всего запросов: 53. С кликами, но без обращений — на $17.79.</p>
 <p class='note'>По конкретным запросам отнесено 0.50 обращений из 2. Остальные Google к запросу не привязал — так бывает с редкими запросами и звонками.</p>
 <h3>Приносят обращения</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th><th class='n'>Обращения</th></tr>
 <tr><td class='term'>кондиционеры солигорск</td><td class='n'>5</td><td class='n'>$4.97</td><td class='n good'>0.50</td></tr>
@@ -168,13 +256,13 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 <tr><td class='term'>кондиционер 24000 btu</td><td class='n'>1</td><td class='n'>$0.60</td></tr>
 </table></div>
 </section>
-<section id='vti'>
-<div class='kpis'><div class='kpi'><div class='v'>$55.19</div><div class='l'>расход за неделю</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>51</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$20.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>4 / 4</div><div class='l'>кампаний работает</div></div></div>
+<section id='week--vti'>
+<div class='kpis'><div class='kpi'><div class='v'>$55.19</div><div class='l'>расход</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>51</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$20.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>4 / 4</div><div class='l'>кампаний работает</div></div></div>
 <h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
-<tr><td>Монтаж вентиляции</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$30.24</td><td class='n'>31</td><td class='n' class='bad'>0</td><td class='n'>—</td></tr>
-<tr><td>Монтаж водопровода</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$15.37</td><td class='n'>12</td><td class='n' class='bad'>0</td><td class='n'>—</td></tr>
-<tr><td>Монтаж теплового узла</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$6.18</td><td class='n'>4</td><td class='n' class='bad'>0</td><td class='n'>—</td></tr>
-<tr><td>Аварийные работы</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$3.40</td><td class='n'>4</td><td class='n' class='bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Монтаж вентиляции</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$30.24</td><td class='n'>31</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Монтаж водопровода</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$15.37</td><td class='n'>12</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Монтаж теплового узла</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$6.18</td><td class='n'>4</td><td class='n bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Аварийные работы</td><td><span class='pill live'>Работает</span></td><td class='n'>$5.00</td><td class='n'>$3.40</td><td class='n'>4</td><td class='n bad'>0</td><td class='n'>—</td></tr>
 </table></div>
 <h3>Доля показов: что выкупаем и где теряем</h3><div class='tw'><table><tr><th>Кампания</th><th class='n'>Получено</th><th class='n'>Потеряно: бюджет</th><th class='n'>Потеряно: ранг</th></tr>
 <tr><td>Монтаж водопровода</td><td class='n'>90.8%</td><td class='n'>2.3%</td><td class='n'>6.9%</td></tr>
@@ -184,7 +272,7 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 </table></div>
 <p class='note'>Потери из-за бюджета лечатся деньгами. Потери из-за ранга — качеством объявлений, релевантностью и ставкой.</p>
 <h3>Поисковые запросы</h3>
-<p class='note'>Всего запросов за неделю: 72. С кликами, но без обращений — на $16.96.</p>
+<p class='note'>Всего запросов: 72. С кликами, но без обращений — на $16.96.</p>
 <h3>Тратят без обращений</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th></tr>
 <tr><td class='term'>цена на прокладку водопровода</td><td class='n'>1</td><td class='n'>$1.93</td></tr>
 <tr><td class='term'>монтаж итп</td><td class='n'>1</td><td class='n'>$1.86</td></tr>
@@ -203,17 +291,17 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 <tr><td class='term'>стоимость монтажа воздуховода</td><td class='n'>1</td><td class='n'>$0.67</td></tr>
 </table></div>
 </section>
-<section id='dtc'>
-<div class='kpis'><div class='kpi'><div class='v'>$37.15</div><div class='l'>расход за неделю</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>35</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 2</div><div class='l'>кампаний работает</div></div></div>
+<section id='week--dtc'>
+<div class='kpis'><div class='kpi'><div class='v'>$37.15</div><div class='l'>расход</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>35</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 2</div><div class='l'>кампаний работает</div></div></div>
 <h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
-<tr><td>Бухгалтерские услуги</td><td><span class='pill live'>Работает</span></td><td class='n'>$7.00</td><td class='n'>$37.15</td><td class='n'>35</td><td class='n' class='bad'>0</td><td class='n'>—</td></tr>
+<tr><td>Бухгалтерские услуги</td><td><span class='pill live'>Работает</span></td><td class='n'>$7.00</td><td class='n'>$37.15</td><td class='n'>35</td><td class='n bad'>0</td><td class='n'>—</td></tr>
 </table></div>
 <h3>Доля показов: что выкупаем и где теряем</h3><div class='tw'><table><tr><th>Кампания</th><th class='n'>Получено</th><th class='n'>Потеряно: бюджет</th><th class='n'>Потеряно: ранг</th></tr>
 <tr><td>Бухгалтерские услуги</td><td class='n'>29.0%</td><td class='n warn'>23.5%</td><td class='n warn'>47.4%</td></tr>
 </table></div>
 <p class='note'>Потери из-за бюджета лечатся деньгами. Потери из-за ранга — качеством объявлений, релевантностью и ставкой.</p>
 <h3>Поисковые запросы</h3>
-<p class='note'>Всего запросов за неделю: 100. С кликами, но без обращений — на $12.33.</p>
+<p class='note'>Всего запросов: 100. С кликами, но без обращений — на $12.33.</p>
 <h3>Тратят без обращений</h3><div class='tw'><table><tr><th>Запрос</th><th class='n'>Клики</th><th class='n'>Расход</th></tr>
 <tr><td class='term'>услуги бухгалтера минск</td><td class='n'>1</td><td class='n'>$1.38</td></tr>
 <tr><td class='term'>бухгалтерия аутсорсинг</td><td class='n'>1</td><td class='n'>$1.38</td></tr>
@@ -228,22 +316,33 @@ footer{color:var(--mute);font-size:12.5px;margin-top:40px;border-top:1px solid v
 <tr><td class='term'>закон о бухгалтерском учёте</td><td class='n'>1</td><td class='n'>$0.79</td></tr>
 </table></div>
 </section>
-<section id='airzon'>
-<div class='kpis'><div class='kpi'><div class='v'>$0.00</div><div class='l'>расход за неделю</div></div><div class='kpi'><div class='v bad'>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>0</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 1</div><div class='l'>кампаний работает</div></div></div>
+<section id='week--airzon'>
+<div class='kpis'><div class='kpi'><div class='v'>$0.00</div><div class='l'>расход</div></div><div class='kpi'><div class='v '>0</div><div class='l'>обращений</div></div><div class='kpi'><div class='v'>—</div><div class='l'>цена обращения</div></div><div class='kpi'><div class='v'>0</div><div class='l'>кликов</div></div><div class='kpi'><div class='v'>$7.00</div><div class='l'>бюджет в день</div></div><div class='kpi'><div class='v'>1 / 1</div><div class='l'>кампаний работает</div></div></div>
 <h3>Кампании</h3><div class='tw'><table><tr><th>Кампания</th><th>Статус</th><th class='n'>Бюджет</th><th class='n'>Расход</th><th class='n'>Клики</th><th class='n'>Обращения</th><th class='n'>Цена обращения</th></tr>
 <tr><td>Кондиционеры Брест</td><td><span class='pill live'>Работает</span></td><td class='n'>$7.00</td><td class='n'>$0.00</td><td class='n'>0</td><td class='n'>0</td><td class='n'>—</td></tr>
 </table></div>
 <h3>Поисковые запросы</h3>
-<p class='note'>За неделю запросов не было.</p>
+<p class='note'>Запросов не было.</p>
 </section>
 <footer>Статистика аукционов — список конкурентов и их доля показов — в Google Ads API не отдаётся, она есть только в интерфейсе. Всё остальное здесь берётся из API напрямую.</footer>
 </div><script>
-const tabs=[...document.querySelectorAll('nav button')];
+const periods=[...document.querySelectorAll('nav.periods button')];
+const tabs=[...document.querySelectorAll('nav.accounts button')];
 const panes=[...document.querySelectorAll('section')];
-function show(id){tabs.forEach(t=>t.setAttribute('aria-selected',t.dataset.t===id));
-panes.forEach(p=>p.classList.toggle('on',p.id===id));
-try{localStorage.setItem('ads-tab',id)}catch(e){}}
-tabs.forEach(t=>t.onclick=()=>show(t.dataset.t));
-let saved=null;try{saved=localStorage.getItem('ads-tab')}catch(e){}
-show(panes.some(p=>p.id===saved)?saved:panes[0].id);
+let per='today', acc=tabs.length?tabs[0].dataset.t:'';
+function paint(){
+  periods.forEach(b=>b.setAttribute('aria-selected',b.dataset.p===per));
+  tabs.forEach(b=>b.setAttribute('aria-selected',b.dataset.t===acc));
+  const want=per+'--'+acc;
+  panes.forEach(s=>s.classList.toggle('on',s.id===want));
+  try{localStorage.setItem('ads-per',per);localStorage.setItem('ads-acc',acc)}catch(e){}
+}
+periods.forEach(b=>b.onclick=()=>{per=b.dataset.p;paint()});
+tabs.forEach(b=>b.onclick=()=>{acc=b.dataset.t;paint()});
+try{
+  const sp=localStorage.getItem('ads-per'), sa=localStorage.getItem('ads-acc');
+  if(periods.some(b=>b.dataset.p===sp)) per=sp;
+  if(tabs.some(b=>b.dataset.t===sa)) acc=sa;
+}catch(e){}
+paint();
 </script></body></html>

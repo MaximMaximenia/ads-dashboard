@@ -12,7 +12,7 @@ ACCOUNTS = {
     "2726193942": "DTC",
     "2321582658": "airzon",
 }
-PERIOD = "LAST_7_DAYS"
+PERIODS = {"today": "TODAY", "week": "LAST_7_DAYS"}
 
 def access_token():
     c = json.load(open(KEYS))
@@ -33,60 +33,65 @@ def search(cid, query, at):
         rows.extend(ch.get("results", []))
     return rows
 
-Q_CAMP = f"""SELECT campaign.name, campaign.status, campaign.advertising_channel_type,
+def q_camp(period):
+    return f"""SELECT campaign.name, campaign.status, campaign.advertising_channel_type,
 campaign_budget.amount_micros, metrics.cost_micros, metrics.clicks, metrics.impressions,
 metrics.ctr, metrics.average_cpc, metrics.conversions, metrics.search_impression_share,
 metrics.search_budget_lost_impression_share, metrics.search_rank_lost_impression_share
-FROM campaign WHERE segments.date DURING {PERIOD}"""
+FROM campaign WHERE segments.date DURING {period}"""
 
-Q_TERMS = f"""SELECT search_term_view.search_term, campaign.name, metrics.clicks,
+def q_terms(period):
+    return f"""SELECT search_term_view.search_term, campaign.name, metrics.clicks,
 metrics.cost_micros, metrics.conversions, metrics.impressions
-FROM search_term_view WHERE segments.date DURING {PERIOD}"""
+FROM search_term_view WHERE segments.date DURING {period}"""
 
 def m(r, k, d=0):
     return r.get("metrics", {}).get(k, d)
 
 def collect():
     at = access_token()
-    out = {"period": PERIOD, "accounts": []}
-    for cid, name in ACCOUNTS.items():
-        acc = {"id": cid, "name": name, "campaigns": [], "terms": [], "errors": []}
-        camps = search(cid, Q_CAMP, at)
-        if isinstance(camps, dict):
-            acc["errors"].append("кампании: " + camps["__error__"])
-            camps = []
-        for r in camps:
-            acc["campaigns"].append({
-                "name": r["campaign"]["name"],
-                "status": r["campaign"]["status"],
-                "type": r["campaign"].get("advertisingChannelType", ""),
-                "budget": int(r.get("campaignBudget", {}).get("amountMicros", 0)) / 1e6,
-                "cost": int(m(r, "costMicros")) / 1e6,
-                "clicks": int(m(r, "clicks")),
-                "impr": int(m(r, "impressions")),
-                "ctr": float(m(r, "ctr", 0)) * 100,
-                "cpc": int(m(r, "averageCpc", 0)) / 1e6,
-                "conv": float(m(r, "conversions", 0)),
-                "is": float(m(r, "searchImpressionShare", 0)) * 100,
-                "lost_budget": float(m(r, "searchBudgetLostImpressionShare", 0)) * 100,
-                "lost_rank": float(m(r, "searchRankLostImpressionShare", 0)) * 100,
-            })
-        terms = search(cid, Q_TERMS, at)
-        if isinstance(terms, dict):
-            acc["errors"].append("запросы: " + terms["__error__"])
-            terms = []
-        for r in terms:
-            acc["terms"].append({
-                "term": r["searchTermView"]["searchTerm"],
-                "campaign": r["campaign"]["name"],
-                "clicks": int(m(r, "clicks")),
-                "impr": int(m(r, "impressions")),
-                "cost": int(m(r, "costMicros")) / 1e6,
-                "conv": float(m(r, "conversions", 0)),
-            })
-        out["accounts"].append(acc)
-        print(f"{name}: кампаний {len(acc['campaigns'])}, запросов {len(acc['terms'])}"
-              + (f", ОШИБКИ: {acc['errors']}" if acc["errors"] else ""))
+    out = {"generated": None, "periods": {}}
+    for key, period in PERIODS.items():
+        bucket = {"gaql": period, "accounts": []}
+        for cid, name in ACCOUNTS.items():
+            acc = {"id": cid, "name": name, "campaigns": [], "terms": [], "errors": []}
+            camps = search(cid, q_camp(period), at)
+            if isinstance(camps, dict):
+                acc["errors"].append("кампании: " + camps["__error__"]); camps = []
+            for r in camps:
+                acc["campaigns"].append({
+                    "name": r["campaign"]["name"],
+                    "status": r["campaign"]["status"],
+                    "type": r["campaign"].get("advertisingChannelType", ""),
+                    "budget": int(r.get("campaignBudget", {}).get("amountMicros", 0)) / 1e6,
+                    "cost": int(m(r, "costMicros")) / 1e6,
+                    "clicks": int(m(r, "clicks")),
+                    "impr": int(m(r, "impressions")),
+                    "ctr": float(m(r, "ctr", 0)) * 100,
+                    "cpc": int(m(r, "averageCpc", 0)) / 1e6,
+                    "conv": float(m(r, "conversions", 0)),
+                    "is": float(m(r, "searchImpressionShare", 0)) * 100,
+                    "lost_budget": float(m(r, "searchBudgetLostImpressionShare", 0)) * 100,
+                    "lost_rank": float(m(r, "searchRankLostImpressionShare", 0)) * 100,
+                })
+            terms = search(cid, q_terms(period), at)
+            if isinstance(terms, dict):
+                acc["errors"].append("запросы: " + terms["__error__"]); terms = []
+            for r in terms:
+                acc["terms"].append({
+                    "term": r["searchTermView"]["searchTerm"],
+                    "campaign": r["campaign"]["name"],
+                    "clicks": int(m(r, "clicks")),
+                    "impr": int(m(r, "impressions")),
+                    "cost": int(m(r, "costMicros")) / 1e6,
+                    "conv": float(m(r, "conversions", 0)),
+                })
+            bucket["accounts"].append(acc)
+            flag = f" ОШИБКИ: {acc['errors']}" if acc["errors"] else ""
+            print(f"[{key}] {name}: кампаний {len(acc['campaigns'])}, запросов {len(acc['terms'])}{flag}")
+        out["periods"][key] = bucket
+    import datetime
+    out["generated"] = datetime.datetime.now().isoformat(timespec="minutes")
     json.dump(out, open(OUT, "w"), ensure_ascii=False, indent=1)
     print("\nСохранено:", OUT)
     return out
