@@ -1,0 +1,10 @@
+# секреты — никогда не коммитить
+04_ключи/
+*oauth*.json
+*token*.json
+*client_secret*
+
+# мусор
+__pycache__/
+*.pyc
+.DS_Store
