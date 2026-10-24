@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "DSH Browser Bridge",
+  "version": "1.0",
+  "description": "Локальный мост: читает вкладки Chrome по команде",
+  "permissions": ["tabs", "tabGroups", "scripting", "alarms"],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "https://metrika.yandex.ru/*",
+    "https://*.yandex.ru/*",
+    "https://*.yandex.by/*",
+    "https://ads.google.com/*",
+    "https://*.google.com/*",
+    "https://coordinat.pro/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "DSH Browser Bridge"
+  }
+}

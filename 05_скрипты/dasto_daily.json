@@ -1,0 +1,876 @@
+[
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "18",
+   "searchAbsoluteTopImpressionShare": 0.10820895522388059,
+   "searchBudgetLostImpressionShare": 0.34701492537313433,
+   "searchImpressionShare": 0.6492537313432836,
+   "searchRankLostImpressionShare": 0.0037313432835820895,
+   "searchTopImpressionShare": 0.5111940298507462,
+   "conversions": 0,
+   "costMicros": "6270000",
+   "ctr": 0.10344827586206896,
+   "averageCpc": 348333.3333333333,
+   "impressions": "174"
+  },
+  "segments": {
+   "date": "2026-10-08"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "7",
+   "searchAbsoluteTopImpressionShare": 0.2653061224489796,
+   "searchBudgetLostImpressionShare": 0.16326530612244897,
+   "searchImpressionShare": 0.8367346938775511,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.8163265306122449,
+   "conversions": 2,
+   "costMicros": "4980000",
+   "ctr": 0.16279069767441862,
+   "averageCpc": 711428.5714285715,
+   "impressions": "43"
+  },
+  "segments": {
+   "date": "2026-10-08"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "9",
+   "searchAbsoluteTopImpressionShare": 0.2903225806451613,
+   "searchBudgetLostImpressionShare": 0.27956989247311825,
+   "searchImpressionShare": 0.7204301075268817,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.6451612903225806,
+   "conversions": 0,
+   "costMicros": "4650000",
+   "ctr": 0.13432835820895522,
+   "averageCpc": 516666.6666666667,
+   "impressions": "67"
+  },
+  "segments": {
+   "date": "2026-10-08"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "15",
+   "searchAbsoluteTopImpressionShare": 0.25892857142857145,
+   "searchBudgetLostImpressionShare": 0.25,
+   "searchImpressionShare": 0.75,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.6696428571428571,
+   "conversions": 1,
+   "costMicros": "7670000",
+   "ctr": 0.15151515151515152,
+   "averageCpc": 511333.3333333333,
+   "impressions": "99"
+  },
+  "segments": {
+   "date": "2026-10-09"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "1",
+   "searchAbsoluteTopImpressionShare": 0.22857142857142856,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.9142857142857143,
+   "searchRankLostImpressionShare": 0.08571428571428572,
+   "searchTopImpressionShare": 0.8285714285714286,
+   "conversions": 0,
+   "costMicros": "430000",
+   "ctr": 0.02127659574468085,
+   "averageCpc": 430000,
+   "impressions": "47"
+  },
+  "segments": {
+   "date": "2026-10-09"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "14",
+   "searchAbsoluteTopImpressionShare": 0.42857142857142855,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.8571428571428571,
+   "searchRankLostImpressionShare": 0.14285714285714285,
+   "searchTopImpressionShare": 0.6666666666666666,
+   "conversions": 0,
+   "costMicros": "8820000",
+   "ctr": 0.2222222222222222,
+   "averageCpc": 630000,
+   "impressions": "63"
+  },
+  "segments": {
+   "date": "2026-10-09"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "20",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.6129032258064516,
+   "searchImpressionShare": 0.3870967741935484,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.2764976958525346,
+   "conversions": 0,
+   "costMicros": "4930000",
+   "ctr": 0.11904761904761904,
+   "averageCpc": 246500,
+   "impressions": "168"
+  },
+  "segments": {
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "13",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.7037037037037037,
+   "searchRankLostImpressionShare": 0.2962962962962963,
+   "searchTopImpressionShare": 0.5370370370370371,
+   "conversions": 1,
+   "costMicros": "5910000",
+   "ctr": 0.1368421052631579,
+   "averageCpc": 454615.3846153846,
+   "impressions": "95"
+  },
+  "segments": {
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "4",
+   "searchAbsoluteTopImpressionShare": 0.29411764705882354,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6,
+   "searchRankLostImpressionShare": 0.4,
+   "searchTopImpressionShare": 0.47058823529411764,
+   "conversions": 0,
+   "costMicros": "1800000",
+   "ctr": 0.10810810810810811,
+   "averageCpc": 450000,
+   "impressions": "37"
+  },
+  "segments": {
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "21",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.3780487804878049,
+   "searchImpressionShare": 0.35060975609756095,
+   "searchRankLostImpressionShare": 0.27134146341463417,
+   "searchTopImpressionShare": 0.2873900293255132,
+   "conversions": 1,
+   "costMicros": "6830000",
+   "ctr": 0.12883435582822086,
+   "averageCpc": 325238.09523809527,
+   "impressions": "163"
+  },
+  "segments": {
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "23",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.4820936639118457,
+   "searchImpressionShare": 0.5179063360881543,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.3884297520661157,
+   "conversions": 3,
+   "costMicros": "5870000",
+   "ctr": 0.12299465240641712,
+   "averageCpc": 255217.39130434784,
+   "impressions": "187"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "8",
+   "searchAbsoluteTopImpressionShare": 0.1694915254237288,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6440677966101694,
+   "searchRankLostImpressionShare": 0.3559322033898305,
+   "searchTopImpressionShare": 0.559322033898305,
+   "conversions": 1,
+   "costMicros": "3530000",
+   "ctr": 0.13559322033898305,
+   "averageCpc": 441250,
+   "impressions": "59"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "19",
+   "searchAbsoluteTopImpressionShare": 0.3142857142857143,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6190476190476191,
+   "searchRankLostImpressionShare": 0.38095238095238093,
+   "searchTopImpressionShare": 0.5047619047619047,
+   "conversions": 4.008361,
+   "costMicros": "7770000",
+   "ctr": 0.2087912087912088,
+   "averageCpc": 408947.36842105264,
+   "impressions": "91"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "24",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.6349206349206349,
+   "searchImpressionShare": 0.3129251700680272,
+   "searchRankLostImpressionShare": 0.05215419501133787,
+   "searchTopImpressionShare": 0.2290249433106576,
+   "conversions": 2,
+   "costMicros": "5300000",
+   "ctr": 0.17518248175182483,
+   "averageCpc": 220833.33333333334,
+   "impressions": "137"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "19",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.4144144144144144,
+   "searchImpressionShare": 0.5705705705705706,
+   "searchRankLostImpressionShare": 0.015015015015015015,
+   "searchTopImpressionShare": 0.43543543543543545,
+   "conversions": 4,
+   "costMicros": "6430000",
+   "ctr": 0.1,
+   "averageCpc": 338421.05263157893,
+   "impressions": "190"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "6",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.7,
+   "searchRankLostImpressionShare": 0.3,
+   "searchTopImpressionShare": 0.6857142857142857,
+   "conversions": 0,
+   "costMicros": "2770000",
+   "ctr": 0.08823529411764706,
+   "averageCpc": 461666.6666666667,
+   "impressions": "68"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "21",
+   "searchAbsoluteTopImpressionShare": 0.22727272727272727,
+   "searchBudgetLostImpressionShare": 0.17272727272727273,
+   "searchImpressionShare": 0.5636363636363636,
+   "searchRankLostImpressionShare": 0.2636363636363636,
+   "searchTopImpressionShare": 0.4818181818181818,
+   "conversions": 2,
+   "costMicros": "7710000",
+   "ctr": 0.25609756097560976,
+   "averageCpc": 367142.85714285716,
+   "impressions": "82"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "27",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.10700389105058365,
+   "searchImpressionShare": 0.3463035019455253,
+   "searchRankLostImpressionShare": 0.546692607003891,
+   "searchTopImpressionShare": 0.27431906614785995,
+   "conversions": 2,
+   "costMicros": "6650000",
+   "ctr": 0.14285714285714285,
+   "averageCpc": 246296.2962962963,
+   "impressions": "189"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "23",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.5664739884393064,
+   "searchImpressionShare": 0.4007707129094412,
+   "searchRankLostImpressionShare": 0.03275529865125241,
+   "searchTopImpressionShare": 0.3,
+   "conversions": 0,
+   "costMicros": "6660000",
+   "ctr": 0.11057692307692307,
+   "averageCpc": 289565.2173913043,
+   "impressions": "208"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "6",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.7538461538461538,
+   "searchRankLostImpressionShare": 0.24615384615384617,
+   "searchTopImpressionShare": 0.7230769230769231,
+   "conversions": 0,
+   "costMicros": "2800000",
+   "ctr": 0.08823529411764706,
+   "averageCpc": 466666.6666666667,
+   "impressions": "68"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "11",
+   "searchAbsoluteTopImpressionShare": 0.20261437908496732,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.5555555555555556,
+   "searchRankLostImpressionShare": 0.4444444444444444,
+   "searchTopImpressionShare": 0.49673202614379086,
+   "conversions": 4,
+   "costMicros": "4480000",
+   "ctr": 0.07692307692307693,
+   "averageCpc": 407272.7272727273,
+   "impressions": "143"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "27",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.4555984555984556,
+   "searchRankLostImpressionShare": 0.5444015444015444,
+   "searchTopImpressionShare": 0.3667953667953668,
+   "conversions": 3,
+   "costMicros": "6980000",
+   "ctr": 0.08794788273615635,
+   "averageCpc": 258518.5185185185,
+   "impressions": "307"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "14",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.6466666666666666,
+   "searchImpressionShare": 0.3433333333333333,
+   "searchRankLostImpressionShare": 0.01,
+   "searchTopImpressionShare": 0.2866666666666667,
+   "conversions": 1,
+   "costMicros": "6470000",
+   "ctr": 0.11570247933884298,
+   "averageCpc": 462142.85714285716,
+   "impressions": "121"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "5",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6865671641791045,
+   "searchRankLostImpressionShare": 0.31343283582089554,
+   "searchTopImpressionShare": 0.6119402985074627,
+   "conversions": 0,
+   "costMicros": "2160000",
+   "ctr": 0.078125,
+   "averageCpc": 432000,
+   "impressions": "64"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "21",
+   "searchAbsoluteTopImpressionShare": 0.2822085889570552,
+   "searchBudgetLostImpressionShare": 0.17177914110429449,
+   "searchImpressionShare": 0.49079754601226994,
+   "searchRankLostImpressionShare": 0.3374233128834356,
+   "searchTopImpressionShare": 0.3803680981595092,
+   "conversions": 1.991639,
+   "costMicros": "9160000",
+   "ctr": 0.15671641791044777,
+   "averageCpc": 436190.4761904762,
+   "impressions": "134"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "26",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.38699690402476783,
+   "searchImpressionShare": 0.2786377708978328,
+   "searchRankLostImpressionShare": 0.33436532507739936,
+   "searchTopImpressionShare": 0.20982142857142858,
+   "conversions": 3,
+   "costMicros": "6970000",
+   "ctr": 0.10743801652892562,
+   "averageCpc": 268076.92307692306,
+   "impressions": "242"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "14",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.5022522522522522,
+   "searchImpressionShare": 0.48873873873873874,
+   "searchRankLostImpressionShare": 0.009009009009009009,
+   "searchTopImpressionShare": 0.3918918918918919,
+   "conversions": 0,
+   "costMicros": "3740000",
+   "ctr": 0.06511627906976744,
+   "averageCpc": 267142.85714285716,
+   "impressions": "215"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "1",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.696969696969697,
+   "searchRankLostImpressionShare": 0.30303030303030304,
+   "searchTopImpressionShare": 0.6060606060606061,
+   "conversions": 0,
+   "costMicros": "460000",
+   "ctr": 0.03125,
+   "averageCpc": 460000,
+   "impressions": "32"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "32",
+   "searchAbsoluteTopImpressionShare": 0.20952380952380953,
+   "searchBudgetLostImpressionShare": 0.1523809523809524,
+   "searchImpressionShare": 0.6047619047619047,
+   "searchRankLostImpressionShare": 0.24285714285714285,
+   "searchTopImpressionShare": 0.48095238095238096,
+   "conversions": 0,
+   "costMicros": "12100000",
+   "ctr": 0.18823529411764706,
+   "averageCpc": 378125,
+   "impressions": "170"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "18",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.5100671140939598,
+   "searchRankLostImpressionShare": 0.4899328859060403,
+   "searchTopImpressionShare": 0.4697986577181208,
+   "conversions": 2,
+   "costMicros": "4970000",
+   "ctr": 0.16216216216216217,
+   "averageCpc": 276111.1111111111,
+   "impressions": "111"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "13",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.4677871148459384,
+   "searchImpressionShare": 0.45098039215686275,
+   "searchRankLostImpressionShare": 0.08123249299719888,
+   "searchTopImpressionShare": 0.32122905027932963,
+   "conversions": 1,
+   "costMicros": "3940000",
+   "ctr": 0.08125,
+   "averageCpc": 303076.92307692306,
+   "impressions": "160"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "3",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6349206349206349,
+   "searchRankLostImpressionShare": 0.36507936507936506,
+   "searchTopImpressionShare": 0.5555555555555556,
+   "conversions": 0,
+   "costMicros": "1400000",
+   "ctr": 0.05555555555555555,
+   "averageCpc": 466666.6666666667,
+   "impressions": "54"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "22",
+   "searchAbsoluteTopImpressionShare": 0.34210526315789475,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6666666666666666,
+   "searchRankLostImpressionShare": 0.3333333333333333,
+   "searchTopImpressionShare": 0.5789473684210527,
+   "conversions": 1,
+   "costMicros": "9590000",
+   "ctr": 0.16296296296296298,
+   "averageCpc": 435909.0909090909,
+   "impressions": "135"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "50",
+   "searchAbsoluteTopImpressionShare": 0.17771084337349397,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6927710843373494,
+   "searchRankLostImpressionShare": 0.3072289156626506,
+   "searchTopImpressionShare": 0.5933734939759037,
+   "conversions": 4,
+   "costMicros": "17320000",
+   "ctr": 0.1400560224089636,
+   "averageCpc": 346400,
+   "impressions": "357"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение",
+   "id": "24323873197"
+  },
+  "metrics": {
+   "clicks": "32",
+   "searchAbsoluteTopImpressionShare": 0.1867816091954023,
+   "searchBudgetLostImpressionShare": 0.12931034482758622,
+   "searchImpressionShare": 0.6580459770114943,
+   "searchRankLostImpressionShare": 0.21264367816091953,
+   "searchTopImpressionShare": 0.5402298850574713,
+   "conversions": 3,
+   "costMicros": "12230000",
+   "ctr": 0.10884353741496598,
+   "averageCpc": 382187.5,
+   "impressions": "294"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков",
+   "id": "24323873200"
+  },
+  "metrics": {
+   "clicks": "4",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.575,
+   "searchRankLostImpressionShare": 0.425,
+   "searchTopImpressionShare": 0.475,
+   "conversions": 0,
+   "costMicros": "1830000",
+   "ctr": 0.07407407407407407,
+   "averageCpc": 457500,
+   "impressions": "54"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар",
+   "id": "24323873209"
+  },
+  "metrics": {
+   "clicks": "16",
+   "searchAbsoluteTopImpressionShare": 0.3387096774193548,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.7016129032258065,
+   "searchRankLostImpressionShare": 0.29838709677419356,
+   "searchTopImpressionShare": 0.5403225806451613,
+   "conversions": 2,
+   "costMicros": "6650000",
+   "ctr": 0.1111111111111111,
+   "averageCpc": 415625,
+   "impressions": "144"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам",
+   "id": "24339950550"
+  },
+  "metrics": {
+   "clicks": "45",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0.10884353741496598,
+   "searchImpressionShare": 0.48072562358276644,
+   "searchRankLostImpressionShare": 0.41043083900226757,
+   "searchTopImpressionShare": 0.3764172335600907,
+   "conversions": 3,
+   "costMicros": "13440000",
+   "ctr": 0.19823788546255505,
+   "averageCpc": 298666.6666666667,
+   "impressions": "227"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ }
+]

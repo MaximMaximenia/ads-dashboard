@@ -1,0 +1,637 @@
+[
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "2",
+   "searchAbsoluteTopImpressionShare": 0.1111111111111111,
+   "searchBudgetLostImpressionShare": 0.2222222222222222,
+   "searchImpressionShare": 0.7777777777777778,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.6666666666666666,
+   "conversions": 0,
+   "costMicros": "960000",
+   "impressions": "8"
+  },
+  "segments": {
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 1,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 1,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "1"
+  },
+  "segments": {
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "8",
+   "searchAbsoluteTopImpressionShare": 0.11764705882352941,
+   "searchBudgetLostImpressionShare": 0.07692307692307693,
+   "searchImpressionShare": 0.5846153846153846,
+   "searchRankLostImpressionShare": 0.3384615384615385,
+   "searchTopImpressionShare": 0.4264705882352941,
+   "conversions": 0,
+   "costMicros": "6750000",
+   "impressions": "50"
+  },
+  "segments": {
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537001",
+   "name": "Монтаж теплового узла"
+  },
+  "metrics": {
+   "clicks": "2",
+   "searchAbsoluteTopImpressionShare": 0.25,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.5,
+   "searchRankLostImpressionShare": 0.5,
+   "searchTopImpressionShare": 0.5,
+   "conversions": 0,
+   "costMicros": "3180000",
+   "impressions": "6"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.8461538461538461,
+   "searchRankLostImpressionShare": 0.15384615384615385,
+   "searchTopImpressionShare": 0.5384615384615384,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "14"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.5,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "2"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "5",
+   "searchAbsoluteTopImpressionShare": 0.13333333333333333,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6,
+   "searchRankLostImpressionShare": 0.4,
+   "searchTopImpressionShare": 0.5333333333333333,
+   "conversions": 0,
+   "costMicros": "4580000",
+   "impressions": "45"
+  },
+  "segments": {
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537001",
+   "name": "Монтаж теплового узла"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.0999,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "1"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "5",
+   "searchAbsoluteTopImpressionShare": 0.7777777777777778,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.8888888888888888,
+   "searchRankLostImpressionShare": 0.1111111111111111,
+   "searchTopImpressionShare": 0.8888888888888888,
+   "conversions": 0,
+   "costMicros": "6190000",
+   "impressions": "29"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "2",
+   "searchAbsoluteTopImpressionShare": 0.7142857142857143,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.8571428571428571,
+   "searchRankLostImpressionShare": 0.14285714285714285,
+   "searchTopImpressionShare": 0.7142857142857143,
+   "conversions": 0,
+   "costMicros": "2510000",
+   "impressions": "7"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "8",
+   "searchAbsoluteTopImpressionShare": 0.25,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.625,
+   "searchRankLostImpressionShare": 0.375,
+   "searchTopImpressionShare": 0.5535714285714286,
+   "conversions": 0,
+   "costMicros": "7790000",
+   "impressions": "59"
+  },
+  "segments": {
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537001",
+   "name": "Монтаж теплового узла"
+  },
+  "metrics": {
+   "clicks": "1",
+   "searchAbsoluteTopImpressionShare": 0.4,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6,
+   "searchRankLostImpressionShare": 0.4,
+   "searchTopImpressionShare": 0.6,
+   "conversions": 0,
+   "costMicros": "2000000",
+   "impressions": "6"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "3",
+   "searchAbsoluteTopImpressionShare": 0.68,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.88,
+   "conversions": 0,
+   "costMicros": "4920000",
+   "impressions": "43"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 0.5,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 0.5,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "3"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "6",
+   "searchAbsoluteTopImpressionShare": 0.35135135135135137,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.7567567567567568,
+   "searchRankLostImpressionShare": 0.24324324324324326,
+   "searchTopImpressionShare": 0.5945945945945946,
+   "conversions": 0,
+   "costMicros": "6420000",
+   "impressions": "47"
+  },
+  "segments": {
+   "date": "2026-10-15"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537001",
+   "name": "Монтаж теплового узла"
+  },
+  "metrics": {
+   "clicks": "1",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.5,
+   "searchRankLostImpressionShare": 0.5,
+   "searchTopImpressionShare": 0.5,
+   "conversions": 0,
+   "costMicros": "1000000",
+   "impressions": "1"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "2",
+   "searchAbsoluteTopImpressionShare": 0.5,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.9090909090909091,
+   "searchRankLostImpressionShare": 0.09090909090909091,
+   "searchTopImpressionShare": 0.8636363636363636,
+   "conversions": 0,
+   "costMicros": "3300000",
+   "impressions": "34"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "2",
+   "searchAbsoluteTopImpressionShare": 1,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 1,
+   "conversions": 0,
+   "costMicros": "890000",
+   "impressions": "6"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "4",
+   "searchAbsoluteTopImpressionShare": 0.43478260869565216,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6956521739130435,
+   "searchRankLostImpressionShare": 0.30434782608695654,
+   "searchTopImpressionShare": 0.6739130434782609,
+   "conversions": 0,
+   "costMicros": "4700000",
+   "impressions": "54"
+  },
+  "segments": {
+   "date": "2026-10-16"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537001",
+   "name": "Монтаж теплового узла"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.5,
+   "searchRankLostImpressionShare": 0.5,
+   "searchTopImpressionShare": 0.5,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "1"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "7",
+   "searchAbsoluteTopImpressionShare": 0.21739130434782608,
+   "searchBudgetLostImpressionShare": 0.043478260869565216,
+   "searchImpressionShare": 0.6956521739130435,
+   "searchRankLostImpressionShare": 0.2608695652173913,
+   "searchTopImpressionShare": 0.6086956521739131,
+   "conversions": 0,
+   "costMicros": "6530000",
+   "impressions": "21"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 1,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 1,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "2"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "7",
+   "searchAbsoluteTopImpressionShare": 0.16091954022988506,
+   "searchBudgetLostImpressionShare": 0.47126436781609193,
+   "searchImpressionShare": 0.40229885057471265,
+   "searchRankLostImpressionShare": 0.12643678160919541,
+   "searchTopImpressionShare": 0.3333333333333333,
+   "conversions": 0,
+   "costMicros": "6060000",
+   "impressions": "44"
+  },
+  "segments": {
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537001",
+   "name": "Монтаж теплового узла"
+  },
+  "metrics": {
+   "clicks": "1",
+   "searchAbsoluteTopImpressionShare": 0.3333333333333333,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.3333333333333333,
+   "searchRankLostImpressionShare": 0.6666666666666666,
+   "searchTopImpressionShare": 0.3333333333333333,
+   "conversions": 0,
+   "costMicros": "990000",
+   "impressions": "2"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "3",
+   "searchAbsoluteTopImpressionShare": 0.2857142857142857,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.5714285714285714,
+   "searchRankLostImpressionShare": 0.42857142857142855,
+   "searchTopImpressionShare": 0.5,
+   "conversions": 0,
+   "costMicros": "2820000",
+   "impressions": "13"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 1,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 1,
+   "searchRankLostImpressionShare": 0,
+   "searchTopImpressionShare": 1,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "2"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "4",
+   "searchAbsoluteTopImpressionShare": 0.16071428571428573,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.6964285714285714,
+   "searchRankLostImpressionShare": 0.30357142857142855,
+   "searchTopImpressionShare": 0.625,
+   "conversions": 0,
+   "costMicros": "3040000",
+   "impressions": "60"
+  },
+  "segments": {
+   "date": "2026-10-20"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537001",
+   "name": "Монтаж теплового узла"
+  },
+  "metrics": {
+   "clicks": "0",
+   "searchAbsoluteTopImpressionShare": 0.0999,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.5,
+   "searchRankLostImpressionShare": 0.5,
+   "searchTopImpressionShare": 0.0999,
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "1"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537175",
+   "name": "Монтаж водопровода"
+  },
+  "metrics": {
+   "clicks": "4",
+   "searchAbsoluteTopImpressionShare": 0.375,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.75,
+   "searchRankLostImpressionShare": 0.25,
+   "searchTopImpressionShare": 0.7083333333333334,
+   "conversions": 0,
+   "costMicros": "3810000",
+   "impressions": "27"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24338537193",
+   "name": "Аварийные работы"
+  },
+  "metrics": {
+   "clicks": "1",
+   "searchAbsoluteTopImpressionShare": 0.6,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.8,
+   "searchRankLostImpressionShare": 0.2,
+   "searchTopImpressionShare": 0.6,
+   "conversions": 0,
+   "costMicros": "830000",
+   "impressions": "7"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "8",
+   "searchAbsoluteTopImpressionShare": 0.3620689655172414,
+   "searchBudgetLostImpressionShare": 0,
+   "searchImpressionShare": 0.7068965517241379,
+   "searchRankLostImpressionShare": 0.29310344827586204,
+   "searchTopImpressionShare": 0.6206896551724138,
+   "conversions": 0,
+   "costMicros": "7840000",
+   "impressions": "71"
+  },
+  "segments": {
+   "date": "2026-10-21"
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/7822265664/campaigns/24343615664",
+   "name": "Монтаж вентиляции"
+  },
+  "metrics": {
+   "clicks": "1",
+   "conversions": 0,
+   "costMicros": "1000000",
+   "impressions": "6"
+  },
+  "segments": {
+   "date": "2026-10-22"
+  }
+ }
+]

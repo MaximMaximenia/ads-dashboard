@@ -1,0 +1,5732 @@
+[
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388914872",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "99",
+   "conversions": 8,
+   "costMicros": "32140000",
+   "ctr": 0.10010111223458039,
+   "impressions": "989"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388914872~826836802281",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Развал-схождение в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Развал-схождение на 3D стенде",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "3D развал-схождение",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Развал-схождение от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Одна ось — от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Точно на 3D стенде, не на глаз",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Руль стоит криво?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Машину тянет в сторону?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Шины стираются по краю?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ровный руль после ремонта",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Резина прослужит дольше",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Развал-схождение на 3D стенде в Минске. Одна ось от 40 BYN, две оси от 80 BYN.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Руль стоит криво, машину тянет, шины стираются? Выставим углы точно, не на глаз.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802281",
+    "id": "826836802281"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388914912",
+   "name": "Сход-развал"
+  },
+  "metrics": {
+   "clicks": "18",
+   "conversions": 4,
+   "costMicros": "5950000",
+   "ctr": 0.0962566844919786,
+   "impressions": "187"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388914912~826836802284",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Сход-развал в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Сход-развал на 3D стенде",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Сход-развал рядом",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Сход-развал от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Одна ось — от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Точно на 3D стенде, не на глаз",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Руль стоит криво?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Машину тянет в сторону?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Шины стираются по краю?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ровный руль после ремонта",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Резина прослужит дольше",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Сход-развал на 3D стенде в Минске. Одна ось от 60 BYN, две оси от 100 BYN.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Руль стоит криво, машину тянет, шины стираются? Выставим углы точно, не на глаз.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802284",
+    "id": "826836802284"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388914952",
+   "name": "Развал-схождение цена"
+  },
+  "metrics": {
+   "clicks": "11",
+   "conversions": 0,
+   "costMicros": "3980000",
+   "ctr": 0.11702127659574468,
+   "impressions": "94"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388914952~826836802287",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Развал-схождение от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Цена развала — от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Развал-схождение в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Две оси — от 100 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Цена известна до начала",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Точно на 3D стенде, не на глаз",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Руль стоит криво?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Машину тянет в сторону?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Шины стираются по краю?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без доплат за мелочи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Резина прослужит дольше",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Развал-схождение в Минске: одна ось от 60 BYN, две оси от 100 BYN. 3D стенд.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену называем заранее. Выставим углы точно — руль ровно, машину не тянет.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802287",
+    "id": "826836802287"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388915112",
+   "name": "3D развал-схождение"
+  },
+  "metrics": {
+   "clicks": "10",
+   "conversions": 0,
+   "costMicros": "3270000",
+   "ctr": 0.09523809523809523,
+   "impressions": "105"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388915112~826836802290",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "3D развал-схождение в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "3D развал-схождение",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Развал-схождение на 3D стенде",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "3D развал от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Одна ось — от 60 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Точно на 3D стенде, не на глаз",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Руль стоит криво?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Машину тянет в сторону?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Шины стираются по краю?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ровный руль после ремонта",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Резина прослужит дольше",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "3D развал-схождение в Минске. Одна ось от 60 BYN, две оси от 100 BYN.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Руль стоит криво, машину тянет, шины стираются? Выставим углы точно на 3D стенде.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802290",
+    "id": "826836802290"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388915152",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "31",
+   "conversions": 1,
+   "costMicros": "14040000",
+   "ctr": 0.08423913043478261,
+   "impressions": "368"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388915152~826836802293",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка тормозных дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка дисков в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Проточим и установим обратно",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Проточка от 45 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Сэкономь на новых дисках",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Выгоднее чем покупать новые",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль при торможении?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Вибрирует педаль тормоза?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Не переплачивайте за диски",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Мягкое торможение",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Проверим износ дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Проточка тормозных дисков в Минске от 35 BYN. Уберём биение руля при торможении.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль или вибрирует педаль? Часто диски можно проточить, а не менять.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802293",
+    "id": "826836802293"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388915192",
+   "name": "Проточка дисков"
+  },
+  "metrics": {
+   "clicks": "0",
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "0"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388915192~826836802296",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка тормозных дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка дисков в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка дисков рядом",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Проточка от 35 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Уберём биение руля",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Дешевле новых дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль при торможении?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Вибрирует педаль тормоза?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Дешевле, чем менять диски",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Мягкое торможение",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Проверим износ дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Проточка тормозных дисков в Минске от 35 BYN. Уберём биение руля при торможении.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль или вибрирует педаль? Часто диски можно проточить, а не менять.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802296",
+    "id": "826836802296"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388915352",
+   "name": "Проточка цена"
+  },
+  "metrics": {
+   "clicks": "2",
+   "conversions": 0,
+   "costMicros": "910000",
+   "ctr": 0.06451612903225806,
+   "impressions": "31"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388915352~826836802299",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка дисков от 35 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка тормозных дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Цена проточки — от 35 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Цена известна до начала",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Уберём биение руля",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Дешевле новых дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль при торможении?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Вибрирует педаль тормоза?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Дешевле, чем менять диски",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Мягкое торможение",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Проверим износ дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Проточка тормозных дисков в Минске от 35 BYN. Цену называем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль при торможении? Проточка обойдётся заметно дешевле новых дисков.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802299",
+    "id": "826836802299"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388915392",
+   "name": "Проточка без снятия"
+  },
+  "metrics": {
+   "clicks": "0",
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "0"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388915392~826836802302",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка дисков без снятия",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка без снятия в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Проточка тормозных дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Проточка прямо на машине",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Уберём биение руля",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Дешевле новых дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль при торможении?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Вибрирует педаль тормоза?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Дешевле, чем менять диски",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Мягкое торможение",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Проверим износ дисков",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Проточка тормозных дисков без снятия в Минске. Уберём биение руля при торможении.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Бьёт руль или вибрирует педаль? Часто диски можно проточить, а не менять.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802302",
+    "id": "826836802302"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388916872",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "93",
+   "conversions": 10.165272,
+   "costMicros": "37000000",
+   "ctr": 0.17988394584139264,
+   "impressions": "517"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388916872~826836802479",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка фар в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка света фар",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка фар для ТО",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Регулировка фар от 30 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Свет не слепит встречных",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Регулировка для Тех Осмотра",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Встречные моргают фарами?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Плохо видно дорогу ночью?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Свет для техосмотра",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Светят не туда?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Регулировка на стенде",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Регулировка света фар на стенде в Минске от 30 BYN. Ближний, дальний, ПТФ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Встречные моргают или плохо видно дорогу ночью? Настроим свет правильно.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802479",
+    "id": "826836802479"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388917032",
+   "name": "Настройка фар"
+  },
+  "metrics": {
+   "clicks": "47",
+   "conversions": 4.834728,
+   "costMicros": "19600000",
+   "ctr": 0.13165266106442577,
+   "impressions": "357"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388917032~826836802482",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Настройка фар в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Корректировка фар",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Настройка света фар",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Настройка фар от 30 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Свет не слепит встречных",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Видно дорогу ночью",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Встречные моргают фарами?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Плохо видно дорогу ночью?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Свет для техосмотра",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Светят не туда?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Регулировка на стенде",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Настройка и корректировка фар на стенде в Минске от 30 BYN.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Встречные моргают или плохо видно дорогу ночью? Настроим свет правильно.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802482",
+    "id": "826836802482"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388917072",
+   "name": "Регулировка фар для техосмотра"
+  },
+  "metrics": {
+   "clicks": "0",
+   "conversions": 0,
+   "costMicros": "0",
+   "impressions": "0"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388917072~826836802485",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка фар для техосмотра",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Фары для техосмотра в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка фар перед ГТО",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Регулировка фар от 30 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Пройдёте техосмотр по свету",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Настроим по нормам ГТО",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Не прошли техосмотр по свету?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Встречные моргают фарами?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Плохо видно дорогу ночью?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Регулировка на стенде",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Быстро, по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Регулировка фар перед техосмотром в Минске от 30 BYN. Настроим свет на стенде.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Завернули на техосмотре из-за света? Отрегулируем фары и ПТФ по нормам.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802485",
+    "id": "826836802485"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/201388917112",
+   "name": "ПТФ и линзы"
+  },
+  "metrics": {
+   "clicks": "2",
+   "conversions": 0,
+   "costMicros": "860000",
+   "ctr": 0.08,
+   "impressions": "25"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/201388917112~826836802488",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка ПТФ в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка линзованных фар",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "Регулировка противотуманок",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Регулировка от 30 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Свет не слепит встречных",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "pinnedField": "HEADLINE_2",
+       "text": "Видно дорогу ночью",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Встречные моргают фарами?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Плохо видно дорогу ночью?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Свет для техосмотра",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Светят не туда?",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Регулировка на стенде",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цена до начала работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Работаем Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "Регулировка противотуманных и линзованных фар на стенде в Минске от 30 BYN.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Поставили линзы или ПТФ, а свет не туда? Настроим, чтобы не слепили встречных.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет. Гарантия на все работы. Цену согласуем до начала ремонта.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "СТО ДАСТО в Минске. Работаем Пн–Пт с 9:00 до 19:00. Позвоните и запишитесь.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/826836802488",
+    "id": "826836802488"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764212",
+   "name": "Renault"
+  },
+  "metrics": {
+   "clicks": "16",
+   "conversions": 0,
+   "costMicros": "4360000",
+   "ctr": 0.14035087719298245,
+   "impressions": "114"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764212~827734690696",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Renault в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Renault — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Renault: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Renault и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690696",
+    "id": "827734690696"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764252",
+   "name": "Peugeot"
+  },
+  "metrics": {
+   "clicks": "29",
+   "conversions": 0,
+   "costMicros": "8340000",
+   "ctr": 0.17575757575757575,
+   "impressions": "165"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764252~827734690699",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Peugeot в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Peugeot — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Peugeot: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Peugeot и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690699",
+    "id": "827734690699"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764292",
+   "name": "Citroen"
+  },
+  "metrics": {
+   "clicks": "14",
+   "conversions": 2,
+   "costMicros": "4430000",
+   "ctr": 0.11666666666666667,
+   "impressions": "120"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764292~827734690702",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Citroen в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Citroen — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Citroen: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Citroen и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690702",
+    "id": "827734690702"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764452",
+   "name": "Opel"
+  },
+  "metrics": {
+   "clicks": "16",
+   "conversions": 5,
+   "costMicros": "4330000",
+   "ctr": 0.2711864406779661,
+   "impressions": "59"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764452~827734690705",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Opel в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Opel — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Opel: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Opel и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690705",
+    "id": "827734690705"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764492",
+   "name": "Ford"
+  },
+  "metrics": {
+   "clicks": "17",
+   "conversions": 1,
+   "costMicros": "5160000",
+   "ctr": 0.18681318681318682,
+   "impressions": "91"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764492~827734690708",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Ford в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Ford — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ford: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Ford и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690708",
+    "id": "827734690708"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764532",
+   "name": "Volkswagen"
+  },
+  "metrics": {
+   "clicks": "6",
+   "conversions": 1,
+   "costMicros": "1810000",
+   "ctr": 0.10526315789473684,
+   "impressions": "57"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764532~827734690711",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Volkswagen в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Volkswagen — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Сервис Volkswagen в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Volkswagen и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690711",
+    "id": "827734690711"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764692",
+   "name": "Skoda"
+  },
+  "metrics": {
+   "clicks": "1",
+   "conversions": 0,
+   "costMicros": "290000",
+   "ctr": 0.02631578947368421,
+   "impressions": "38"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764692~827734690714",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Skoda в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Skoda — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Skoda: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Skoda и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690714",
+    "id": "827734690714"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764732",
+   "name": "BMW"
+  },
+  "metrics": {
+   "clicks": "13",
+   "conversions": 2,
+   "costMicros": "3850000",
+   "ctr": 0.0948905109489051,
+   "impressions": "137"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764732~827734690717",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт BMW в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт BMW — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "BMW: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт BMW и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690717",
+    "id": "827734690717"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764772",
+   "name": "Mercedes"
+  },
+  "metrics": {
+   "clicks": "9",
+   "conversions": 0,
+   "costMicros": "2650000",
+   "ctr": 0.075,
+   "impressions": "120"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764772~827734690720",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Mercedes в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Mercedes — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Mercedes: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Mercedes и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690720",
+    "id": "827734690720"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764932",
+   "name": "Audi"
+  },
+  "metrics": {
+   "clicks": "4",
+   "conversions": 1,
+   "costMicros": "1220000",
+   "ctr": 0.08333333333333333,
+   "impressions": "48"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764932~827734690723",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Audi в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Audi — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Audi: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Audi и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690723",
+    "id": "827734690723"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171764972",
+   "name": "Hyundai"
+  },
+  "metrics": {
+   "clicks": "22",
+   "conversions": 4,
+   "costMicros": "6150000",
+   "ctr": 0.18181818181818182,
+   "impressions": "121"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171764972~827734690726",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Hyundai в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Hyundai — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Hyundai: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Hyundai и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690726",
+    "id": "827734690726"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765012",
+   "name": "Kia"
+  },
+  "metrics": {
+   "clicks": "9",
+   "conversions": 0,
+   "costMicros": "2610000",
+   "ctr": 0.10344827586206896,
+   "impressions": "87"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765012~827734690729",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Kia в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Kia — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Kia: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Kia и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690729",
+    "id": "827734690729"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765172",
+   "name": "Nissan"
+  },
+  "metrics": {
+   "clicks": "8",
+   "conversions": 0,
+   "costMicros": "1930000",
+   "ctr": 0.12698412698412698,
+   "impressions": "63"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765172~827734690732",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Nissan в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Nissan — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Nissan: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Nissan и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690732",
+    "id": "827734690732"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765212",
+   "name": "Toyota"
+  },
+  "metrics": {
+   "clicks": "10",
+   "conversions": 0,
+   "costMicros": "2720000",
+   "ctr": 0.25,
+   "impressions": "40"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765212~827734690735",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Toyota в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Toyota — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Toyota: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Toyota и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690735",
+    "id": "827734690735"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765252",
+   "name": "Mazda"
+  },
+  "metrics": {
+   "clicks": "1",
+   "conversions": 0,
+   "costMicros": "260000",
+   "ctr": 0.04,
+   "impressions": "25"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765252~827734690738",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Mazda в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Mazda — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Mazda: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Mazda и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690738",
+    "id": "827734690738"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765412",
+   "name": "Honda"
+  },
+  "metrics": {
+   "clicks": "7",
+   "conversions": 0,
+   "costMicros": "1800000",
+   "ctr": 0.21212121212121213,
+   "impressions": "33"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765412~827734690741",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Honda в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Honda — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Honda: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Honda и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690741",
+    "id": "827734690741"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765452",
+   "name": "Volvo"
+  },
+  "metrics": {
+   "clicks": "16",
+   "conversions": 2,
+   "costMicros": "4350000",
+   "ctr": 0.11594202898550725,
+   "impressions": "138"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765452~827734690744",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Volvo в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Volvo — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Volvo: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Volvo и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690744",
+    "id": "827734690744"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765492",
+   "name": "Chevrolet"
+  },
+  "metrics": {
+   "clicks": "6",
+   "conversions": 1,
+   "costMicros": "1610000",
+   "ctr": 0.18181818181818182,
+   "impressions": "33"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765492~827734690747",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт Chevrolet в Минске}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт Chevrolet — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Сервис Chevrolet в Минске",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт Chevrolet и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690747",
+    "id": "827734690747"
+   }
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "adGroup": {
+   "resourceName": "customers/4001664019/adGroups/206171765652",
+   "name": "Группы марок"
+  },
+  "metrics": {
+   "clicks": "13",
+   "conversions": 0,
+   "costMicros": "3760000",
+   "ctr": 0.16049382716049382,
+   "impressions": "81"
+  },
+  "adGroupAd": {
+   "resourceName": "customers/4001664019/adGroupAds/206171765652~827734690750",
+   "ad": {
+    "responsiveSearchAd": {
+     "headlines": [
+      {
+       "pinnedField": "HEADLINE_1",
+       "text": "{KeyWord:Ремонт авто по маркам}",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Ремонт авто — Минск",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "авто: ремонт и диагностика",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика — 0 BYN",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Цену скажем до работ",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только нужное",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Старые детали вернём",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Опыт более 10 лет",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Гарантия на все работы",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Запчасти подберём сами",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Можно со своими деталями",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Перезвоним за 15 минут",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Пн–Пт 9:00–19:00",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, Подлесная 81",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Без очереди по записи",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ],
+     "descriptions": [
+      {
+       "text": "СТО в Минске: ремонт авто и других марок. Цену согласуем до начала работ.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Диагностика подвески и тормозов — бесплатно. Компьютерная диагностика от 20 Br.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Меняем только то, что сломано. Старые детали отдаём. Чек и гарантийный талон.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      },
+      {
+       "text": "Минск, ул. Подлесная, 81. Пн–Пт 9:00–19:00. Оставьте номер — перезвоним за 15 мин.",
+       "assetPerformanceLabel": "PENDING",
+       "policySummaryInfo": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+       }
+      }
+     ]
+    },
+    "resourceName": "customers/4001664019/ads/827734690750",
+    "id": "827734690750"
+   }
+  }
+ }
+]

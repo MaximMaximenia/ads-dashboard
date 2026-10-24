@@ -1,0 +1,602 @@
+[
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "18",
+   "conversions": 2,
+   "costMicros": "5590000",
+   "impressions": "155"
+  },
+  "segments": {
+   "hour": 9
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "21",
+   "conversions": 1,
+   "costMicros": "7530000",
+   "impressions": "184"
+  },
+  "segments": {
+   "hour": 10
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "23",
+   "conversions": 4,
+   "costMicros": "8360000",
+   "impressions": "220"
+  },
+  "segments": {
+   "hour": 11
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "17",
+   "conversions": 0,
+   "costMicros": "6040000",
+   "impressions": "161"
+  },
+  "segments": {
+   "hour": 12
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "18",
+   "conversions": 2,
+   "costMicros": "5370000",
+   "impressions": "147"
+  },
+  "segments": {
+   "hour": 13
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "11",
+   "conversions": 1,
+   "costMicros": "3300000",
+   "impressions": "146"
+  },
+  "segments": {
+   "hour": 14
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "13",
+   "conversions": 2,
+   "costMicros": "4240000",
+   "impressions": "173"
+  },
+  "segments": {
+   "hour": 15
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "11",
+   "conversions": 0,
+   "costMicros": "3310000",
+   "impressions": "117"
+  },
+  "segments": {
+   "hour": 16
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "5",
+   "conversions": 0,
+   "costMicros": "1360000",
+   "impressions": "57"
+  },
+  "segments": {
+   "hour": 17
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873197",
+   "name": "Развал-схождение"
+  },
+  "metrics": {
+   "clicks": "1",
+   "conversions": 0,
+   "costMicros": "240000",
+   "impressions": "15"
+  },
+  "segments": {
+   "hour": 18
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "1",
+   "conversions": 0,
+   "costMicros": "470000",
+   "impressions": "27"
+  },
+  "segments": {
+   "hour": 9
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "2",
+   "conversions": 0,
+   "costMicros": "790000",
+   "impressions": "39"
+  },
+  "segments": {
+   "hour": 10
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "8",
+   "conversions": 0,
+   "costMicros": "3690000",
+   "impressions": "62"
+  },
+  "segments": {
+   "hour": 11
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "3",
+   "conversions": 0,
+   "costMicros": "1390000",
+   "impressions": "27"
+  },
+  "segments": {
+   "hour": 12
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "5",
+   "conversions": 0,
+   "costMicros": "2290000",
+   "impressions": "42"
+  },
+  "segments": {
+   "hour": 13
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "1",
+   "conversions": 0,
+   "costMicros": "470000",
+   "impressions": "64"
+  },
+  "segments": {
+   "hour": 14
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "4",
+   "conversions": 1,
+   "costMicros": "1840000",
+   "impressions": "41"
+  },
+  "segments": {
+   "hour": 15
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "6",
+   "conversions": 0,
+   "costMicros": "2630000",
+   "impressions": "53"
+  },
+  "segments": {
+   "hour": 16
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "2",
+   "conversions": 0,
+   "costMicros": "920000",
+   "impressions": "26"
+  },
+  "segments": {
+   "hour": 17
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873200",
+   "name": "Проточка тормозных дисков"
+  },
+  "metrics": {
+   "clicks": "1",
+   "conversions": 0,
+   "costMicros": "460000",
+   "impressions": "18"
+  },
+  "segments": {
+   "hour": 18
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "19",
+   "conversions": 1.008361,
+   "costMicros": "7170000",
+   "impressions": "103"
+  },
+  "segments": {
+   "hour": 9
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "21",
+   "conversions": 0.666666,
+   "costMicros": "7460000",
+   "impressions": "101"
+  },
+  "segments": {
+   "hour": 10
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "18",
+   "conversions": 5.333334,
+   "costMicros": "7140000",
+   "impressions": "108"
+  },
+  "segments": {
+   "hour": 11
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "24",
+   "conversions": 0.991639,
+   "costMicros": "9910000",
+   "impressions": "132"
+  },
+  "segments": {
+   "hour": 12
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "10",
+   "conversions": 1,
+   "costMicros": "4170000",
+   "impressions": "84"
+  },
+  "segments": {
+   "hour": 13
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "18",
+   "conversions": 4,
+   "costMicros": "7710000",
+   "impressions": "114"
+  },
+  "segments": {
+   "hour": 14
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "6",
+   "conversions": 0,
+   "costMicros": "2480000",
+   "impressions": "86"
+  },
+  "segments": {
+   "hour": 15
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "18",
+   "conversions": 1,
+   "costMicros": "7980000",
+   "impressions": "102"
+  },
+  "segments": {
+   "hour": 16
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "6",
+   "conversions": 1,
+   "costMicros": "2580000",
+   "impressions": "35"
+  },
+  "segments": {
+   "hour": 17
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24323873209",
+   "name": "Регулировка фар"
+  },
+  "metrics": {
+   "clicks": "2",
+   "conversions": 0,
+   "costMicros": "860000",
+   "impressions": "34"
+  },
+  "segments": {
+   "hour": 18
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "27",
+   "conversions": 2,
+   "costMicros": "7890000",
+   "impressions": "201"
+  },
+  "segments": {
+   "hour": 9
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "32",
+   "conversions": 3,
+   "costMicros": "8420000",
+   "impressions": "215"
+  },
+  "segments": {
+   "hour": 10
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "23",
+   "conversions": 1,
+   "costMicros": "5720000",
+   "impressions": "197"
+  },
+  "segments": {
+   "hour": 11
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "27",
+   "conversions": 3,
+   "costMicros": "7870000",
+   "impressions": "194"
+  },
+  "segments": {
+   "hour": 12
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "35",
+   "conversions": 5,
+   "costMicros": "9840000",
+   "impressions": "192"
+  },
+  "segments": {
+   "hour": 13
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "25",
+   "conversions": 2,
+   "costMicros": "7130000",
+   "impressions": "182"
+  },
+  "segments": {
+   "hour": 14
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "20",
+   "conversions": 1,
+   "costMicros": "6180000",
+   "impressions": "143"
+  },
+  "segments": {
+   "hour": 15
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "15",
+   "conversions": 2,
+   "costMicros": "4740000",
+   "impressions": "143"
+  },
+  "segments": {
+   "hour": 16
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "8",
+   "conversions": 0,
+   "costMicros": "2240000",
+   "impressions": "86"
+  },
+  "segments": {
+   "hour": 17
+  }
+ },
+ {
+  "campaign": {
+   "resourceName": "customers/4001664019/campaigns/24339950550",
+   "name": "СТО - По маркам"
+  },
+  "metrics": {
+   "clicks": "5",
+   "conversions": 0,
+   "costMicros": "1600000",
+   "impressions": "17"
+  },
+  "segments": {
+   "hour": 18
+  }
+ }
+]
