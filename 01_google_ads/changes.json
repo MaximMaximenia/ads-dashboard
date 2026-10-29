@@ -1,0 +1,4984 @@
+[
+ {
+  "when": "2026-10-28 08:57",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-28 08:57",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-28 08:57",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-28 08:57",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 16:51",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 16:51",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 16:51",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 16:51",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 16:51",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Ремонт подвески",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 12:52",
+  "type": "CAMPAIGN_BUDGET",
+  "op": "UPDATE",
+  "fields": "amountMicros",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "бюджет": [
+    10.0,
+    15.0
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 10:53",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "maximizeConversions.targetCpaMicros",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "maximizeConversions.targetCpaMicros": [
+    1.7,
+    1.6
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 08:43",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 08:43",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 08:43",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 08:43",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-27 08:43",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Ремонт подвески",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 17:47",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 17:47",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 17:47",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 17:47",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 17:47",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Ремонт подвески",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 15:04",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "maximizeConversions.targetCpaMicros",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "maximizeConversions.targetCpaMicros": [
+    2.5,
+    1.7
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 10:46",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-26 08:37",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "maximizeConversions.targetCpaMicros,targetSpend.cpcBidCeilingMicros",
+  "camp": "Ремонт подвески",
+  "grp": null,
+  "diff": {
+   "maximizeConversions.targetCpaMicros": [
+    null,
+    2.0
+   ],
+   "targetSpend.cpcBidCeilingMicros": [
+    0.6,
+    null
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 08:37",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Ремонт подвески",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 08:36",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "maximizeConversions.targetCpaMicros",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "maximizeConversions.targetCpaMicros": [
+    2.5,
+    2.0
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 08:36",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 08:34",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 08:34",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-26 08:34",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 18:33",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 18:31",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 18:24",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 18:24",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 18:22",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 16:05",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "maximizeConversions.targetCpaMicros",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "maximizeConversions.targetCpaMicros": [
+    null,
+    2.5
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 16:04",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "maximizeConversions.targetCpaMicros,targetSpend.cpcBidCeilingMicros",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "maximizeConversions.targetCpaMicros": [
+    null,
+    2.5
+   ],
+   "targetSpend.cpcBidCeilingMicros": [
+    0.6,
+    null
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 16:03",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 16:03",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 15:58",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 15:58",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 15:58",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "targetSpend.cpcBidCeilingMicros",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "targetSpend.cpcBidCeilingMicros": [
+    0.35,
+    0.39
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 14:48",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "targetSpend.cpcBidCeilingMicros",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "targetSpend.cpcBidCeilingMicros": [
+    0.4,
+    null
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:45",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-23 14:40",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 08:57",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "maximizeConversions.targetCpaMicros,targetSpend.cpcBidCeilingMicros",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "maximizeConversions.targetCpaMicros": [
+    null,
+    2.5
+   ],
+   "targetSpend.cpcBidCeilingMicros": [
+    0.44,
+    null
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 08:56",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-23 08:55",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 15:54",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 15:54",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 14:29",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 14:28",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 14:27",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 11:08",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "targetSpend.cpcBidCeilingMicros",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "targetSpend.cpcBidCeilingMicros": [
+    0.35,
+    0.4
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 09:21",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 09:21",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 09:21",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 09:21",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:58",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:58",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:58",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:58",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:57",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:57",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:57",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:56",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:56",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:56",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:55",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:55",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:55",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:54",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:54",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:54",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:53",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:53",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:53",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:50",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:50",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:50",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-22 08:45",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:45",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:45",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-22 08:45",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 16:55",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 16:55",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 16:55",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 16:55",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:19",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Настройка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар для техосмотра",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "ПТФ и линзы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Настройка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар для техосмотра",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "ПТФ и линзы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Настройка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар для техосмотра",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "ПТФ и линзы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Настройка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар для техосмотра",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "ПТФ и линзы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Регулировка фар",
+  "grp": "Настройка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар для техосмотра",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Регулировка фар",
+  "grp": "ПТФ и линзы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Настройка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар для техосмотра",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:15",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Регулировка фар",
+  "grp": "ПТФ и линзы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:14",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "targetSpend.cpcBidCeilingMicros",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "targetSpend.cpcBidCeilingMicros": [
+    0.47,
+    0.6
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка без снятия",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка без снятия",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка без снятия",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка без снятия",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка без снятия",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка без снятия",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:13",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:12",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,userInterest.userInterestCategory",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Сход-развал",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "3D развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Сход-развал",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "3D развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Сход-развал",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "3D развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Сход-развал",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "3D развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Развал-схождение",
+  "grp": "Сход-развал",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "negative",
+  "camp": "Развал-схождение",
+  "grp": "3D развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Сход-развал",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:11",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,ageRange.type,criterionId,negative,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": "3D развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:10",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:10",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:10",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:10",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:10",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:07",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "REMOVE",
+  "fields": "campaign,criterionId,negative,proximity.geoPoint.latitudeInMicroDegrees,proximity.geoPoint.longitudeInMicroDegrees,proximity.radius,proximity.radiusUnits,resourceName,status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:07",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,proximity.geoPoint.latitudeInMicroDegrees,proximity.geoPoint.longitudeInMicroDegrees,proximity.radius,proximity.radiusUnits,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:06",
+  "type": "AD",
+  "op": "UPDATE",
+  "fields": "finalUrlSuffix,responsiveSearchAd.descriptions,responsiveSearchAd.headlines,trackingUrlTemplate",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:06",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:06",
+  "type": "ASSET",
+  "op": "UPDATE",
+  "fields": "sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:04",
+  "type": "AD",
+  "op": "UPDATE",
+  "fields": "finalUrlSuffix,responsiveSearchAd.descriptions,responsiveSearchAd.headlines,trackingUrlTemplate",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:04",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:04",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:04",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:03",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:03",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:03",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 16:03",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:54",
+  "type": "AD",
+  "op": "UPDATE",
+  "fields": "finalUrlSuffix,responsiveSearchAd.descriptions,responsiveSearchAd.headlines,trackingUrlTemplate",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:48",
+  "type": "AD",
+  "op": "UPDATE",
+  "fields": "finalUrlSuffix,responsiveSearchAd.descriptions,responsiveSearchAd.headlines,trackingUrlTemplate",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:48",
+  "type": "CAMPAIGN_ASSET",
+  "op": "REMOVE",
+  "fields": "asset,campaign,fieldType,resourceName,source,status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:48",
+  "type": "CAMPAIGN_ASSET",
+  "op": "CREATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:48",
+  "type": "ASSET",
+  "op": "CREATE",
+  "fields": "finalUrls,id,resourceName,sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:34",
+  "type": "AD",
+  "op": "UPDATE",
+  "fields": "finalUrlSuffix,responsiveSearchAd.descriptions,responsiveSearchAd.headlines,trackingUrlTemplate",
+  "camp": "Проточка тормозных дисков",
+  "grp": "Проточка тормозных дисков",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:34",
+  "type": "ASSET",
+  "op": "UPDATE",
+  "fields": "sitelinkAsset.description1,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 15:34",
+  "type": "ASSET",
+  "op": "UPDATE",
+  "fields": "sitelinkAsset.description1,sitelinkAsset.description2,sitelinkAsset.linkText",
+  "camp": null,
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:36",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "targetSpend.cpcBidCeilingMicros",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "targetSpend.cpcBidCeilingMicros": [
+    0.42,
+    0.44
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 12:28",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Opel",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:28",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Renault",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:26",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:26",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:26",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:24",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:24",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:24",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:24",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 12:24",
+  "type": "AD_GROUP_CRITERION",
+  "op": "CREATE",
+  "fields": "adGroup,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:04",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "name",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 10:04",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "REMOVED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 09:58",
+  "type": "CAMPAIGN_BUDGET",
+  "op": "UPDATE",
+  "fields": "amountMicros",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "бюджет": [
+    5.0,
+    10.0
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 09:54",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-21 09:02",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "targetSpend.cpcBidCeilingMicros",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "targetSpend.cpcBidCeilingMicros": [
+    0.45,
+    0.42
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 08:59",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 08:59",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 08:59",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-21 08:59",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 18:23",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 18:23",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 18:23",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 18:23",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 13:39",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Audi",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Audi",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Audi",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Skoda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Skoda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Skoda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Peugeot",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Peugeot",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Peugeot",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Honda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Honda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Honda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Kia",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Kia",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Kia",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Nissan",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Nissan",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Nissan",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Volvo",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Volvo",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Volvo",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Mercedes",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Mercedes",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Mercedes",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Mazda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Mazda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Mazda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "BMW",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "BMW",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "BMW",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Ford",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Ford",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Ford",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Toyota",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Toyota",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Toyota",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Volkswagen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Volkswagen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Volkswagen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Hyundai",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Hyundai",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Hyundai",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Opel",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Renault",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Citroen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Chevrolet",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Chevrolet",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:20",
+  "type": "AD_GROUP_CRITERION",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - По маркам",
+  "grp": "Chevrolet",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 10:15",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - По маркам",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 09:53",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 09:53",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 09:53",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 09:53",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Регулировка фар",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Ремонт подвески",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Проточка тормозных дисков",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал-схождение",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Техобслуживание",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Автосервис",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО районы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Ремонт авто",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО рядом",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Замена масла",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Группы марок",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Chevrolet",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Mazda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Kia",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Hyundai",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Volvo",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Honda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Toyota",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Шаровые опоры",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Nissan",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Audi",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Skoda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Стабилизатор",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Техобслуживание",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "BMW",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО рядом",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Citroen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Volkswagen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Замена масла",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО районы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Mercedes",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Ford",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Пружины",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Автосервис",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Peugeot",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Ремонт авто",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Renault",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт ДВС",
+  "grp": "Топливная система и форсунки",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Opel",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Сайлентблоки и рычаги",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Ремонт авто",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Автосервис",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО рядом",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Техобслуживание",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО районы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Замена масла",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Группы марок",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Toyota",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Nissan",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Hyundai",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Mercedes",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Chevrolet",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Mazda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Стабилизатор",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Honda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Renault",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Volvo",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Kia",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Ford",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "BMW",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Volkswagen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Audi",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Skoda",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО районы",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Автосервис",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Техобслуживание",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Peugeot",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Opel",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - По маркам",
+  "grp": "Citroen",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт ДВС",
+  "grp": "Топливная система и форсунки",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Регулировка фар",
+  "grp": "Регулировка фар",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Замена масла",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "СТО рядом",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Развал-схождение",
+  "grp": "Развал-схождение цена",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Шаровые опоры",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Пружины",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "СТО - Общая",
+  "grp": "Ремонт авто",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-20 08:52",
+  "type": "AD_GROUP_AD",
+  "op": "UPDATE",
+  "fields": "ad,status",
+  "camp": "Ремонт подвески",
+  "grp": "Сайлентблоки и рычаги",
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 21:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 21:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 21:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 21:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 21:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 21:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 21:48",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 18:22",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал сход",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "REMOVED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-19 18:22",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Поиск точное на весь Минск.",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "REMOVED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-19 18:22",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "Развал",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "REMOVED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-19 18:14",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "ENABLED",
+    "PAUSED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-19 16:10",
+  "type": "CAMPAIGN",
+  "op": "UPDATE",
+  "fields": "status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {
+   "status": [
+    "PAUSED",
+    "ENABLED"
+   ]
+  }
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,negative,resourceName,status",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ },
+ {
+  "when": "2026-10-19 16:09",
+  "type": "CAMPAIGN_CRITERION",
+  "op": "CREATE",
+  "fields": "campaign,criterionId,keyword.matchType,keyword.text,negative,resourceName",
+  "camp": "СТО - Общая",
+  "grp": null,
+  "diff": {}
+ }
+]
