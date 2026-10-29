@@ -2,17 +2,17 @@
 import os, html, datetime
 OUT=os.path.expanduser("~/Desktop/Реклама/dashboard"); e=html.escape
 R=[
- ("Отчёт по неделям","29.10","6R4j9xCKNpRRb5RuaRVjrn",
+ ("Отчёт по неделям","29.10","report3.html",
   "Динамика за 4 недели, таймлайн правок, слив бюджета, прогноз, минус-слова","свежий"),
- ("Глубокий разбор","29.10","4zbHKivRqRJgoBMNN8pA1D",
+ ("Глубокий разбор","29.10","dasto2.html",
   "14 слайдов: качество ключей, связка ключ-запрос, пересечения групп",""),
- ("План на неделю","24.10","Aqx3EakKqZKAd9Kg9HQNqN",
+ ("План на неделю","24.10","plan.html",
   "Перераспределение бюджета с учётом доступного трафика",""),
- ("Прогноз выручки","24.10","63nzfbSULBqv74XEqqULoq",
+ ("Прогноз выручки","24.10","forecast.html",
   "Конверсии, доезд, выручка по кампаниям",""),
- ("Разбор недели 17–23","24.10","Gce4tos9bP5Teg9y6e5e6g",
+ ("Разбор недели 17–23","24.10","dasto.html",
   "Эффект «Максимума конверсий», устройства, часы, экономика услуг",""),
- ("Дашборд по аккаунтам","20.10","GobfxgC5EycNb68J5J9aZC",
+ ("Дашборд по аккаунтам","20.10","accounts.html",
   "Шесть аккаунтов: расход, обращения, доля показов, запросы","обновляется"),
 ]
 CSS="""
@@ -51,14 +51,14 @@ P=[f'<meta name="claude:viewport-fit-sides" content="cover">',
    f"<p class='lead'>Все разборы в одном месте · обновлено {datetime.datetime.now():%d.%m.%Y}</p>"]
 for t,d,uid,s,tag in R:
     tg=f"<span class='tag {'b' if tag!='свежий' else ''}'>{e(tag)}</span>" if tag else ""
-    P.append(f"<a class='item' href='https://claude.ai/artifact/{uid}'>"
+    P.append(f"<a class='item' href='{uid}'>"
              f"<div class='row'><span class='t'>{e(t)}</span>{tg}<span class='d'>{d}</span></div>"
              f"<div class='s'>{e(s)}</div></a>")
 P.append("<h2>Где лежат файлы</h2>")
-P.append("<div class='note'>Исходники отчётов и скрипты сбора — в репозитории "
- "<code>MaximMaximenia/ads-dashboard</code>, папка <code>dashboard/</code>.<br><br>"
- "<b>Записи разговоров и номера клиентов в репозиторий не попадают</b> — папки "
- "<code>06_звонки</code> и <code>06_офлайн</code> исключены.</div>")
+P.append("<div class='note'>Страницы лежат в репозитории "
+ "<code>MaximMaximenia/ads-dashboard</code> и обновляются при каждом пуше.<br><br>"
+ "<b>Записи разговоров и номера клиентов сюда не попадают</b> — папки "
+ "<code>06_звонки</code> и <code>06_офлайн</code> исключены из репозитория.</div>")
 P.append("</div>")
 body="\n".join(P)
 os.makedirs(OUT,exist_ok=True)
