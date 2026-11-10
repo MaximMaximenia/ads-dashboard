@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 import os, html, datetime
 OUT=os.path.expanduser("~/Desktop/Реклама/dashboard"); e=html.escape
+# название, дата, файл в dashboard/, описание, метка, адрес опубликованной страницы
+A="https://claude.ai/artifact/"
 R=[
+ ("Поиск по вебинару Мейнарда","10.11","direct_webinar.html",
+  "Яндекс Директ: почему не откручивало, цены входа в аукцион, что изменено в ключах и минусах","свежий",A+"ANiSFdWraGM2cfeEtJbrGM"),
  ("Отчёт по неделям","29.10","report3.html",
-  "Динамика за 4 недели, таймлайн правок, слив бюджета, прогноз, минус-слова","свежий"),
+  "Динамика за 4 недели, таймлайн правок, слив бюджета, прогноз, минус-слова","",A+"6R4j9xCKNpRRb5RuaRVjrn"),
  ("Глубокий разбор","29.10","dasto2.html",
-  "14 слайдов: качество ключей, связка ключ-запрос, пересечения групп",""),
+  "14 слайдов: качество ключей, связка ключ-запрос, пересечения групп","",A+"4zbHKivRqRJgoBMNN8pA1D"),
  ("План на неделю","24.10","plan.html",
-  "Перераспределение бюджета с учётом доступного трафика",""),
+  "Перераспределение бюджета с учётом доступного трафика","",A+"Aqx3EakKqZKAd9Kg9HQNqN"),
  ("Прогноз выручки","24.10","forecast.html",
-  "Конверсии, доезд, выручка по кампаниям",""),
+  "Конверсии, доезд, выручка по кампаниям","",A+"63nzfbSULBqv74XEqqULoq"),
  ("Разбор недели 17–23","24.10","dasto.html",
-  "Эффект «Максимума конверсий», устройства, часы, экономика услуг",""),
+  "Эффект «Максимума конверсий», устройства, часы, экономика услуг","",A+"Gce4tos9bP5Teg9y6e5e6g"),
  ("Дашборд по аккаунтам","20.10","accounts.html",
-  "Шесть аккаунтов: расход, обращения, доля показов, запросы","обновляется"),
+  "Шесть аккаунтов: расход, обращения, доля показов, запросы","обновляется",A+"GobfxgC5EycNb68J5J9aZC"),
 ]
 CSS="""
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Fira+Sans:wght@400;500;600;700&display=swap');
@@ -49,23 +53,25 @@ P=[f'<meta name="claude:viewport-fit-sides" content="cover">',
    "<title>ДАСТО — отчёты</title>",f"<style>{CSS}</style><div class='w'>",
    "<h1>Отчёты по рекламе</h1>",
    f"<p class='lead'>Все разборы в одном месте · обновлено {datetime.datetime.now():%d.%m.%Y}</p>"]
-for t,d,uid,s,tag in R:
+for t,d,uid,s,tag,url in R:
     tg=f"<span class='tag {'b' if tag!='свежий' else ''}'>{e(tag)}</span>" if tag else ""
-    P.append(f"<a class='item' href='{uid}'>"
+    P.append(f"<a class='item' href='{url}' data-file='{uid}'>"
              f"<div class='row'><span class='t'>{e(t)}</span>{tg}<span class='d'>{d}</span></div>"
              f"<div class='s'>{e(s)}</div></a>")
 P.append("<h2>Где лежат файлы</h2>")
-P.append("<div class='note'>Страницы лежат в репозитории "
- "<code>MaximMaximenia/ads-dashboard</code> и обновляются при каждом пуше.<br><br>"
- "<b>Записи разговоров и номера клиентов сюда не попадают</b> — папки "
- "<code>06_звонки</code> и <code>06_офлайн</code> исключены из репозитория.</div>")
+P.append("<div class='note'>Исходники отчётов и скрипты сбора — в репозитории "
+ "<code>MaximMaximenia/ads-dashboard</code>, папка <code>dashboard/</code>.<br><br>"
+ "<b>Записи разговоров и номера клиентов в репозиторий не попадают</b> — папки "
+ "<code>06_звонки</code> и <code>06_офлайн</code> исключены.</div>")
 P.append("</div>")
 body="\n".join(P)
 os.makedirs(OUT,exist_ok=True)
 open(os.path.join(OUT,"hub_artifact.html"),"w",encoding="utf-8").write(body)
+import re
+local=re.sub(r"href='[^']*' data-file='([^']*)'", r"href='\1'", body)   # в гите ссылки на файлы рядом
 stand=('<!doctype html><html lang="ru"><head><meta charset="utf-8">'
  '<meta name="viewport" content="width=device-width,initial-scale=1">'
- + body.replace('<meta name="claude:viewport-fit-sides" content="cover">\n','',1)
-       .replace("<div class='w'>","</head><body><div class='w'>",1)+"</body></html>")
+ + local.replace('<meta name="claude:viewport-fit-sides" content="cover">\n','',1)
+        .replace("<div class='w'>","</head><body><div class='w'>",1)+"</body></html>")
 open(os.path.join(OUT,"hub.html"),"w",encoding="utf-8").write(stand)
 print("ok", len(body))
