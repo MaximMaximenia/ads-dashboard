@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Получасовая проверка поисковых запросов кампании 715945832.
+"""Проверка поисковых запросов кампании 716066143 раз в 20 минут.
 Явный мусор минусуем сразу, спорное — в отчёт владельцу."""
 import json, os, re, subprocess, sys, time, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import direct
 
-CID = 715945832
+CID = 716066143
 STATE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "terms_state.json")
+SEEN = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seen_queries.json")
+ACC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hour_acc.json")
 # явный мусор — минусуем без вопросов
 TRASH = re.compile(r"(скач|торрент|кряк|взлом|бесплатн\w* верси|ваканс|резюме|"
  r"устроит|зарплат|подработк|как пользоват|"
@@ -52,6 +54,15 @@ def report():
     return ""
 
 # целевое — не минусуем никогда, даже если совпало с мусорными паттернами
+# чужая ниша и чужая профессия — режем, даже если в запросе есть «клиент» или «продажи».
+# правило 12.11.2026: SAFE защищал почти всё подряд, из-за него автоминусовка весь день добавляла 0
+HARD = re.compile(r"(маникюр|ногт|ресниц|броу|барбер|парикмахер|косметолог|массаж|тату|"
+ r"смм|таргетолог|копирайт|верстк|дизайнер|монтажёр|монтажер|программист|"
+ r"транспортн|логистик|грузоперевоз|строительн|ремонт квартир|натяжн|окна|"
+ r"недвижимост|риелтор|автосалон|шиномонтаж|сахалин|казахстан|телефонов|"
+ r"маркетплейс|озон|вайлдберриз|карточк|мозаик|парфюм|вэйп|коньяк|чипс|"
+ r"менеджер|продавц|кассир|мерчендайз|ваканс|резюме|трудоустрой|зарплат)", re.I)
+
 SAFE = re.compile(r"(фриланс|кворк|kwork|фигма|figma|тильда|портфолио|"
  r"продаж|продав|продать|продаю|возражен|переговор|созвон|"
  r"клиент|заказчик|эксперт|наставнич|консалтинг|коучинг|"
@@ -86,14 +97,16 @@ def main():
         spend += c; clicks += k
         if k > 0: clicked.append((q, c, k))
         if k == 0 or cv > 0: continue
-        (trash if (TRASH.search(q) and not SAFE.search(q)) else watch).append((q, c, k))
+        (trash if (HARD.search(q) or (TRASH.search(q) and not SAFE.search(q))) else watch).append((q, c, k))
 
     cur = direct.call("campaigns", "get", {"SelectionCriteria": {"Ids": [CID]},
                                            "FieldNames": ["Id", "NegativeKeywords"]})
     items = cur["result"]["Campaigns"][0].get("NegativeKeywords", {}).get("Items", []) or []
     norm = lambda x: re.sub(r"[!+\[\]\"]", "", x.lower()).strip()
     have = {norm(x) for x in items}
-    new = [q for q, _, _ in trash if norm(q) not in have][:max(0, 1000 - len(items))]
+    # Директ не принимает минус-фразы длиннее 7 слов — одна такая роняла весь пакет (12.11.2026)
+    new = [q for q, _, _ in trash
+           if norm(q) not in have and len(norm(q).split()) <= 7][:max(0, 1000 - len(items))]
     added = 0
     if new:
         r = direct.call("campaigns", "update", {"Campaigns": [
@@ -108,12 +121,36 @@ def main():
     json.dump(st, open(STATE, "w", encoding="utf-8"), ensure_ascii=False)
     print(json.dumps(st, ensure_ascii=False))
 
-    msg = (f"{dt.datetime.now():%H:%M}. Поиск-фрилансеры: заминусовал {added}, "
-           f"на проверку {len(watch)}. Расход {spend:.2f} ₽, кликов {clicks}.")
-    if clicked:
-        msg += "\nКлики: " + "; ".join(f"{q} ({c:.0f}₽)" for q, c, _ in
-                                        sorted(clicked, key=lambda x: -x[1])[:8])
-    send(msg)
+    # что появилось впервые с прошлой проверки
+    try:
+        seen = set(json.load(open(SEEN, encoding="utf-8")))
+    except Exception:
+        seen = set()
+    fresh = [(q, c) for q, c, _ in clicked if q not in seen]
+    seen |= {q for q, _, _ in clicked} | {q for q, _, _ in trash} | {q for q, _, _ in watch}
+    json.dump(sorted(seen), open(SEEN, "w", encoding="utf-8"), ensure_ascii=False)
+
+    # минусуем каждые 5 минут, в телеграм пишем раз в час — правило владельца 12.11.2026
+    try:
+        acc = json.load(open(ACC, encoding="utf-8"))
+    except Exception:
+        acc = {"since": dt.datetime.now().isoformat(timespec="seconds"), "added": [], "fresh": []}
+    acc["added"] += new
+    acc["fresh"] += [[q, c] for q, c in fresh]
+    since = dt.datetime.fromisoformat(acc["since"])
+    if (dt.datetime.now() - since).total_seconds() >= 3600:
+        words = acc["added"]
+        fr = sorted(acc["fresh"], key=lambda x: -x[1])[:12]
+        msg = (f"{dt.datetime.now():%H:%M}. За час: заминусовал {len(words)}, "
+               f"новых запросов с кликами {len(acc['fresh'])}.\n"
+               f"Всего за сегодня {spend:.2f} ₽, {clicks} кликов.")
+        if words:
+            msg += "\n\nЗаминусовано:\n\n" + "\n\n".join(words[:25])
+        if fr:
+            msg += "\n\nНовые с кликами:\n\n" + "\n\n".join(f"{q} — {c:.0f} ₽" for q, c in fr)
+        send(msg)
+        acc = {"since": dt.datetime.now().isoformat(timespec="seconds"), "added": [], "fresh": []}
+    json.dump(acc, open(ACC, "w", encoding="utf-8"), ensure_ascii=False)
     return 0
 
 if __name__ == "__main__":
