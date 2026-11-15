@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Отчёт по фразам</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&family=JetBrains+Mono:wght@400;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --ink:#101217; --soft:#5B6273; --line:#E6E3DC; --paper:#FFFFFF; --wash:#FAF8F4;
+    --violet:#6B5BD6; --teal:#1F9E8C; --amber:#C98A14; --rose:#C8443A; --slate:#8B93A7;
+    --sans:"Manrope",-apple-system,Segoe UI,sans-serif; --mono:"JetBrains Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:var(--sans);color:var(--ink);background:var(--wash);font-size:13px;line-height:1.5;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{width:210mm;height:297mm;padding:14mm 15mm 13mm;margin:0 auto;background:var(--paper);
+    position:relative;overflow:hidden;page-break-after:always}
+  .page:last-of-type{page-break-after:auto}
+  .mesh{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .mesh i{position:absolute;display:block;border-radius:50%;filter:blur(58px)}
+  .m1{width:300px;height:300px;background:#7FD8C9;top:-120px;right:-70px;opacity:.40}
+  .m2{width:260px;height:260px;background:#A99CF5;top:160px;left:-130px;opacity:.32}
+  .m3{width:230px;height:230px;background:#F0A69A;bottom:-100px;right:-70px;opacity:.34}
+  .inner{position:relative;z-index:1}
+
+  .eyebrow{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin:0 0 8px}
+  h1{font-size:32px;line-height:1.1;letter-spacing:-.02em;font-weight:800;margin:0 0 10px;text-wrap:balance}
+  h2{font-size:17px;font-weight:800;margin:0 0 3px;letter-spacing:-.01em}
+  h3{font-size:12px;font-weight:600;margin:0 0 8px}
+  p{margin:0 0 8px}
+  .lede{color:var(--soft);font-size:14px;max-width:64ch}
+  .sub{color:var(--soft);font-size:11px;margin:0 0 11px}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:16px 0}
+  .kpi{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:12px;padding:11px 12px}
+  .kpi .l{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-bottom:4px}
+  .kpi .v{font-size:24px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1}
+  .kpi .n{font-size:10px;color:var(--soft);margin-top:4px}
+  .v.good{color:var(--teal)} .v.bad{color:var(--rose)}
+
+  .card{background:rgba(255,255,255,.80);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+  .chartbox{height:270px;position:relative}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+  table{width:100%;border-collapse:collapse;font-size:11px}
+  th,td{text-align:left;padding:5px 7px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+  th{font-family:var(--mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);font-weight:600}
+  td.n{text-align:right}
+  tbody tr:last-child td{border-bottom:0}
+  .kw{font-weight:500}
+  .grp{color:var(--soft);font-size:10px}
+  .b{display:inline-block;min-width:42px;text-align:right;font-weight:700;font-family:var(--mono);font-size:11px}
+  .g{color:#15705F} .m{color:#8A5F06} .r{color:#9A2F26}
+  .strike td{opacity:.62}
+  ul{margin:0;padding-left:15px;color:var(--soft)}
+  li{margin-bottom:5px}
+  .big{font-size:14px;font-weight:600;color:var(--ink);margin:0 0 8px}
+  footer{position:absolute;left:15mm;right:15mm;bottom:9mm;display:flex;justify-content:space-between;
+    font-family:var(--mono);font-size:9px;color:var(--soft);z-index:1}
+  @page{size:A4;margin:0}
+</style>
+</head>
+<body>
+
+<section class="page">
+  <div class="mesh"><i class="m1"></i><i class="m2"></i><i class="m3"></i></div>
+  <div class="inner">
+    <p class="eyebrow">Яндекс.Директ · кампания 716066143 · 11–15 ноября 2026</p>
+    <h1>Какие фразы<br>лендинг переваривает</h1>
+    <p class="lede">88 фраз получили клики. Отказы по Метрике, счётчик 113657567. Решения — только по фразам с тремя и более кликами: на одном-двух цифра ничего не значит.</p>
+
+    <div class="kpis">
+      <div class="kpi"><div class="l">Фраз с кликами</div><div class="v">88</div><div class="n">из 377 активных</div></div>
+      <div class="kpi"><div class="l">Отказы ≤ 50 %</div><div class="v good">36</div><div class="n">подходят странице</div></div>
+      <div class="kpi"><div class="l">Отказы ≥ 70 %</div><div class="v bad">39</div><div class="n">не подходят</div></div>
+      <div class="kpi"><div class="l">Выключено 15.11</div><div class="v">11</div><div class="n">2 843 ₽ впустую</div></div>
+    </div>
+
+    <div class="card">
+      <h2>Отказы по фразам с объёмом</h2>
+      <p class="sub">Только фразы, набравшие четыре и более кликов. Зелёные оставлены, красные выключены 15 ноября</p>
+      <div class="chartbox"><canvas id="c1"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h2>Закономерность</h2>
+      <p class="big">Работают фразы «хочу научиться». Не работают фразы «дай ответ сейчас».</p>
+      <div class="two">
+        <ul>
+          <li><strong>Человек ищет, куда пойти учиться</strong> — «основы продаж», «развитие навыков продаж», «как научиться вести переговоры», «где искать клиентов на свои услуги». Лендинг зовёт на вебинар, и это ему подходит.</li>
+        </ul>
+        <ul>
+          <li><strong>Человек ищет готовый ответ</strong> — «работа с возражениями», «этапы продаж», «какие вопросы задавать клиенту». Ему нужна одна фраза прямо сейчас, а предлагают мероприятие. Уходит за секунды.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer><span>Отчёт по ключевым фразам</span><span>1 / 2</span></footer>
+</section>
+
+<section class="page">
+  <div class="mesh"><i class="m1"></i><i class="m2"></i><i class="m3"></i></div>
+  <div class="inner">
+    <p class="eyebrow">Детально</p>
+    <h2 style="font-size:24px;margin-bottom:4px">Пофразовая раскладка</h2>
+    <p class="sub">Сверху — что оставили и куда уходит бюджет. Снизу — что выключено 15 ноября</p>
+
+    <div class="card">
+      <h3 style="color:#15705F">Оставлены · отказы 50 % и ниже</h3>
+      <table>
+        <thead><tr><th>Фраза</th><th>Группа</th><th class="n">Клики</th><th class="n">Расход</th><th class="n">Отказы</th></tr></thead>
+        <tbody>
+          <tr><td class="kw">основы продаж</td><td class="grp">Широкие — продажи</td><td class="n">8</td><td class="n">245 ₽</td><td class="n"><span class="b g">0 %</span></td></tr>
+          <tr><td class="kw">как научиться вести переговоры</td><td class="grp">Переговоры</td><td class="n">13</td><td class="n">520 ₽</td><td class="n"><span class="b g">25 %</span></td></tr>
+          <tr><td class="kw">где искать клиентов на свои услуги</td><td class="grp">Поиск клиентов — профессии</td><td class="n">15</td><td class="n">837 ₽</td><td class="n"><span class="b g">33 %</span></td></tr>
+          <tr><td class="kw">как выявить потребность клиента</td><td class="grp">Выявление потребностей</td><td class="n">4</td><td class="n">52 ₽</td><td class="n"><span class="b g">33 %</span></td></tr>
+          <tr><td class="kw">выявление потребностей клиента</td><td class="grp">Возражения и скрипты</td><td class="n">3</td><td class="n">70 ₽</td><td class="n"><span class="b g">33 %</span></td></tr>
+          <tr><td class="kw">как научиться продавать услуги</td><td class="grp">Обучение продажам</td><td class="n">3</td><td class="n">194 ₽</td><td class="n"><span class="b g">33 %</span></td></tr>
+          <tr><td class="kw">скрипты продаж</td><td class="grp">Возражения и скрипты</td><td class="n">13</td><td class="n">573 ₽</td><td class="n"><span class="b g">42 %</span></td></tr>
+          <tr><td class="kw">как понравиться клиенту</td><td class="grp">Доверие и контакт</td><td class="n">8</td><td class="n">212 ₽</td><td class="n"><span class="b g">43 %</span></td></tr>
+          <tr><td class="kw">открытые вопросы в продажах</td><td class="grp">Выявление потребностей</td><td class="n">8</td><td class="n">156 ₽</td><td class="n"><span class="b g">43 %</span></td></tr>
+          <tr><td class="kw">развитие навыков продаж</td><td class="grp">Обучение продажам</td><td class="n">15</td><td class="n">483 ₽</td><td class="n"><span class="b m">46 %</span></td></tr>
+          <tr><td class="kw">[техники продаж]</td><td class="grp">Возражения и скрипты</td><td class="n">6</td><td class="n">275 ₽</td><td class="n"><span class="b m">50 %</span></td></tr>
+          <tr><td class="kw">как научиться продавать</td><td class="grp">Широкие — продажи</td><td class="n">5</td><td class="n">222 ₽</td><td class="n"><span class="b m">50 %</span></td></tr>
+          <tr><td class="kw">как делать холодные звонки</td><td class="grp">Звонки</td><td class="n">4</td><td class="n">257 ₽</td><td class="n"><span class="b m">50 %</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3 style="color:#9A2F26">Выключены 15 ноября · отказы 75 % и выше</h3>
+      <table>
+        <thead><tr><th>Фраза</th><th>Группа</th><th class="n">Клики</th><th class="n">Расход</th><th class="n">Отказы</th></tr></thead>
+        <tbody class="strike">
+          <tr><td class="kw">работа с возражениями</td><td class="grp">Возражения и скрипты</td><td class="n">13</td><td class="n">436 ₽</td><td class="n"><span class="b r">92 %</span></td></tr>
+          <tr><td class="kw">какие вопросы задавать клиенту</td><td class="grp">Выявление потребностей</td><td class="n">11</td><td class="n">290 ₽</td><td class="n"><span class="b r">88 %</span></td></tr>
+          <tr><td class="kw">этапы продаж</td><td class="grp">Возражения и скрипты</td><td class="n">22</td><td class="n">556 ₽</td><td class="n"><span class="b r">86 %</span></td></tr>
+          <tr><td class="kw">техники переговоров</td><td class="grp">Переговоры</td><td class="n">12</td><td class="n">334 ₽</td><td class="n"><span class="b r">82 %</span></td></tr>
+          <tr><td class="kw">психология продаж</td><td class="grp">Возражения и скрипты</td><td class="n">5</td><td class="n">259 ₽</td><td class="n"><span class="b r">80 %</span></td></tr>
+          <tr><td class="kw">обучение технике продаж</td><td class="grp">Обучение продажам</td><td class="n">3</td><td class="n">241 ₽</td><td class="n"><span class="b r">100 %</span></td></tr>
+          <tr><td class="kw">курсы продаж бесплатно</td><td class="grp">Обучение продажам</td><td class="n">4</td><td class="n">181 ₽</td><td class="n"><span class="b r">100 %</span></td></tr>
+          <tr><td class="kw">как сказать клиенту цену</td><td class="grp">Как назвать цену</td><td class="n">3</td><td class="n">114 ₽</td><td class="n"><span class="b r">100 %</span></td></tr>
+          <tr><td class="kw">скрипт звонка клиенту</td><td class="grp">Возражения и скрипты</td><td class="n">4</td><td class="n">118 ₽</td><td class="n"><span class="b r">75 %</span></td></tr>
+          <tr><td class="kw">как сделать больше продаж</td><td class="grp">Система продаж</td><td class="n">4</td><td class="n">108 ₽</td><td class="n"><span class="b r">75 %</span></td></tr>
+          <tr><td class="kw">как продавать через блог</td><td class="grp">Блог и телеграм</td><td class="n">4</td><td class="n">257 ₽</td><td class="n"><span class="b r">75 %</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h3>Что это дало</h3>
+        <ul>
+          <li>Одиннадцать выключенных фраз съедали 2 843 ₽ из 17 968 за период.</li>
+          <li>Фраза «основы продаж» с нулевыми отказами лежала в группе «Широкие — продажи», выключенной целиком. Вернул её и три объявления группы.</li>
+          <li>Активных фраз осталось 377.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Что это меняет в методе</h3>
+        <ul>
+          <li>Судить группами оказалось грубо: в «Возражениях и скриптах» «скрипты продаж» дают 42 % отказов, а «работа с возражениями» — 92 %.</li>
+          <li>Самая кликаемая фраза кампании, «этапы продаж» с 22 кликами, оказалась худшей. Без пофразового разбора мы бы продолжали её кормить.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer><span>Выключено 11 фраз · освобождено 2 843 ₽</span><span>2 / 2</span></footer>
+</section>
+
+<script>
+Chart.defaults.font.family='Manrope';
+Chart.defaults.font.size=9.5;
+Chart.defaults.color='#5B6273';
+Chart.defaults.animation=false;
+const rows=[
+ ['основы продаж',0],['как научиться вести переговоры',25],['где искать клиентов на свои услуги',33],
+ ['скрипты продаж',42],['как понравиться клиенту',43],['открытые вопросы в продажах',43],
+ ['развитие навыков продаж',46],['как делать холодные звонки',50],['[техники продаж]',50],
+ ['как научиться продавать',50],['как продавать через блог',75],['как сделать больше продаж',75],
+ ['скрипт звонка клиенту',75],['психология продаж',80],['техники переговоров',82],
+ ['этапы продаж',86],['какие вопросы задавать клиенту',88],['работа с возражениями',92],
+ ['курсы продаж бесплатно',100]
+];
+new Chart(document.getElementById('c1'),{type:'bar',
+ data:{labels:rows.map(r=>r[0]),datasets:[{data:rows.map(r=>r[1]),
+  backgroundColor:rows.map(r=>r[1]<=50?'#1F9E8C':r[1]<70?'#C98A14':'#C8443A'),
+  borderRadius:5,barPercentage:.78}]},
+ options:{indexAxis:'y',maintainAspectRatio:false,
+  plugins:{legend:{display:false},tooltip:{enabled:false}},
+  scales:{x:{beginAtZero:true,max:100,grid:{color:'#E6E3DC'},ticks:{callback:v=>v+'%'}},
+   y:{grid:{display:false},ticks:{font:{size:9.5},crossAlign:'far'}}}}});
+</script>
+</body>
+</html>
