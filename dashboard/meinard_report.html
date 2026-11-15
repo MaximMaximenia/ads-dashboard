@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Трафик и лендинг — отчёт</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&family=JetBrains+Mono:wght@400;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --ink:#101217; --soft:#5B6273; --line:#E6E3DC; --paper:#FFFFFF; --wash:#FAF8F4;
+    --violet:#6B5BD6; --teal:#1F9E8C; --amber:#C98A14; --rose:#C8443A; --slate:#8B93A7;
+    --sans:"Manrope",-apple-system,Segoe UI,sans-serif; --mono:"JetBrains Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:var(--sans); color:var(--ink); background:var(--wash);
+    font-size:13px; line-height:1.55; -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 15mm 14mm; margin:0 auto;
+    background:var(--paper); position:relative; overflow:hidden; page-break-after:always;
+  }
+  .page:last-child{page-break-after:auto}
+  /* gradient mesh */
+  .mesh{position:absolute; inset:0; z-index:0; pointer-events:none; overflow:hidden}
+  .mesh i{position:absolute; display:block; border-radius:50%; filter:blur(58px); opacity:.5}
+  .m1{width:300px;height:300px;background:#A99CF5;top:-110px;right:-80px;opacity:.42}
+  .m2{width:260px;height:260px;background:#7FD8C9;top:120px;left:-120px;opacity:.34}
+  .m3{width:220px;height:220px;background:#F3CE86;bottom:-90px;right:-60px;opacity:.38}
+  .inner{position:relative; z-index:1}
+
+  .eyebrow{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin:0 0 8px}
+  h1{font-size:33px;line-height:1.1;letter-spacing:-.02em;font-weight:800;margin:0 0 10px;text-wrap:balance}
+  h2{font-size:18px;line-height:1.2;font-weight:800;margin:0 0 4px;letter-spacing:-.01em}
+  h3{font-size:12px;font-weight:600;margin:0 0 10px}
+  p{margin:0 0 8px}
+  .lede{color:var(--soft);font-size:14px;max-width:62ch}
+  .sub{color:var(--soft);font-size:11.5px;margin:0 0 14px}
+  hr{border:0;border-top:1px solid var(--line);margin:16px 0}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 0}
+  .kpi{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:12px;padding:12px 13px;backdrop-filter:blur(4px)}
+  .kpi .l{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-bottom:5px}
+  .kpi .v{font-size:25px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1}
+  .kpi .n{font-size:10.5px;color:var(--soft);margin-top:4px}
+  .v.bad{color:var(--rose)} .v.good{color:var(--teal)}
+
+  .card{background:rgba(255,255,255,.78);border:1px solid var(--line);border-radius:14px;padding:16px 17px;margin-bottom:12px}
+  .chartbox{height:190px;position:relative}
+  .chartbox.tall{height:230px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+  table{width:100%;border-collapse:collapse;font-size:11.5px}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+  th{font-family:var(--mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);font-weight:600}
+  td.n{text-align:right}
+  tbody tr:last-child td{border-bottom:0}
+  .pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:10px;font-weight:600}
+  .p-good{background:#E4F3EF;color:#15705F} .p-mid{background:#FCF1DC;color:#8A5F06} .p-bad{background:#FBE7E5;color:#9A2F26}
+
+  ul{margin:0;padding-left:16px;color:var(--soft)}
+  li{margin-bottom:5px}
+  .note{font-size:11px;color:var(--soft);font-family:var(--mono)}
+  .big{font-size:15px;font-weight:600;color:var(--ink);margin:0 0 10px}
+  footer{position:absolute;left:15mm;right:15mm;bottom:9mm;display:flex;justify-content:space-between;font-family:var(--mono);font-size:9px;color:var(--soft);z-index:1}
+  @page{size:A4;margin:0}
+</style>
+</head>
+<body>
+
+<!-- ───────────── СТР. 1 ───────────── -->
+<section class="page">
+  <div class="mesh"><i class="m1"></i><i class="m2"></i><i class="m3"></i></div>
+  <div class="inner">
+    <p class="eyebrow">Яндекс.Директ · coordinat.pro/meinard · 8–15 ноября 2026</p>
+    <h1>Трафик есть.<br>Лендинг его не ловит.</h1>
+    <p class="lede">За восемь дней куплено 542 клика на 17 968 ₽. Целевых среди них 27 %. До формы доходит треть посетителей, заявку оставил один человек.</p>
+
+    <div class="kpis">
+      <div class="kpi"><div class="l">Расход</div><div class="v">17 968 ₽</div><div class="n">8–15 ноября</div></div>
+      <div class="kpi"><div class="l">Клики</div><div class="v">542</div><div class="n">10 920 показов</div></div>
+      <div class="kpi"><div class="l">Целевых кликов</div><div class="v">147</div><div class="n">27 % от всех</div></div>
+      <div class="kpi"><div class="l">Живых заявок</div><div class="v bad">1</div><div class="n">13 ноября</div></div>
+    </div>
+
+    <div class="card">
+      <h2>Расход растёт, цена клика растёт быстрее</h2>
+      <p class="sub">Столбцы — дневной расход, линия — средняя цена клика</p>
+      <div class="chartbox tall"><canvas id="c1"></canvas></div>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h2>Куда ушли клики</h2>
+        <p class="sub">542 клика по качеству запроса</p>
+        <div class="chartbox"><canvas id="c2"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>Куда ушли деньги</h2>
+        <p class="sub">17 968 ₽ по тем же группам</p>
+        <div class="chartbox"><canvas id="c3"></canvas></div>
+      </div>
+    </div>
+
+    <p class="note">Целевые — навык продаж, возражения, скрипты, работа с клиентом. Серые — общие запросы про продажи без ясного намерения. Мусор — чужие ниши и профессии.</p>
+  </div>
+  <footer><span>Отчёт по кампании 716066143</span><span>1 / 3</span></footer>
+</section>
+
+<!-- ───────────── СТР. 2 ───────────── -->
+<section class="page">
+  <div class="mesh"><i class="m1"></i><i class="m2"></i><i class="m3"></i></div>
+  <div class="inner">
+    <p class="eyebrow">Воронка</p>
+    <h2 style="font-size:25px;margin-bottom:6px">Где теряются люди</h2>
+    <p class="sub">От показа объявления до заявки. Числа за период, шаги внутри сайта оценены по Clarity.</p>
+
+    <div class="card">
+      <div class="chartbox tall"><canvas id="c4"></canvas></div>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h3>Что показывает воронка</h3>
+        <ul>
+          <li>Из 10 920 показов кликают 542 — это 4,96 %, нормально для поиска.</li>
+          <li>Средняя глубина прокрутки 38,9 %. Форма стоит в конце страницы, значит её видят около 210 человек из 542.</li>
+          <li>За 12 ноября Clarity зафиксировал 4 попытки отправить форму на 135 сеансов — 3 %.</li>
+          <li>Цель «Отправка формы» сработала 3 раза за неделю. Живая заявка одна.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Цена каждого шага</h3>
+        <table>
+          <tbody>
+            <tr><td>Показ</td><td class="n">1,6 ₽</td></tr>
+            <tr><td>Клик</td><td class="n">33 ₽</td></tr>
+            <tr><td>Целевой клик</td><td class="n">122 ₽</td></tr>
+            <tr><td>Человек, увидевший форму</td><td class="n">85 ₽</td></tr>
+            <tr><td>Попытка отправки</td><td class="n">≈ 1 800 ₽</td></tr>
+            <tr><td><strong>Живая заявка</strong></td><td class="n"><strong>17 968 ₽</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Ставка догоняет лимит, а объём не растёт</h2>
+      <p class="sub">Средний объём трафика 93–96 из 100: мы уже в премиум-блоке, выше покупать нечего</p>
+      <div class="chartbox"><canvas id="c5"></canvas></div>
+    </div>
+  </div>
+  <footer><span>Воронка и цена шага</span><span>2 / 3</span></footer>
+</section>
+
+<!-- ───────────── СТР. 3 ───────────── -->
+<section class="page">
+  <div class="mesh"><i class="m1"></i><i class="m2"></i><i class="m3"></i></div>
+  <div class="inner">
+    <p class="eyebrow">Сопоставление</p>
+    <h2 style="font-size:25px;margin-bottom:6px">Какой трафик подходит лендингу</h2>
+    <p class="sub">Отказы по группам запросов: чем ниже столбик, тем лучше страница отвечает на запрос</p>
+
+    <div class="card">
+      <div class="chartbox tall"><canvas id="c6"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h2>Главное противоречие</h2>
+      <p class="big">Темы, под которые писались объявления, лендингу подходят хуже всего.</p>
+      <table>
+        <thead><tr><th>Группа запросов</th><th class="n">Клики</th><th class="n">Расход</th><th class="n">CTR</th><th class="n">Отказы</th><th>Соответствие</th></tr></thead>
+        <tbody>
+          <tr><td>Доверие и контакт</td><td class="n">14</td><td class="n">369 ₽</td><td class="n">4,83 %</td><td class="n">38,5 %</td><td><span class="pill p-good">высокое</span></td></tr>
+          <tr><td>Поиск клиентов — профессии</td><td class="n">35</td><td class="n">1 912 ₽</td><td class="n">8,47 %</td><td class="n">45,2 %</td><td><span class="pill p-good">высокое</span></td></tr>
+          <tr><td>Обучение продажам</td><td class="n">44</td><td class="n">1 995 ₽</td><td class="n">8,80 %</td><td class="n">52,5 %</td><td><span class="pill p-good">высокое</span></td></tr>
+          <tr><td>Переговоры</td><td class="n">31</td><td class="n">1 086 ₽</td><td class="n">3,07 %</td><td class="n">51,7 %</td><td><span class="pill p-mid">среднее</span></td></tr>
+          <tr><td>Типовые возражения</td><td class="n">44</td><td class="n">1 508 ₽</td><td class="n">7,80 %</td><td class="n">56,4 %</td><td><span class="pill p-mid">среднее</span></td></tr>
+          <tr><td>Выявление потребностей</td><td class="n">29</td><td class="n">712 ₽</td><td class="n">8,29 %</td><td class="n">60,9 %</td><td><span class="pill p-mid">среднее</span></td></tr>
+          <tr><td>Возражение дорого</td><td class="n">14</td><td class="n">232 ₽</td><td class="n">7,41 %</td><td class="n">64,3 %</td><td><span class="pill p-bad">низкое</span></td></tr>
+          <tr><td>Возражения и скрипты</td><td class="n">90</td><td class="n">3 210 ₽</td><td class="n">4,75 %</td><td class="n">66,3 %</td><td><span class="pill p-bad">низкое</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h3>Что это значит</h3>
+        <ul>
+          <li>«Возражения и скрипты» — самая дорогая группа, 3 210 ₽, и худшие отказы, 66 %. Человек ищет готовый ответ на «дорого», а получает приглашение на вебинар.</li>
+          <li>«Обучение продажам» и «Поиск клиентов» держатся лучше всех: эти люди пришли учиться, им предложение подходит.</li>
+          <li>Разрыв в отказах между верхом и низом таблицы — 28 пунктов. Это не шум, это разные аудитории.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Что делать</h3>
+        <ul>
+          <li>Поднять форму в первый экран и добавить липкую кнопку на телефоне: форму видит только треть, а 57 % заходят с мобильного.</li>
+          <li>Для запросов про возражения дать на странице конкретный ответ, а не анонс вебинара.</li>
+          <li>Переносить бюджет в группы с отказами ниже 55 %.</li>
+          <li>Опустить потолок ставки со 120 до 90 ₽: цена клика выросла с 14 до 64 ₽ без прироста объёма.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer><span>Сопоставление трафика и лендинга</span><span>3 / 3</span></footer>
+</section>
+
+<script>
+const INK='#101217', SOFT='#5B6273', LINE='#E6E3DC';
+const V='#6B5BD6', T='#1F9E8C', A='#C98A14', R='#C8443A', S='#8B93A7';
+Chart.defaults.font.family='Manrope';
+Chart.defaults.font.size=10;
+Chart.defaults.color=SOFT;
+Chart.defaults.animation=false;
+const days=['8 ноя','9 ноя','10 ноя','11 ноя','12 ноя','13 ноя','14 ноя','15 ноя'];
+const cost=[321,1724,916,3530,4863,1783,3838,1286];
+const cpc=[14,19,21,44,30,34,49,64];
+const clicks=[23,90,43,80,160,52,78,20];
+const ctr=[3.44,5.15,5.06,3.63,6.63,5.45,4.51,5.63];
+
+new Chart(document.getElementById('c1'),{data:{labels:days,datasets:[
+ {type:'bar',label:'Расход, ₽',data:cost,backgroundColor:'rgba(107,91,214,.28)',borderColor:V,borderWidth:1,borderRadius:5,yAxisID:'y'},
+ {type:'line',label:'Цена клика, ₽',data:cpc,borderColor:R,backgroundColor:R,borderWidth:2.5,tension:.35,pointRadius:3.5,pointBackgroundColor:'#fff',pointBorderWidth:2,yAxisID:'y1'}
+]},options:{maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:10,boxHeight:10,usePointStyle:true,pointStyle:'circle',padding:14}}},
+ scales:{y:{beginAtZero:true,grid:{color:LINE},ticks:{callback:v=>v.toLocaleString('ru')}},
+ y1:{position:'right',beginAtZero:true,grid:{display:false},ticks:{callback:v=>v+' ₽'}},x:{grid:{display:false}}}}});
+
+const mk=(id,data,fmt)=>new Chart(document.getElementById(id),{type:'doughnut',
+ data:{labels:['Целевые','Серые','Мусор'],datasets:[{data:data,backgroundColor:[T,A,R],borderColor:'#fff',borderWidth:3,hoverOffset:0}]},
+ options:{maintainAspectRatio:false,cutout:'58%',plugins:{legend:{position:'bottom',labels:{boxWidth:10,boxHeight:10,usePointStyle:true,pointStyle:'circle',padding:12,
+   generateLabels(ch){const d=ch.data.datasets[0].data,sum=d.reduce((a,b)=>a+b,0);
+     return ch.data.labels.map((l,i)=>({text:l+' · '+Math.round(100*d[i]/sum)+'%',fillStyle:ch.data.datasets[0].backgroundColor[i],strokeStyle:'#fff',lineWidth:0,pointStyle:'circle',index:i}));}}}}}});
+mk('c2',[147,191,204]);
+mk('c3',[4781,6728,6459]);
+
+new Chart(document.getElementById('c4'),{type:'bar',
+ data:{labels:['Показы','Клики','Визиты','Увидели форму','Нажали кнопку','Заявка'],
+  datasets:[{data:[10920,542,554,210,9,1],backgroundColor:[S,V,V,T,A,R],borderRadius:6,barPercentage:.72}]},
+ options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false}},
+  scales:{x:{type:'logarithmic',grid:{color:LINE},ticks:{callback:v=>[1,10,100,1000,10000].includes(v)?v.toLocaleString('ru'):''}},y:{grid:{display:false}}}}});
+
+new Chart(document.getElementById('c5'),{data:{labels:days,datasets:[
+ {type:'line',label:'Клики',data:clicks,borderColor:V,backgroundColor:'rgba(107,91,214,.12)',fill:true,borderWidth:2.5,tension:.35,pointRadius:3,pointBackgroundColor:'#fff',pointBorderWidth:2,yAxisID:'y'},
+ {type:'line',label:'CTR, %',data:ctr,borderColor:T,borderWidth:2,borderDash:[5,4],tension:.35,pointRadius:0,yAxisID:'y1'}
+]},options:{maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:10,boxHeight:10,usePointStyle:true,pointStyle:'circle',padding:14}}},
+ scales:{y:{beginAtZero:true,grid:{color:LINE}},y1:{position:'right',beginAtZero:true,grid:{display:false},ticks:{callback:v=>v+'%'}},x:{grid:{display:false}}}}});
+
+new Chart(document.getElementById('c6'),{type:'bar',
+ data:{labels:['Доверие и\nконтакт','Поиск клиентов','Обучение\nпродажам','Переговоры','Типовые\nвозражения','Выявление\nпотребностей','Возражение\nдорого','Возражения\nи скрипты'],
+  datasets:[{label:'Отказы, %',data:[38.5,45.2,52.5,51.7,56.4,60.9,64.3,66.3],
+   backgroundColor:c=>{const v=c.raw;return v<50?T:v<62?A:R;},borderRadius:6,barPercentage:.68}]},
+ options:{maintainAspectRatio:false,plugins:{legend:{display:false}},
+  scales:{y:{beginAtZero:true,max:75,grid:{color:LINE},ticks:{callback:v=>v+'%'}},
+   x:{grid:{display:false},ticks:{maxRotation:0,autoSkip:false,font:{size:9},callback(v){return this.getLabelForValue(v).split('\n')}}}}}});
+</script>
+</body>
+</html>
