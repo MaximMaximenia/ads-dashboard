@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Эвакуатор Минск: расчёт</title>
+<style>
+:root{
+ --ink:#16181d;--mute:#6b7280;--line:rgba(22,24,29,.08);
+ --glass:rgba(255,255,255,.62);--glass2:rgba(255,255,255,.82);
+ --acc:#12a150;--acc-soft:rgba(18,161,80,.10);
+ --bar:#d9dde3;
+}
+*{box-sizing:border-box}
+html{background:#eef0f4}
+body{margin:0;color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+ background:
+  radial-gradient(60vw 50vw at 8% 4%, #e3e6f3 0%, transparent 60%),
+  radial-gradient(55vw 45vw at 95% 10%, #f3e9e4 0%, transparent 60%),
+  radial-gradient(60vw 55vw at 80% 85%, #e2efe8 0%, transparent 60%),
+  radial-gradient(50vw 50vw at 10% 90%, #ece6f2 0%, transparent 60%),
+  #eef0f4;
+ background-attachment:fixed;min-height:100vh}
+.wrap{max-width:860px;margin:0 auto;padding:32px 16px 70px}
+.eyebrow{font-size:13px;color:var(--mute);letter-spacing:.02em;margin:0 0 8px}
+h1{font-size:30px;line-height:1.2;margin:0 0 10px;letter-spacing:-.01em}
+.lead{color:#3b4049;margin:0 0 26px;max-width:640px}
+h2{font-size:20px;margin:40px 0 6px;letter-spacing:-.01em}
+.h2sub{color:var(--mute);margin:0 0 14px;font-size:14px}
+.card{background:var(--glass);border:1px solid rgba(255,255,255,.7);border-radius:20px;padding:20px;
+ backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 8px 30px rgba(30,35,60,.06)}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:14px}
+.big{font-size:46px;font-weight:750;letter-spacing:-.02em;line-height:1;color:var(--acc);font-variant-numeric:tabular-nums}
+.bigl{color:#3b4049;margin-top:8px}
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini .card{padding:14px}
+.mini b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.mini span{font-size:13px;color:var(--mute)}
+/* воронка */
+.fun{display:flex;flex-direction:column;gap:12px}
+.fr{display:grid;grid-template-columns:150px 1fr 92px;align-items:center;gap:12px}
+.fr .lbl{font-size:14px;color:#3b4049}
+.fr .trk{height:30px;background:rgba(22,24,29,.04);border-radius:10px;overflow:hidden}
+.fr .fill{height:100%;background:var(--bar);border-radius:10px}
+.fr.last .fill{background:var(--acc)}
+.fr .val{text-align:right;font-weight:650;font-variant-numeric:tabular-nums}
+.fr.last .val{color:var(--acc)}
+.fr .how{grid-column:2/4;font-size:13px;color:var(--mute);margin-top:-6px}
+/* таблицы */
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:16px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:12px;color:var(--mute);font-weight:600;text-transform:uppercase;letter-spacing:.03em}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+tr.tot td{font-weight:700}
+tr.pick td{background:var(--acc-soft)}
+tr.pick td:first-child{box-shadow:inset 3px 0 0 var(--acc)}
+.acc{color:var(--acc);font-weight:700}
+.tag{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:99px;background:var(--acc-soft);color:var(--acc);font-weight:600;margin-left:6px;vertical-align:1px}
+.steps{display:grid;gap:10px}
+.st{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}
+.st i{font-style:normal;width:34px;height:34px;border-radius:50%;background:var(--glass2);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px}
+.st p{margin:5px 0 0}
+.st .f{font-size:13px;color:var(--mute);margin-top:2px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.small{font-size:13px;color:var(--mute)}
+ul.clean{margin:0;padding-left:18px}ul.clean li{margin:6px 0}
+@media (max-width:640px){
+ .hero,.two{grid-template-columns:1fr}
+ h1{font-size:25px}.big{font-size:38px}
+ .fr{grid-template-columns:96px 1fr 70px;gap:8px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="eyebrow">Расчёт для Дмитрия · эвакуатор · Минск · 26.11.2026</p>
+<h1>Сколько стоит один клиент на эвакуатор из Google в Минске</h1>
+<p class="lead">Брал только целевые запросы, то есть людей, которым эвакуатор нужен прямо сейчас. Сколько раз ищут и сколько стоит клик, показывает планировщик Google по региону «Минск».</p>
+
+<div class="hero">
+ <div class="card">
+  <div class="big">≈ 17–25 $</div>
+  <div class="bigl">стоит один клиент, который вызвал эвакуатор</div>
+  <p class="small" style="margin:12px 0 0">При бюджете около 900 $ в месяц это примерно 36–54 заказа.</p>
+ </div>
+ <div class="mini">
+  <div class="card"><b>12 700</b><span>раз в месяц ищут эвакуатор в Минске</span></div>
+  <div class="card"><b>~900</b><span>переходов на сайт в месяц</span></div>
+  <div class="card"><b>72–108</b><span>звонков в месяц</span></div>
+  <div class="card"><b>~1 $</b><span>средняя цена одного перехода</span></div>
+ </div>
+</div>
+
+<h2>Путь от поиска до заказа</h2>
+<p class="h2sub">Если забирать весь спрос по Минску, то есть бюджет около 900 $ в месяц</p>
+<div class="card">
+ <div class="fun">
+  <div class="fr"><div class="lbl">Ищут эвакуатор</div><div class="trk"><div class="fill" style="width:100%"></div></div><div class="val">12 700</div></div>
+  <div class="fr"><div class="lbl">Перешли на сайт</div><div class="trk"><div class="fill" style="width:38%"></div></div><div class="val">~900</div>
+   <div class="how">Нажимают на объявление вверху выдачи примерно 7 человек из 100</div></div>
+  <div class="fr"><div class="lbl">Позвонили</div><div class="trk"><div class="fill" style="width:16%"></div></div><div class="val">72–108</div>
+   <div class="how">Звонят 8–12 человек из 100, кто зашёл на сайт</div></div>
+  <div class="fr last"><div class="lbl">Заказали</div><div class="trk"><div class="fill" style="width:9%"></div></div><div class="val">36–54</div>
+   <div class="how">До заказа доходит примерно каждый второй звонок</div></div>
+ </div>
+ <p class="small" style="margin:14px 0 0">Ширина полос условная, чтобы последние шаги было видно. Точные цифры стоят справа.</p>
+</div>
+
+<h2>Бюджет: три варианта</h2>
+<p class="h2sub">Средний переход считаю по 1 $. Цена клиента от бюджета почти не зависит, от бюджета зависит, сколько заказов вы получите</p>
+<div class="card" style="padding:6px 8px">
+<div class="tw"><table>
+<tr><th>Бюджет в месяц</th><th class="n">В день</th><th class="n">Переходов</th><th class="n">Звонков</th><th class="n">Заказов</th><th class="n">Цена звонка</th><th class="n">Цена клиента</th></tr>
+<tr><td>Старт</td><td class="n">10 $</td><td class="n">~300</td><td class="n">24–36</td><td class="n">12–18</td><td class="n">8–13 $</td><td class="n">17–25 $</td></tr>
+<tr><td>Рабочий</td><td class="n">20 $</td><td class="n">~600</td><td class="n">48–72</td><td class="n">24–36</td><td class="n">8–13 $</td><td class="n">17–25 $</td></tr>
+<tr class="pick"><td><b>Весь спрос Минска</b><span class="tag">потолок</span></td><td class="n">30 $</td><td class="n">~900</td><td class="n">72–108</td><td class="n">36–54</td><td class="n">8–13 $</td><td class="n acc">17–25 $</td></tr>
+</table></div>
+</div>
+<p class="small">Бюджет больше 900 $ в месяц в Минске уже не даст пропорционально больше заказов: людей, которые ищут эвакуатор, больше нет. Дальше растёт только цена.</p>
+
+<h2>Если клик окажется дороже или дешевле</h2>
+<p class="h2sub">Google называет диапазон 0,6–2,4 $ за переход по главному запросу. Вот как меняется цена клиента</p>
+<div class="card" style="padding:6px 8px">
+<div class="tw"><table>
+<tr><th>Средний переход</th><th class="n">Звонок</th><th class="n">Клиент</th><th>Когда так бывает</th></tr>
+<tr><td>0,8 $</td><td class="n">7–10 $</td><td class="n">13–20 $</td><td>Сильный сайт, широкий список минус-слов, не гонимся за первым местом</td></tr>
+<tr class="pick"><td><b>1,0 $</b></td><td class="n">8–13 $</td><td class="n acc">17–25 $</td><td>Обычный старт, на него и считаю</td></tr>
+<tr><td>1,2 $</td><td class="n">10–15 $</td><td class="n">20–30 $</td><td>Держим первое место по «эвакуатор минск» круглые сутки</td></tr>
+</table></div>
+</div>
+
+<h2>Откуда берутся 12 700 поисков</h2>
+<p class="h2sub">Только запросы людей, которым машину надо забрать сейчас</p>
+<div class="card" style="padding:6px 8px">
+<div class="tw"><table>
+<tr><th>Что ищут</th><th class="n">Раз в месяц</th><th class="n">Клик, $</th></tr>
+<tr><td>эвакуатор минск</td><td class="n">9 900</td><td class="n">0,64–2,40</td></tr>
+<tr><td>эвакуатор минск цена</td><td class="n">480</td><td class="n">0,57–1,49</td></tr>
+<tr><td>эвакуатор в минске</td><td class="n">480</td><td class="n">0,58–1,88</td></tr>
+<tr><td>вызвать эвакуатор</td><td class="n">320</td><td class="n">0,51–1,53</td></tr>
+<tr><td>вызвать эвакуатор минск</td><td class="n">140</td><td class="n">0,60–1,76</td></tr>
+<tr><td>стоимость эвакуатора минск</td><td class="n">110</td><td class="n">0,47–1,15</td></tr>
+<tr><td>эвакуатор минск круглосуточно</td><td class="n">110</td><td class="n">0,34–1,08</td></tr>
+<tr><td>автопомощь минск</td><td class="n">110</td><td class="n">0,37–1,32</td></tr>
+<tr><td>эвакуатор с манипулятором минск</td><td class="n">90</td><td class="n">0,81–2,50</td></tr>
+<tr><td>эвакуатор цена · круглосуточно · стоимость</td><td class="n">270</td><td class="n">0,27–1,14</td></tr>
+<tr><td>эвакуатор дёшево · недорого (Минск)</td><td class="n">240</td><td class="n">0,56–2,54</td></tr>
+<tr><td>услуги · эвакуация авто · грузовой · заказать (Минск)</td><td class="n">330</td><td class="n">0,66–2,24</td></tr>
+<tr><td>эвакуатор по районам (Уручье и др.)</td><td class="n">90</td><td class="n">0,45–1,57</td></tr>
+<tr class="tot"><td>Итого</td><td class="n">~12 700</td><td class="n">в среднем ~1</td></tr>
+</table></div>
+</div>
+<p class="small">«Клик» в таблице означает, сколько Google просит за переход, чтобы показать объявление вверху: от нижней границы до верхней. На деле средний переход выходит между ними.</p>
+
+<h2>Как считал, по шагам</h2>
+<div class="card"><div class="steps">
+ <div class="st"><i>1</i><div><b>Переходы.</b> 12 700 поисков × 7% = <b>~900 переходов</b> в месяц.<div class="f">7% — столько обычно нажимают на объявление вверху выдачи по срочной услуге</div></div></div>
+ <div class="st"><i>2</i><div><b>Бюджет.</b> 900 переходов × 1 $ = <b>~900 $</b> в месяц, то есть ~30 $ в день.</div></div>
+ <div class="st"><i>3</i><div><b>Звонки.</b> 900 × 8–12% = <b>72–108 звонков</b>. Один звонок стоит 900 $ ÷ 72–108 = <b>8–13 $</b>.<div class="f">У эвакуатора звонят чаще, чем в других нишах: человек стоит на дороге и выбирает быстро</div></div></div>
+ <div class="st"><i>4</i><div><b>Заказы.</b> Каждый второй звонок становится заказом, получается <b>36–54</b>. Один клиент стоит 900 $ ÷ 36–54 = <b class="acc">17–25 $</b>.</div></div>
+</div></div>
+
+<div class="two" style="margin-top:14px">
+ <div class="card"><b>Что удешевит клиента</b>
+  <ul class="clean small" style="color:#3b4049">
+   <li>На первом экране сайта цена «от», время подачи и большая кнопка звонка</li>
+   <li>Трубку берут сразу и называют цену</li>
+   <li>Минус-слова: «работа», «купить эвакуатор», «игрушка» и подобное</li>
+  </ul></div>
+ <div class="card"><b>А Яндекс?</b>
+  <p class="small" style="color:#3b4049;margin:6px 0 0">По тем же запросам в Минске Яндекс показывает около 7 300 поисков в месяц, почти вдвое меньше. Начинаем с Google, Яндекс подключаем вторым.</p></div>
+</div>
+
+<p class="small" style="margin-top:26px">Источник: планировщик ключевых слов Google, регион «Минск», 26.11.2026. Сколько людей нажмёт на объявление (7%), сколько позвонит (8–12%) и сколько звонков станет заказом (50%) — оценка по нише. После первой недели рекламы сверим с вашими настоящими цифрами.</p>
+</div>
+</body>
+</html>
