@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Разбор воронки</title>
+<style>
+:root{--bg:#f4f6f3;--card:rgba(255,255,255,.85);--ink:#1b1f1c;--mute:#6b736d;--line:#e3e7e2;--g:#16a34a;--gs:#e7f6ec;--soft:#eef0ee}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;color:var(--ink);
+background:radial-gradient(60% 45% at 8% 0%,#e3eee6 0,transparent 70%),radial-gradient(50% 40% at 100% 18%,#eceff6 0,transparent 70%),radial-gradient(60% 50% at 40% 100%,#f3eee5 0,transparent 70%),var(--bg);min-height:100vh}
+.wrap{max-width:940px;margin:0 auto;padding:28px 16px 70px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em}.sub{color:var(--mute);margin:0 0 20px}
+h2{font-size:20px;margin:34px 0 12px}h3{font-size:15px;margin:0 0 6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:12px;backdrop-filter:blur(8px)}
+.big{font-size:17px;line-height:1.55}
+.fun{display:flex;flex-direction:column;gap:5px}
+.row{display:grid;grid-template-columns:230px 1fr 54px;align-items:center;gap:10px;font-size:14px}
+.bar{height:20px;border-radius:6px;background:#d6dcd6;min-width:3px}.bar.acc{background:var(--g)}
+.row .n{text-align:right;font-weight:700}.row .l{color:#3d4540}
+.cv{font-size:12px;color:var(--mute);margin:-1px 0 3px 240px}
+.cv.bad{color:#9a3b1f}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}td,th{padding:7px 7px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--mute);font-weight:500}
+td.v{white-space:nowrap;font-weight:600}tr.t td.v{color:var(--g)}
+.pill{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;background:var(--soft)}
+.pill.g{background:var(--gs);color:#0f6b32}
+ul{margin:6px 0;padding-left:18px}li{margin:5px 0}p{margin:6px 0}.mute{color:var(--mute);font-size:13px}
+.weak{display:grid;grid-template-columns:34px 1fr;gap:12px}.num{width:30px;height:30px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font-weight:700}
+.weak.top .num{background:var(--g);color:#fff}
+@media(max-width:680px){.split{grid-template-columns:1fr}.row{grid-template-columns:120px 1fr 40px}.cv{margin-left:130px}table{font-size:12.5px}}
+</style></head><body><div class="wrap">
+
+<h1>Разбор всей воронки: «+», тредс, тг и все созвоны</h1>
+<p class="sub">20–26.11. Цифры из CRM (comments_leads.json, leads.json), СОЗВОНЫ.csv, итогов созвонов и actions.log. Где данных нет, так и написано.</p>
+
+<div class="card big">
+<b>Коротко:</b> лиды есть, и созвоны ставятся. Деньги теряются в двух местах. Во-первых, на созвон доходит только треть. Во-вторых, из 10 состоявшихся созвонов целевыми оказались только 4. Из этих четырёх у двоих Директ уже крутится, и наш оффер «сайт + реклама» им не подходит. Тредс почти ничего не дал: на 29 личных сообщений ноль ответов.
+</div>
+
+<h2>1. Инста: от «+» до продажи</h2>
+<div class="card fun">
+<div class="row"><span class="l">Оставили «+» или нишу</span><div class="bar" style="width:100%"></div><span class="n">174</span></div>
+<div class="row"><span class="l">Написали им первыми</span><div class="bar" style="width:79%"></div><span class="n">138</span></div>
+<div class="cv">36 ещё не написаны: дневной лимит 25 новых диалогов</div>
+<div class="row"><span class="l">Ответили</span><div class="bar" style="width:34%"></div><span class="n">60</span></div>
+<div class="cv bad">43% из написанных. 78 «+» поставили люди с пустым профилем без ниши, из них не ответил почти никто</div>
+<div class="row"><span class="l">Квалифицированы, позвали на созвон</span><div class="bar" style="width:17%"></div><span class="n">30</span></div>
+<div class="row"><span class="l">Записались (уже прошли)</span><div class="bar" style="width:10%"></div><span class="n">18</span></div>
+<div class="cv">ещё 4 записаны на завтра и 9 ждут ответа по времени</div>
+<div class="row"><span class="l">Созвон состоялся</span><div class="bar" style="width:3.4%"></div><span class="n">6</span></div>
+<div class="cv bad">6 из 18 состоялись, 9 сорвались (3 из них по нашей вине), у 3 итог не записан</div>
+<div class="row"><span class="l">Продажа</span><div class="bar acc" style="width:.4%"></div><span class="n">0</span></div>
+</div>
+
+<div class="split">
+<div class="card"><h3>Эвакуаторщики: 62 «+»</h3>
+<p>Это рабочий сегмент: 12 записались, 8 ждут время, 12 в диалоге. Нецелевых 7, в основном одиночки и те, кто хочет работать за процент.</p>
+<p class="mute">Почти все пришли с одного рилса (DgFnbt3OTXH, 23.11): 84 «+» за 24.11.</p></div>
+<div class="card"><h3>Ниша не видна: 78 «+»</h3>
+<p>Пустой или личный профиль, ниши нет. Из 51 написанного ответили двое. Это зрители, а не владельцы бизнеса. На них уходит половина дневного лимита.</p>
+<p class="mute">Остальные 34: шиномонтаж, детейлинг, тонировка, кузовной, грузоперевозки, прочее.</p></div>
+</div>
+
+<h2>2. Тредс</h2>
+<div class="split">
+<div class="card fun"><h3>Комментинг и поиск «ищу директолога»</h3>
+<div class="row"><span class="l">Лидов найдено и написано</span><div class="bar" style="width:100%"></div><span class="n">33</span></div>
+<div class="row"><span class="l">Ответили</span><div class="bar" style="width:39%"></div><span class="n">13</span></div>
+<div class="cv">6 отказ, 2 нецелевых</div>
+<div class="row"><span class="l">Записались</span><div class="bar" style="width:6%"></div><span class="n">2</span></div>
+<div class="row"><span class="l">Созвон был</span><div class="bar" style="width:3%"></div><span class="n">1</span></div>
+<div class="cv">Макеев, лучший лид недели</div>
+</div>
+<div class="card fun"><h3>Рассылка в личку тем, кто ищет подрядчика</h3>
+<div class="row"><span class="l">Написали</span><div class="bar" style="width:100%"></div><span class="n">29</span></div>
+<div class="row"><span class="l">Ответили</span><div class="bar" style="width:0"></div><span class="n">0</span></div>
+<div class="cv bad">21 молчат, 7 ещё не написаны (личка закрыта), 1 отказ</div>
+</div>
+</div>
+<div class="card">
+<ul>
+<li><b>Посты:</b> около 60 за 21–26.11, около 2 900 просмотров. Охват упал с 884 до 126 в день, вечером 26.11 поставили на паузу. Сами написали в тг после постов, по прошлому отчёту, Тимофей и IRS. Других прямых лидов с постов не видно.</li>
+<li><b>Комменты под чужими постами:</b> около 255 за неделю. Ответы почти нулевые: 25.11 ответов 0 из 37.</li>
+<li><b>Входящие в личку тредса:</b> 2 (Салават, кондиционеры, Казань: записался, отменил из-за срочной заявки, ждёт новое время).</li>
+<li><b>Итого тредс:</b> около 266 действий за 6 дней дали примерно 5 живых лидов и 1 состоявшийся созвон. Это самый дорогой по времени и самый слабый канал.</li>
+</ul>
+</div>
+
+<h2>3. Тг: кто написал сам</h2>
+<div class="card">
+<p>14 целевых сами пришли в тг (с роликов и профиля): Тимофей, Аман, Роман, Андрей Миронов, Денис, IRS, Натиг, Gug, Ильяс, vzlom_bel, Павлодар, Юсибофф, Вачик, Минск.</p>
+<p>Записались 9, состоялось 2 (Вачик, Sarfaroz), не вышли 4 (Евгений, Руслан, Юсибофф, Gug), 3 впереди. Часть ведёшь ты сам голосовыми и звонками, их итоги в CRM не попадают.</p>
+<p class="mute">Тг — самый тёплый канал: человек сам нашёл и сам написал. Но доходимость там такая же низкая.</p>
+</div>
+
+<h2>4. Все созвоны, которые состоялись</h2>
+<div class="card" style="overflow-x:auto">
+<table>
+<tr><th>Когда</th><th>Кто</th><th>Откуда</th><th>Что было</th><th>Вердикт</th></tr>
+<tr><td>21.11</td><td>Сергей Паршин, детейлинг, Астрахань</td><td>инста</td><td>Согласился на тест, оплату не прислал, пропал. Спрос маленький (~80 кликов в месяц), цену назвали раньше цифр, без реквизитов и срока.</td><td class="v">слабый спрос</td></tr>
+<tr><td>22.11</td><td>Акбар, ремонт стиралок, Москва</td><td>инста</td><td>Частный мастер с Авито. Опоздал, перенесли, на повторный не вышел.</td><td class="v">не целевой</td></tr>
+<tr><td>23.11</td><td>Азамат, грузовые запчасти, Дагестан</td><td>инста</td><td>Вышел, но было шумно, перенесли на 21:00. Ночью прислал голосовое, его передали тебе. Итог не записан.</td><td class="v">итога нет</td></tr>
+<tr class="t"><td>23.11</td><td>Алексей Макеев, кузовной, Новосибирск</td><td>тредс</td><td>Целевой. Директ уже крутится (настраивал друг), хочет масштабироваться. Дал доступ к кабинету на аудит, аудит у тебя.</td><td class="v">целевой, ждёт нас</td></tr>
+<tr><td>23.11</td><td>AT-Foliendesign, оклейка, Германия</td><td>инста</td><td>Адекватный, но город маленький, Google почти пустой. Предложили таргет.</td><td class="v">не наш формат</td></tr>
+<tr><td>24.11</td><td>Sarfaroz, духи, Душанбе</td><td>тг</td><td>Полуцелевой, «возможно, поработаем». Ты предложил решение не про рекламу.</td><td class="v">полуцелевой</td></tr>
+<tr class="t"><td>24.11</td><td>Вачик, автосервис, Сочи</td><td>тг</td><td>Супер-целевой, хочет +4–5 машин в день. Решает с компаньоном, обещал ответ 25.11. Что ответил, в CRM не записано.</td><td class="v">целевой, думает</td></tr>
+<tr class="t"><td>25.11</td><td>Демидов, эвакуатор ×2, Казань</td><td>инста</td><td>Директ уже есть. Аудит за 2 500 не взял, отказ.</td><td class="v">целевой, отказ</td></tr>
+<tr class="t"><td>25.11</td><td>Дмитрий (@Buksiir24), эвакуатор, Минск</td><td>инста → тг</td><td>Целевой, команда, заявки без ограничений. Попросил расчёт стоимости клиента, 26.11 его сделали (Google и Яндекс в долларах).</td><td class="v">целевой, ждёт расчёт</td></tr>
+<tr><td>24–26.11</td><td>Хамроз (грузоперевозки), VANRO (автостекло, Липецк), Кирилл (эвакуатор, Владимир)</td><td>инста</td><td>Созвоны стояли, итог нигде не записан.</td><td class="v">итога нет</td></tr>
+</table>
+<p class="mute" style="margin-top:8px">Записей разговоров нет, поэтому как шла сама продажа на созвоне, оценить не могу. Видно только итог.</p>
+</div>
+
+<h2>5. Что видно по созвонам</h2>
+<div class="card">
+<ul>
+<li><b>Из 10 состоявшихся целевых только 4:</b> Макеев, Вачик, Демидов, Дмитрий. Остальные — мастер-одиночка, Германия, духи, маленький спрос. На этих людей ушло твоё время, а продать им было нечего изначально.</li>
+<li><b>У двух из четырёх целевых Директ уже крутится</b> (Макеев, Демидов). Им не нужен «сайт + реклама с нуля», им нужно ведение и рост. Платный аудит за 2 500 для них звучит как лишняя трата. Демидов на этом и отвалился.</li>
+<li><b>Мяч на нашей стороне у двух самых горячих:</b> Макеев ждёт аудит с 23.11, Дмитрий ждёт расчёт с 25.11 (расчёт готов, его надо отдать и закрыть).</li>
+<li><b>Ни один созвон не закончился датой старта и реквизитами.</b> Все целевые ушли «думать» без следующего шага с датой.</li>
+<li><b>Итоги не записываются:</b> по 4 созвонам (Азамат, Хамроз, VANRO, Кирилл) неизвестно, чем кончилось. По Вачику неизвестно, что он ответил 25.11.</li>
+</ul>
+</div>
+
+<h2>6. Где рвётся и что делать</h2>
+<div class="card weak top"><div class="num">1</div><div><h3>Закрыть тех, кто уже был на созвоне</h3>
+<p>Макеев: сделать аудит и предложить ведение с датой старта. Дмитрий: отдать расчёт и в том же сообщении дать дату и реквизиты. Вачик: узнать, что решил компаньон. Это ближайшие деньги, и они уже на столе.</p></div></div>
+<div class="card weak"><div class="num">2</div><div><h3>Два оффера вместо одного</h3>
+<p>Для тех, у кого реклама уже есть, предлагать ведение и масштабирование, а разбор кабинета делать бесплатно прямо на созвоне. «Сайт + реклама с нуля» оставить для тех, у кого рекламы нет.</p></div></div>
+<div class="card weak"><div class="num">3</div><div><h3>Не писать «+» с пустых профилей первыми</h3>
+<p>78 из 174 «+» поставили люди без ниши в профиле, и они почти не отвечают. Освободившийся лимит отдать эвакуаторщикам и сервисам с видимой нишей. Пустым профилям — одна строка под «+» со ссылкой на тг, без личного сообщения.</p></div></div>
+<div class="card weak"><div class="num">4</div><div><h3>Доходимость: напоминания и номер</h3>
+<p>Напоминания утром и за час уже стоят на завтра. Делать так каждый день. Тому, кто сам дал номер, звонить на номер.</p></div></div>
+<div class="card weak"><div class="num">5</div><div><h3>Тредс: оставить посты, рассылку убрать</h3>
+<p>Рассылка в личку дала 0 ответов на 29 сообщений, комментинг почти пустой. Посты хотя бы приводят людей в тг. Время с рассылки лучше отдать дожиму тёплых.</p></div></div>
+<div class="card weak"><div class="num">6</div><div><h3>Записывать итог каждого созвона</h3>
+<p>После созвона одна строка: целевой или нет, что сказал, следующий шаг с датой. Без этого через неделю снова будет «итог не записан» и не на чем учиться.</p></div></div>
+
+</div></body></html>
