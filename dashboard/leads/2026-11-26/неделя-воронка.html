@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Неделя и воронка</title>
+<style>
+:root{--bg:#f4f6f3;--card:rgba(255,255,255,.84);--ink:#1b1f1c;--mute:#6b736d;--line:#e3e7e2;--g:#16a34a;--gs:#e7f6ec;--soft:#eef0ee}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;color:var(--ink);
+background:radial-gradient(60% 45% at 8% 0%,#e3eee6 0,transparent 70%),radial-gradient(50% 40% at 100% 18%,#eceff6 0,transparent 70%),radial-gradient(60% 50% at 40% 100%,#f3eee5 0,transparent 70%),var(--bg);min-height:100vh}
+.wrap{max-width:900px;margin:0 auto;padding:28px 16px 70px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em}.sub{color:var(--mute);margin:0 0 22px}
+h2{font-size:19px;margin:32px 0 12px}h3{font-size:15px;margin:0 0 6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:12px;backdrop-filter:blur(8px)}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.k{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.k b{display:block;font-size:26px;letter-spacing:-.02em}.k span{color:var(--mute);font-size:13px}.k.acc b{color:var(--g)}
+.fun{display:flex;flex-direction:column;gap:6px}
+.row{display:grid;grid-template-columns:180px 1fr 60px;align-items:center;gap:10px;font-size:14px}
+.bar{height:22px;border-radius:6px;background:#d9ded9}.bar.acc{background:var(--g)}
+.row .n{text-align:right;font-weight:600}.row .l{color:var(--mute)}
+.conv{font-size:12px;color:var(--mute);margin:-2px 0 2px 190px}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--mute);font-weight:500}
+tr.pick td{background:var(--gs)}tr.pick td:last-child{color:var(--g);font-weight:700}
+.weak{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}
+.num{width:30px;height:30px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font-weight:700}
+.weak.top .num{background:var(--g);color:#fff}
+p{margin:6px 0}.mute{color:var(--mute);font-size:13px}ul{margin:6px 0;padding-left:18px}li{margin:4px 0}
+@media(max-width:640px){.kpi{grid-template-columns:repeat(2,1fr)}.row{grid-template-columns:110px 1fr 44px}.conv{margin-left:120px}}
+</style></head><body><div class="wrap">
+
+<h1>Неделя 20–26.11 и взгляд на воронку со стороны</h1>
+<p class="sub">Цифры из CRM (comments_leads.json, leads.json), СОЗВОНЫ.csv и итогов созвонов. Где оценка, так и написано.</p>
+
+<div class="kpi">
+<div class="k"><b>242</b><span>лидов за неделю (174 инста «+», 68 тг и тредс)</span></div>
+<div class="k"><b>~35</b><span>целевых реально (оценка)</span></div>
+<div class="k"><b>29 → 9</b><span>созвонов назначено → состоялось</span></div>
+<div class="k acc"><b>0</b><span>продаж</span></div>
+</div>
+
+<h2>Что сделано за неделю</h2>
+<div class="card"><ul>
+<li><b>Инста midnaix_work:</b> найдено 174 лидовых коммента («+», ниша), написали первыми 138, ответили 60. 36 ещё ждут первого сообщения: упёрлись в лимит 25 новых диалогов в день.</li>
+<li><b>Тг и тредс:</b> 68 лидов в CRM, из них 18 пришли только сегодня.</li>
+<li><b>Тредс:</b> 57 постов за 21–25.11 (2 775 просмотров, охват упал с 884 до 126 в день), около 255 комментов под чужими постами, 23+ сообщений в личку тем, кто ищет подрядчика. 26.11 сменили формат постов, вечером поставили посты на паузу.</li>
+<li><b>Созвоны:</b> назначено 29, состоялось 9, лид не вышел 13, сорвали мы 3, отменил сам 1, итог не записан 3 (Хамроз, VANRO, Кирилл 26.11).</li>
+<li><b>Расчёты и КП:</b> Минск (эвакуатор, Google и Яндекс в долларах), Тольятти (Роман), Энгельс (Андрей Миронов), цены по эвакуаторам в 21 городе, список обзвона из 24 номеров.</li>
+<li><b>На завтра и субботу:</b> записано ещё 10 созвонов. Утром и за час до каждого им уйдёт напоминание.</li>
+</ul></div>
+
+<h2>Сколько из них целевых на самом деле</h2>
+<div class="card">
+<p>Целевой здесь значит владелец бизнеса с командой (2+ машины или 2+ человека), в нише, где поиск продаёт, и он ответил на квалификацию.</p>
+<ul>
+<li>До записи на созвон за неделю дошли 35 разных людей, включая завтрашних. Целевых из них по переписке около 27. Не целевые: духи в Душанбе, оклейка в маленьком городе Германии, Газель-одиночка, человек, перепутавший нас с другим проектом, и пара непонятных.</li>
+<li>Ещё около 8–10 целевых висят в диалоге или со слотами: Вачик (Сочи), Макеев, Дмитрий (Минск), Buksiir24 (Минск), Андрей Миронов, Салават (Казань), Ковров, Казань-выкуп.</li>
+<li>Из 60 ответивших с «+» каждый шестой нецелевой или отказ. Из 70 написанных, кто молчит, многие профили пустые, ниша не видна.</li>
+</ul>
+<p class="mute">Итого целевых около 35 на 242 лида, то есть 1 из 7. Это оценка по переписке, строгой разметки «целевой да/нет» в CRM нет.</p>
+</div>
+
+<h2>Воронка недели</h2>
+<div class="card fun">
+<div class="row"><span class="l">Лиды (все каналы)</span><div class="bar" style="width:100%"></div><span class="n">242</span></div>
+<div class="row"><span class="l">Ответили на первое</span><div class="bar" style="width:40%"></div><span class="n">~95</span></div>
+<div class="conv">≈ 45% инста, тг и тредс отвечают чаще</div>
+<div class="row"><span class="l">Целевые после квалификации</span><div class="bar" style="width:15%"></div><span class="n">~35</span></div>
+<div class="row"><span class="l">Созвон назначен</span><div class="bar" style="width:12%"></div><span class="n">29</span></div>
+<div class="row"><span class="l">Созвон состоялся</span><div class="bar" style="width:4%"></div><span class="n">9</span></div>
+<div class="conv">31% доходимость, 3 срыва на нас</div>
+<div class="row"><span class="l">Продажа</span><div class="bar acc" style="width:.6%"></div><span class="n">0</span></div>
+<p class="mute" style="margin-top:8px">«Ответили» по тг и тредс посчитаны примерно: в leads.json статусы не все обновлены.</p>
+</div>
+
+<h2>Сколько реально можно продать этой воронкой</h2>
+<div class="card">
+<p>Верх воронки уже даёт около 30 назначенных созвонов в неделю. Ломается низ. Если довести его до нормальных для услуг малому бизнесу цифр:</p>
+<table>
+<tr><th>Сценарий</th><th>Доходимость</th><th>Закрытие со состоявшегося</th><th>Продаж в неделю</th><th>В месяц</th></tr>
+<tr><td>Сейчас</td><td>31%</td><td>0 из 9</td><td>0</td><td>0</td></tr>
+<tr><td>Только напоминания и звонок на номер тем, кто просит</td><td>55%</td><td>5%</td><td>~1</td><td>3–4</td></tr>
+<tr class="pick"><td>Плюс оффер с датой старта и дожим на следующий день</td><td>60%</td><td>10–12%</td><td>~2</td><td>6–8</td></tr>
+<tr><td>Плюс сдвиг в ниши с чеком (СТО, ремонт и кухни под ключ)</td><td>60%</td><td>15%+</td><td>~3</td><td>10+</td></tr>
+</table>
+<p class="mute">Доходимость и закрытие взяты как ориентиры, не как наша статистика: своих продаж для расчёта пока нет. Выручка — это число продаж, умноженное на твой чек. Ещё один потолок — твоё время: каждый клиент — это сайт и запуск рекламы. Вести одновременно больше 6–8 новых ты вряд ли вытянешь один.</p>
+<p><b>Реалистично:</b> первые 2–3 продажи можно сделать за ближайшую неделю из уже тёплых (Вачик, Макеев, Минск ×2, Андрей Миронов). Дальше около 6–8 в месяц, если закрыть дыры ниже.</p>
+</div>
+
+<h2>Где самые слабые места</h2>
+<div class="card weak top"><div class="num">1</div><div><h3>Созвон не заканчивается продажей: 0 из 9</h3>
+<p>Ни один созвон не закончился счётом или датой старта. Все 9 ответили «думаю». После созвона почти никого не дожимали на следующий день. Самый тёплый (Макеев) три дня ждал от нас аудит. Это самая дорогая дыра: всё, что выше, уже оплачено твоим временем.</p>
+<p><b>Чинить:</b> заканчивать каждый созвон шагом с датой («пришлю КП сегодня, старт в понедельник, реквизиты завтра в 12»), КП в тот же вечер, дожим на следующий день.</p></div></div>
+
+<div class="card weak"><div class="num">2</div><div><h3>Половина потока — мелкие эвакуаторщики с одного рилса</h3>
+<p>84 «+» пришли за один день с одного ролика про эвакуаторы. Это люди с 1–4 машинами: днём и вечером на заказах, денег на сайт и рекламу впритык. «+» ничего не стоит поставить. Целевые, которые реально вышли на созвон (Макеев, Вачик, Минск), пришли через тг и тредс и написали сами.</p>
+<p><b>Чинить:</b> на созвон звать с командой от 3 машин или людей. Одиночек отпускать одной фразой или отдавать авитологу.</p></div></div>
+
+<div class="card weak"><div class="num">3</div><div><h3>Доходимость 31%</h3>
+<p>13 человек не вышли, 3 созвона сорвали мы (не было ссылки, ты был в дороге, записали без подтверждения). Время ставили на завтра и послезавтра, а напоминаний не было. 7 человек сами просили звонок на номер, а их тянули в зум.</p>
+<p><b>Чинить:</b> напоминание утром и за час (на завтра уже стоит), ссылку за 10 минут, тому, кто сам дал номер, звонить на номер, назначать на сегодня или завтра.</p></div></div>
+
+<div class="card weak"><div class="num">4</div><div><h3>Верх воронки держится на удаче</h3>
+<p>Охват тредса упал с 884 до 126 просмотров в день, посты на паузе. Под нашими комментами почти никто не отвечает (25.11 ответов 0 из 37). Инста даёт пики, когда залетает рилс, а между ними тишина.</p></div></div>
+
+<div class="card weak"><div class="num">5</div><div><h3>Всё держится на одном человеке и на мне</h3>
+<p>Закрываешь ты один, и созвоны идут подряд по 9 в день, без окон на КП и дожим. Переписку, лимиты и записи веду я. Завтра заканчивается подписка, и без неё воронка встанет: никто не напишет 36 «+» и не отправит напоминания.</p>
+<p><b>Чинить:</b> не больше 5–6 созвонов в день, а между ними окна на КП. Решить вопрос с подпиской или конвейером до того, как она кончится.</p></div></div>
+
+<h2>Что делать на этой неделе</h2>
+<div class="card"><ul>
+<li>Дожать тёплых: Вачик, Макеев (аудит), Дмитрий и Buksiir24 из Минска, Андрей Миронов. Это ближайшие деньги.</li>
+<li>Каждый завтрашний созвон заканчивать датой старта и в тот же вечер присылать КП. Дожим на следующий день делаю я.</li>
+<li>Новые «+» брать только у тех, у кого 3+ машины или люди. Остальных не тащить на созвон.</li>
+</ul></div>
+
+</div></body></html>
