@@ -1,0 +1,141 @@
+<title>Механизм от касания до денег</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+/* Слой: конвейер сверху вниз — каждый этап это винтик с цифрой, конверсией и метрикой; ниже каналы и что мерить */
+:root{--bg:#f3f5f2;--card:rgba(255,255,255,.86);--ink:#18201b;--mute:#66706a;--line:#e1e6e0;--g:#16a34a;--gs:#e6f5eb;--warn:#b45309;--ws:#fdf3e4;--bad:#b91c1c;--bs:#fdecec;
+--fd:"Space Grotesk",Inter,system-ui,sans-serif;--fb:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 var(--fb);color:var(--ink);background:radial-gradient(55% 40% at 6% 0%,#dfede4 0,transparent 70%),radial-gradient(45% 35% at 100% 12%,#e9edf5 0,transparent 70%),radial-gradient(60% 45% at 40% 100%,#f2ece2 0,transparent 70%),var(--bg);min-height:100vh}
+.wrap{max-width:960px;margin:0 auto;padding-block:28px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font:700 30px/1.15 var(--fd);letter-spacing:-.02em;margin:0 0 6px;text-wrap:balance}
+h2{font:600 20px/1.2 var(--fd);margin:36px 0 12px;text-wrap:balance}
+.sub{color:var(--mute);margin:0 0 20px;max-width:70ch}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;backdrop-filter:blur(8px)}
+.mute{color:var(--mute);font-size:13px}
+.tn{font-variant-numeric:tabular-nums}
+
+/* конвейер */
+.belt{display:flex;flex-direction:column;gap:0}
+.st{display:grid;grid-template-columns:150px 1fr 230px;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;position:relative}
+.st .nm{font-weight:600;font-size:14px}.st .nm small{display:block;color:var(--mute);font-weight:400;font-size:12px}
+.st .bw{display:flex;align-items:center;gap:10px;min-width:0}
+.st .bar{height:26px;border-radius:7px;background:#cfd8d1;flex:none}
+.st .val{font:700 22px var(--fd);font-variant-numeric:tabular-nums}
+.st .met{font-size:12.5px;color:var(--mute);min-width:0}
+.st .met b{color:var(--ink);font-weight:600}
+.st.ok .bar{background:#9ccfaf}.st.warn{background:var(--ws);border-color:#f1d8b0}.st.warn .bar{background:#e7b46a}
+.st.bad{background:var(--bs);border-color:#f3c9c9}.st.bad .bar{background:#e58c8c}
+.st.money .bar{background:var(--g)}.st.money .val{color:var(--g)}
+.join{display:flex;align-items:center;gap:8px;padding:4px 0 4px 166px;font-size:12.5px;color:var(--mute)}
+.join .pct{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.join.warn .pct{color:var(--warn)}.join.bad .pct{color:var(--bad)}
+.pill{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:99px;background:#eef1ee;color:#3c4640;margin-left:6px;font-weight:500}
+.pill.me{background:var(--gs);color:#11632f}.pill.mx{background:#e9eef7;color:#2b4677}
+
+/* легенда */
+.leg{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--mute);margin:0 0 10px}
+.leg span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+
+/* таблица каналов */
+.tw{overflow-x:auto;border-radius:16px;border:1px solid var(--line);background:var(--card)}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:720px}
+th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+th{color:var(--mute);font-weight:500;font-size:12.5px}
+td.z{color:var(--bad);font-weight:600}td.na{color:#9aa39d}
+tr:last-child td{border-bottom:0}
+tr.sum td{font-weight:700;background:#f6f8f5}
+
+/* сетки */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.g2>*{min-width:0}
+ul{margin:6px 0;padding-left:18px}li{margin:4px 0}
+.k{font:700 26px var(--fd);letter-spacing:-.02em}
+.mtab td{text-align:left;white-space:normal;vertical-align:top}.mtab{min-width:620px}
+.tag{font-size:12px;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.tag.y{background:var(--gs);color:#11632f}.tag.n{background:var(--bs);color:var(--bad)}.tag.p{background:var(--ws);color:var(--warn)}
+
+@media(max-width:720px){
+.st{grid-template-columns:1fr;gap:6px}
+.join{padding-left:6px}
+.g2{grid-template-columns:1fr}
+h1{font-size:25px}
+}
+</style>
+
+<div class="wrap">
+<h1>Механизм: от касания до денег</h1>
+<p class="sub">Вся воронка как одна машина. Каждый этап — винтик со своей цифрой, конверсией и метрикой. Данные за 20–26.11 по всем каналам, которые веду я (инста «+», комментинг и рассылка в тредсе, входящие в тг). Источники: CRM, СОЗВОНЫ.csv, итоги созвонов.</p>
+
+<div class="leg"><span style="--c:#9ccfaf">крутится</span><span style="--c:#e7b46a">теряем много</span><span style="--c:#e58c8c">сломано</span><span style="--c:#16a34a">деньги</span></div>
+
+<div class="belt">
+<div class="st ok"><div class="nm">1. Касание<small>рилс, пост, коммент</small></div><div class="bw"><div class="bar" style="width:100%"></div></div><div class="met">Тредс: 60 постов, ~2 900 просмотров, ~255 комментов. Просмотры рилсов в CRM <b>не пишем</b>. <span class="pill me">я</span></div></div>
+<div class="join"><span>→</span><span>сколько касаний превратились в сигнал: <b>не меряем</b>, нужны просмотры рилсов</span></div>
+
+<div class="st ok"><div class="nm">2. Сигнал<small>«+», ответ, сам написал</small></div><div class="bw"><div class="bar" style="width:100%"></div><span class="val">221</span></div><div class="met">174 «+» в инсте, 33 из комментинга, 14 сами в тг. Метрика: <b>сигналов в день</b>. <span class="pill me">я</span></div></div>
+<div class="join"><span class="pct">84%</span><span>написали первыми · 36 «+» ждут, упираемся в лимит 25/день</span></div>
+
+<div class="st ok"><div class="nm">3. Первое сообщение</div><div class="bw"><div class="bar" style="width:84%"></div><span class="val">185</span></div><div class="met">Метрика: <b>% отписанных за сутки</b>. Потолок — лимит аккаунта. <span class="pill me">я</span></div></div>
+<div class="join warn"><span class="pct">47%</span><span>ответили · у 78 «+» пустой профиль, из 51 написанных ответили 2</span></div>
+
+<div class="st warn"><div class="nm">4. Ответил</div><div class="bw"><div class="bar" style="width:39%"></div><span class="val">87</span></div><div class="met">Метрика: <b>% ответа на первое</b>, отдельно по каналу. <span class="pill me">я</span></div></div>
+<div class="join warn"><span class="pct">~40%</span><span>прошли квалификацию · «сколько заявок обработаете», «сколько людей»</span></div>
+
+<div class="st warn"><div class="nm">5. Целевой<small>оценка по переписке</small></div><div class="bw"><div class="bar" style="width:16%"></div><span class="val">~35</span></div><div class="met">Пометки «целевой да/нет» в CRM <b>нет</b> — завожу поле. <span class="pill me">я</span></div></div>
+<div class="join"><span class="pct">83%</span><span>записались на созвон</span></div>
+
+<div class="st ok"><div class="nm">6. Созвон назначен</div><div class="bw"><div class="bar" style="width:13%"></div><span class="val">29</span></div><div class="met">Метрика: <b>записей в день</b>, не больше 5–6 на день Максима. <span class="pill me">я</span></div></div>
+<div class="join bad"><span class="pct">31%</span><span>дошли · 13 не вышли, 3 сорвали мы, напоминаний не было</span></div>
+
+<div class="st bad"><div class="nm">7. Созвон состоялся</div><div class="bw"><div class="bar" style="width:4%"></div><span class="val">9</span></div><div class="met">Метрика: <b>доходимость</b>. С 27.11 напоминание утром и за час. <span class="pill me">я</span><span class="pill mx">Максим</span></div></div>
+<div class="join bad"><span class="pct">?</span><span>получили КП или дату старта: <b>не записываем</b></span></div>
+
+<div class="st bad"><div class="nm">8. КП / следующий шаг</div><div class="bw"><div class="bar" style="width:2%"></div><span class="val">?</span></div><div class="met">Метрика: <b>% созвонов с датой старта</b>. Итог 4 созвонов не записан. <span class="pill mx">Максим</span></div></div>
+<div class="join bad"><span class="pct">0%</span><span>оплатили</span></div>
+
+<div class="st bad money"><div class="nm">9. Деньги</div><div class="bw"><div class="bar" style="width:1%"></div><span class="val">0</span></div><div class="met">Метрика: <b>оплат в неделю × чек</b>. Тёплые: Вачик, Макеев, Минск. <span class="pill mx">Максим</span></div></div>
+</div>
+<p class="mute" style="margin-top:10px">Ширина полосы — доля от 221 сигнала. «~» — оценка, «?» — данных нет, не выдумываю.</p>
+
+<h2>Винтики по каналам</h2>
+<div class="tw"><table>
+<tr><th>Канал</th><th>Сигнал</th><th>Написали</th><th>Ответили</th><th>% ответа</th><th>Созвон</th><th>Был</th><th>Деньги</th></tr>
+<tr><td>Инста «+» (midnaix_work)</td><td>174</td><td>138</td><td>60</td><td>43%</td><td>18</td><td>6</td><td class="z">0</td></tr>
+<tr><td>Тредс, комментинг</td><td>33</td><td>33</td><td>13</td><td>39%</td><td>2</td><td>1</td><td class="z">0</td></tr>
+<tr><td>Тредс, рассылка</td><td>29</td><td>29</td><td class="z">0</td><td class="z">0%</td><td class="z">0</td><td class="z">0</td><td class="z">0</td></tr>
+<tr><td>Тг, написали сами</td><td>14</td><td>—</td><td>14</td><td>100%</td><td>9</td><td>2</td><td class="z">0</td></tr>
+<tr><td>Тг-рассылка Ангелины и Арсена (ведёшь ты)</td><td class="na">?</td><td class="na">?</td><td class="na">?</td><td class="na">?</td><td>11</td><td class="na">?</td><td class="na">?</td></tr>
+<tr class="sum"><td>Итого по моим каналам</td><td>250</td><td>200</td><td>87</td><td>~44%</td><td>29</td><td>9</td><td class="z">0</td></tr>
+</table></div>
+<p class="mute">Созвоны по инсте — только на прошедшие даты; ещё 9 стоят на 27–28.11. Самый тёплый канал — тг: кто пишет сам, тот и доходит.</p>
+
+<h2>Второй аккаунт в инсте</h2>
+<div class="g2">
+<div class="card"><div class="k tn">+25</div><p class="mute" style="margin-top:0">первых сообщений в сутки сверху</p>
+<p>Да, можно. Он расширяет только винтик 3. Сейчас там очередь из 36 «+». Со вторым аккаунтом очередь разгребается за день, а не за два.</p>
+<p>Деньги это не прибавит само по себе: ломаются этапы 7–9. Поэтому второй аккаунт — после того как доходимость поднимется выше 50%.</p></div>
+<div class="card"><h3 style="margin:0 0 6px;font:600 15px var(--fd)">Что для этого нужно</h3><ul>
+<li>Входишь в аккаунт ты сам в Chrome. Пароли я не ввожу.</li>
+<li>Первые 3 дня: не больше 3 новых в час и 15 в день, потом 4 в час и 25 в день.</li>
+<li>В CRM ставлю метку аккаунта, чтобы мерить каждый отдельно.</li>
+<li>Чей аккаунт — твой второй или новый? От этого зависит прогрев.</li>
+</ul></div>
+</div>
+
+<h2>Что меряем каждый день</h2>
+<div class="tw"><table class="mtab">
+<tr><th>Винтик</th><th>Метрика</th><th>Откуда беру</th><th>Сейчас</th></tr>
+<tr><td>Касание</td><td>Просмотры рилсов и постов за сутки</td><td>vidIQ, тредс</td><td><span class="tag p">тредс есть, инсты нет</span></td></tr>
+<tr><td>Сигнал</td><td>Новых «+» и входящих за сутки, по каналу</td><td>CRM</td><td><span class="tag y">есть</span></td></tr>
+<tr><td>Первое сообщение</td><td>% отписанных, очередь</td><td>CRM, actions.log</td><td><span class="tag y">есть</span></td></tr>
+<tr><td>Ответил</td><td>% ответа, отдельно пустые профили</td><td>CRM</td><td><span class="tag y">есть</span></td></tr>
+<tr><td>Целевой</td><td>Целевой да/нет после квалификации</td><td>CRM, новое поле</td><td><span class="tag n">нет, завожу</span></td></tr>
+<tr><td>Созвон назначен</td><td>Записей в день</td><td>СОЗВОНЫ.csv</td><td><span class="tag y">есть</span></td></tr>
+<tr><td>Созвон состоялся</td><td>Доходимость</td><td>СОЗВОНЫ.csv</td><td><span class="tag p">есть, итоги не все</span></td></tr>
+<tr><td>КП / шаг</td><td>КП отправлено, дата старта названа</td><td>от тебя после звонка</td><td><span class="tag n">нет</span></td></tr>
+<tr><td>Деньги</td><td>Оплата, сумма, из какого канала</td><td>от тебя</td><td><span class="tag n">нет</span></td></tr>
+</table></div>
+<p class="mute">Чтобы этапы 8–9 перестали быть «?», после каждого звонка нужна одна строка от тебя: «был / не был, КП да/нет, дата старта или отказ».</p>
+</div>
