@@ -1,0 +1,400 @@
+<title>Лиды 23–27.11</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: одна колонка отчёта 1040px, сводка → воронка → дни → каналы → ниши → таблица → горячие → выводы. Только светлая тема. */
+:root{
+  color-scheme: light;
+  --bg:#EEF8F2;
+  --mint:#D6F1E2;
+  --card:#FFFFFF;
+  --ink:#14281E;
+  --muted:#5D7268;
+  --line:#DCE8E1;
+  --accent:#17B26A;
+  --accent-soft:#E2F6EC;
+  --bad:#C9534C;
+  --bad-soft:#F8E6E4;
+  --warn:#B88A2E;
+  --warn-soft:#F6EEDC;
+  --grey:#A9B5AE;
+  --f-display:"Unbounded", "Arial Black", system-ui, sans-serif;
+  --f-text:"Onest", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; color:var(--ink); font-family:var(--f-text); font-size:15px; line-height:1.55;
+  background-color:var(--bg);
+  background-image:
+    radial-gradient(60% 40% at 8% 0%, #CDEFDD 0%, transparent 70%),
+    radial-gradient(50% 35% at 100% 10%, #E4F7D9 0%, transparent 70%),
+    radial-gradient(70% 50% at 50% 100%, #D9F2EA 0%, transparent 70%);
+  background-attachment: fixed;
+}
+.wrap{max-width:1040px; margin:0 auto; padding-block:32px 64px;
+  padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px));
+  display:flex; flex-direction:column; gap:36px}
+h1,h2,h3{font-family:var(--f-display); font-weight:700; text-wrap:balance; margin:0; letter-spacing:-.01em}
+h1{font-size:clamp(26px,5vw,40px); line-height:1.1}
+h2{font-size:clamp(18px,3vw,22px)}
+h3{font-size:15px; font-weight:500}
+p{margin:0}
+.mono{font-family:var(--f-mono); font-size:12px; color:var(--muted); letter-spacing:.02em}
+.eyebrow{font-family:var(--f-mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted)}
+.lead{color:var(--muted); max-width:68ch}
+section{display:flex; flex-direction:column; gap:14px; min-width:0}
+.card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; min-width:0}
+.grid2{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:14px}
+.note{font-size:13px; color:var(--muted)}
+b.g{color:var(--accent)} b.r{color:var(--bad)}
+
+/* hero */
+header{display:flex; flex-direction:column; gap:10px}
+
+/* KPI */
+.kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:10px}
+.kpi{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 14px 12px; display:flex; flex-direction:column; gap:4px; min-width:0}
+.kpi .n{font-family:var(--f-display); font-weight:700; font-size:clamp(26px,4.4vw,38px); line-height:1; font-variant-numeric:tabular-nums}
+.kpi .l{font-size:13px; font-weight:600}
+.kpi .s{font-family:var(--f-mono); font-size:11.5px; color:var(--muted)}
+.kpi.ok .n{color:var(--accent)} .kpi.bad .n{color:var(--bad)}
+@media (max-width:720px){.kpis{grid-template-columns:repeat(2,1fr)}}
+
+/* funnel */
+.funnel{display:flex; flex-direction:column; gap:6px}
+.fr{display:grid; grid-template-columns:minmax(0,190px) minmax(0,1fr) 64px; gap:12px; align-items:center}
+.fr .lab{font-size:13.5px; font-weight:500}
+.fr .lab small{display:block; font-family:var(--f-mono); font-size:11px; color:var(--muted); font-weight:400}
+.fr .bar{height:26px; background:var(--accent-soft); border-radius:6px; position:relative; overflow:hidden}
+.fr .bar i{position:absolute; inset:0 auto 0 0; background:var(--accent); border-radius:6px; min-width:3px}
+.fr .bar.zero i{background:var(--bad)}
+.fr .val{font-family:var(--f-display); font-weight:700; font-size:18px; text-align:right; font-variant-numeric:tabular-nums}
+.conv{display:grid; grid-template-columns:minmax(0,190px) minmax(0,1fr) 64px; gap:12px}
+.conv span{grid-column:2; font-family:var(--f-mono); font-size:11.5px; color:var(--muted); padding-left:4px}
+.conv span.low{color:var(--bad)}
+@media (max-width:560px){
+  .fr,.conv{grid-template-columns:minmax(0,1fr) 52px}
+  .fr .lab{grid-column:1/3}
+  .fr .bar{grid-column:1}
+  .conv span{grid-column:1}
+}
+
+/* charts */
+.chart{position:relative; height:280px}
+.legend{display:flex; flex-wrap:wrap; gap:6px 14px; font-size:12.5px; color:var(--muted)}
+.legend span{display:inline-flex; align-items:center; gap:6px}
+.legend i{width:10px; height:10px; border-radius:3px; display:inline-block}
+
+/* tables */
+.tw{overflow-x:auto; border:1px solid var(--line); border-radius:14px; background:var(--card)}
+table{border-collapse:collapse; width:100%; font-size:13.5px}
+th,td{text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+th{font-family:var(--f-mono); font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); background:#F6FBF8; white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.num{font-variant-numeric:tabular-nums; text-align:right; white-space:nowrap}
+th.num{text-align:right}
+td.t{font-family:var(--f-mono); font-size:12px; white-space:nowrap; color:var(--muted)}
+td.who{font-weight:600; white-space:nowrap}
+.calls{min-width:860px}
+tr.day td{background:#F3FAF6; font-family:var(--f-mono); font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); padding-block:6px}
+.pill{display:inline-block; padding:2px 8px; border-radius:999px; font-size:11.5px; font-weight:600; white-space:nowrap}
+.p-ok{background:var(--accent-soft); color:#0B7A47}
+.p-no{background:var(--bad-soft); color:var(--bad)}
+.p-we{background:var(--bad); color:#fff}
+.p-mv{background:var(--warn-soft); color:#8A6417}
+.p-un{background:#EEF2F0; color:var(--muted)}
+.tag{display:inline-block; padding:1px 7px; border-radius:6px; font-size:11.5px; font-weight:600}
+.t-hot{background:var(--accent); color:#fff}
+.t-tg{background:var(--accent-soft); color:#0B7A47}
+.t-no{background:#EEF2F0; color:var(--muted)}
+
+/* hot leads */
+.hot{display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:12px}
+.hl{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 16px; display:flex; flex-direction:column; gap:6px; min-width:0}
+.hl.top{border-color:var(--accent); box-shadow:0 0 0 1px var(--accent) inset}
+.hl .h{display:flex; justify-content:space-between; gap:8px; align-items:baseline; flex-wrap:wrap}
+.hl .nm{font-weight:600}
+.hl .when{font-family:var(--f-mono); font-size:11.5px; color:var(--accent); white-space:nowrap}
+.hl .what{font-size:13.5px; color:var(--muted)}
+.hl .do{font-size:13.5px}
+.hl .do b{font-weight:600}
+
+/* findings */
+.find{display:flex; flex-direction:column; gap:10px; counter-reset:f}
+.find li{list-style:none; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 14px 12px 50px; position:relative; font-size:14.5px}
+.find li::before{counter-increment:f; content:counter(f); position:absolute; left:14px; top:11px; font-family:var(--f-display); font-weight:700; color:var(--accent); font-size:18px}
+.find li.bad::before{color:var(--bad)}
+.find{padding:0; margin:0}
+.src{font-size:12.5px; color:var(--muted); display:flex; flex-direction:column; gap:4px}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Лидогенерация · пн 23.11 – пт 27.11.2026 · время Тбилиси (+04)</span>
+  <h1>Неделя 23–27.11: 37 созвонов, 13 состоялось, 6 целевых</h1>
+  <p class="lead">Инстаграм midnaix_work, тредс @midnaix_m, телеграм и рассылка. Цифры из actions.log, CRM, СОЗВОНЫ.csv, итогов созвонов и журнала. Итоги 27.11 внесены со слов Максима. Где данных нет, так и написано.</p>
+</header>
+
+<section>
+  <h2>Сводка недели</h2>
+  <div class="kpis">
+    <div class="kpi"><span class="n">304</span><span class="l">человека получили касание</span><span class="s">инста 123 · тредс 187 · личка 39</span></div>
+    <div class="kpi"><span class="n">107</span><span class="l">ответили, в диалоге</span><span class="s">35% от касаний · 322 сообщения</span></div>
+    <div class="kpi"><span class="n">~43</span><span class="l">квалифицированы, позваны</span><span class="s">оценка: 33 записались + 10 ждут время</span></div>
+    <div class="kpi"><span class="n">37</span><span class="l">созвонов назначено</span><span class="s">33 человека, 4 повторно</span></div>
+    <div class="kpi ok"><span class="n">13</span><span class="l">созвонов состоялось</span><span class="s">35% от назначенных</span></div>
+    <div class="kpi bad"><span class="n">17</span><span class="l">не вышли</span><span class="s">лид 13 · сорвали мы 4</span></div>
+    <div class="kpi ok"><span class="n">6</span><span class="l">целевых</span><span class="s">из 13 состоявшихся · +1 «позже»</span></div>
+    <div class="kpi"><span class="n">1</span><span class="l">КП отправлено после созвона</span><span class="s">Эмиль · оплат 0</span></div>
+  </div>
+  <p class="note">Ещё 3 созвона перенёс или отменил сам лид, у 3 итог не записан, 1 не состоялся без записанной причины (Хамроз). КП-расчётов к созвонам подготовлено 25 (CRM/kp), но это материалы до созвона, а не отправленные предложения.</p>
+</section>
+
+<section>
+  <h2>Воронка недели</h2>
+  <div class="card">
+    <div class="funnel">
+      <div class="fr"><div class="lab">Касание<small>уникальные ники, actions.log</small></div><div class="bar"><i style="width:100%"></i></div><div class="val">304</div></div>
+      <div class="conv"><span>35% ответили</span></div>
+      <div class="fr"><div class="lab">Ответ, диалог<small>уникальные в «диалог»</small></div><div class="bar"><i style="width:35.2%"></i></div><div class="val">107</div></div>
+      <div class="conv"><span>~40% квалифицированы и позваны</span></div>
+      <div class="fr"><div class="lab">Квалификация<small>оценка</small></div><div class="bar"><i style="width:14.1%"></i></div><div class="val">~43</div></div>
+      <div class="conv"><span>~77% записались</span></div>
+      <div class="fr"><div class="lab">Созвон назначен<small>33 человека / 37 слотов</small></div><div class="bar"><i style="width:10.9%"></i></div><div class="val">33</div></div>
+      <div class="conv"><span class="low">35% слотов состоялось (38% без 3 незаписанных)</span></div>
+      <div class="fr"><div class="lab">Созвон состоялся</div><div class="bar"><i style="width:4.3%"></i></div><div class="val">13</div></div>
+      <div class="conv"><span>46% оказались целевыми</span></div>
+      <div class="fr"><div class="lab">Целевой</div><div class="bar"><i style="width:2%"></i></div><div class="val">6</div></div>
+      <div class="conv"><span class="low">1 из 6 получил КП</span></div>
+      <div class="fr"><div class="lab">КП отправлено</div><div class="bar"><i style="width:.33%"></i></div><div class="val">1</div></div>
+      <div class="conv"><span class="low">оплат нет</span></div>
+      <div class="fr"><div class="lab">Оплата</div><div class="bar zero"><i style="width:0;min-width:0"></i></div><div class="val" style="color:var(--bad)">0</div></div>
+    </div>
+  </div>
+  <p class="note">Ширина полос в одном масштабе от 304. Касания и ответы — люди этой недели; среди созвонов есть лиды, найденные 20–22.11 (Макеев, Вачик, Sarfaroz, Foliendesign), поэтому этапы «квалификация → созвон» сравнимы только примерно.</p>
+</section>
+
+<section>
+  <h2>По дням</h2>
+  <div class="grid2">
+    <div class="card" style="display:flex;flex-direction:column;gap:10px">
+      <h3>Действия по каналам</h3>
+      <div class="legend">
+        <span><i style="background:#0E7A47"></i>диалоги</span>
+        <span><i style="background:#17B26A"></i>инста</span>
+        <span><i style="background:#8ED9B3"></i>тредс-комменты</span>
+        <span><i style="background:#C9EBD8"></i>тредс-посты</span>
+        <span><i style="background:#7B8F85"></i>личка (сообщение)</span>
+      </div>
+      <div class="chart"><canvas id="cAct" aria-label="Действия по дням и каналам"></canvas></div>
+      <p class="note">Пн 156 · вт 161 · ср 153 · чт 138 · пт 184. Отдельного тг-аутрича в журнале нет: тг-переписку с горячими ведёт Максим, её объём — нет данных.</p>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;gap:10px">
+      <h3>Созвоны</h3>
+      <div class="legend">
+        <span><i style="background:#17B26A"></i>состоялся</span>
+        <span><i style="background:#C9534C"></i>лид не вышел</span>
+        <span><i style="background:#7E2F2A"></i>сорвали мы</span>
+        <span><i style="background:#D9B56A"></i>перенос / отмена лидом</span>
+        <span><i style="background:#CBD5D0"></i>итог не записан</span>
+      </div>
+      <div class="chart"><canvas id="cCalls" aria-label="Созвоны по дням"></canvas></div>
+      <p class="note">Ср 25.11: 10 созвонов на один вечер, состоялось 2, три сорвали мы. Пт 27.11 с напоминаниями утром и за час: 6 из 11.</p>
+    </div>
+  </div>
+  <div class="tw">
+    <table>
+      <thead><tr><th>День</th><th class="num">Действий</th><th class="num">Новых лидов в CRM</th><th class="num">Созвонов</th><th class="num">Состоялось</th><th class="num">Доходимость</th><th>Посты тредса, просмотры</th></tr></thead>
+      <tbody>
+        <tr><td>Пн 23.11</td><td class="num">156</td><td class="num">33</td><td class="num">5</td><td class="num">3</td><td class="num">60%</td><td>14 постов · 656</td></tr>
+        <tr><td>Вт 24.11</td><td class="num">161</td><td class="num">87</td><td class="num">8</td><td class="num">2</td><td class="num"><b class="r">25%</b></td><td>7 постов · 512</td></tr>
+        <tr><td>Ср 25.11</td><td class="num">153</td><td class="num">44</td><td class="num">10</td><td class="num">2</td><td class="num"><b class="r">20%</b></td><td>12 постов · 126</td></tr>
+        <tr><td>Чт 26.11</td><td class="num">138</td><td class="num">28</td><td class="num">3</td><td class="num">0</td><td class="num">—</td><td>5 постов · 141, вечером пауза</td></tr>
+        <tr><td>Пт 27.11</td><td class="num">184</td><td class="num">25</td><td class="num">11</td><td class="num">6</td><td class="num"><b class="g">55%</b></td><td>постов нет (пауза)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Просмотры рилсов инсты за неделю: нет данных. Снимались только 24.11 (10 рилсов, 1 371) и 25.11 (9 рилсов, 6 392); 23, 26 и 27.11 статистики нет, 26.11 инста требовала проверку «вы человек».</p>
+</section>
+
+<section>
+  <h2>По каналам</h2>
+  <div class="tw">
+    <table>
+      <thead><tr><th>Канал</th><th class="num">Действий</th><th class="num">Новых лидов</th><th class="num">Созвонов</th><th class="num">Состоялось</th><th class="num">Целевых</th><th>Кто целевой</th></tr></thead>
+      <tbody>
+        <tr><td><b>Инста-комменты</b> «+»</td><td class="num">194 + 20 в директ</td><td class="num">155</td><td class="num">23</td><td class="num">7</td><td class="num">3</td><td>Демидов (отказ), Дмитрий (Минск), Davron; Плешков «позже»</td></tr>
+        <tr><td><b>Телеграм</b>, пишут сами</td><td class="num">нет данных</td><td class="num">6</td><td class="num">11</td><td class="num">4</td><td class="num"><b class="g">2</b></td><td>Вачик (Сочи), Эмиль (Люберцы)</td></tr>
+        <tr><td><b>Тредс</b>: комментинг, личка, аутрич</td><td class="num">198 + 38 постов + 8 в личку</td><td class="num">56</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td>Макеев (найден 21.11); a.d__paint горячий, но без созвона</td></tr>
+        <tr><td><b>Рассылка тг</b> (Ангелина, Арсен)</td><td class="num">—</td><td class="num">нет данных</td><td class="num">1 (+10 отменённых броней)</td><td class="num">1</td><td class="num">0</td><td>Evak_Spb24 — нецелевой</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="grid2">
+    <div class="card"><p><b>По объёму лучший канал — инста:</b> 23 из 37 созвонов. Но из 23 состоялось 7, целевых 3. Почти весь поток — эвакуаторщики с одного рилса 23.11 (84 «+» за 24.11).</p></div>
+    <div class="card"><p><b>По качеству лучший — телеграм:</b> из 4 состоявшихся 2 целевых, оба самые горячие лиды недели. Тредс дал 1 целевого на 198 комментов и 38 постов, а охват постов упал с 656 до 141.</p></div>
+  </div>
+  <p class="note">«Новых лидов» — записи CRM с датой found 23–27.11 (comments_leads.json и leads.json). Рассылка: в СОЗВОНЫ.csv 11 броней от 6 человек, 10 со статусом «отменён» без причины, состоялся 1.</p>
+</section>
+
+<section>
+  <h2>По нишам</h2>
+  <div class="grid2">
+    <div class="card" style="display:flex;flex-direction:column;gap:10px">
+      <h3>Новые лиды в CRM за неделю, 217</h3>
+      <div class="chart" style="height:330px"><canvas id="cNiche" aria-label="Лиды по нишам"></canvas></div>
+      <p class="note">84 лида без видимой ниши: пустой или личный профиль. Ниша определена по полю biz.</p>
+    </div>
+    <div class="tw" style="align-self:start">
+      <table>
+        <thead><tr><th>Ниша</th><th class="num">Созвонов</th><th class="num">Сост.</th><th class="num">Целевых</th></tr></thead>
+        <tbody>
+          <tr><td>Эвакуатор</td><td class="num">17</td><td class="num">5</td><td class="num">2 <span class="mono">+1 позже</span></td></tr>
+          <tr><td>Автосервис</td><td class="num">6</td><td class="num">1</td><td class="num">1</td></tr>
+          <tr><td><b>Кузовной ремонт</b></td><td class="num">2</td><td class="num">2</td><td class="num"><b class="g">2</b></td></tr>
+          <tr><td>Шиномонтаж</td><td class="num">2</td><td class="num">1</td><td class="num">1</td></tr>
+          <tr><td>Грузоперевозки</td><td class="num">2</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Стоматология</td><td class="num">1</td><td class="num">1</td><td class="num">0</td></tr>
+          <tr><td>Прочее: запчасти, оклейка, автостекло, ремонт техники, кондиционеры, пригон, духи</td><td class="num">7</td><td class="num">3</td><td class="num">0</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="note">Эвакуаторы: 17 созвонов, состоялось 5, из них нецелевых 2 (СПб, Йошкар-Ола), ещё Махачкала отсеялась по телефону. Кузовной: оба состоявшихся целевые, плюс a.d__paint (Алматы) горячий без созвона.</p>
+</section>
+
+<section>
+  <h2>Все созвоны недели</h2>
+  <div class="tw">
+    <table class="calls">
+      <thead><tr><th>Время</th><th>Кто</th><th>Ниша</th><th>Город</th><th>Канал</th><th>Статус</th><th>Итог</th></tr></thead>
+      <tbody>
+        <tr class="day"><td colspan="7">Пн 23.11 · 5</td></tr>
+        <tr><td class="t">13:00</td><td class="who">@a.azamat_911</td><td>грузовые запчасти</td><td>Дагестан</td><td>инста</td><td><span class="pill p-ok">состоялся</span></td><td>шумно, перенос на 22:00; итог не записан</td></tr>
+        <tr><td class="t">14:00</td><td class="who">Алексей Макеев</td><td>автосервис, кузовной</td><td>Новосибирск</td><td>тредс</td><td><span class="pill p-ok">целевой</span></td><td>Директ уже крутится, дал доступ к кабинету на аудит</td></tr>
+        <tr><td class="t">15:00</td><td class="who">@sadamhusein_773</td><td>ремонт стиралок</td><td>Москва</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>второй перенос подряд</td></tr>
+        <tr><td class="t">15:30</td><td class="who">@wheelsgood</td><td>шиномонтаж, диски</td><td>Сургут</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>—</td></tr>
+        <tr><td class="t">17:00</td><td class="who">@at_foliendesign_</td><td>оклейка, тонировка</td><td>Германия</td><td>инста</td><td><span class="pill p-ok">состоялся</span></td><td>нецелевой: маленький город, предложен таргет</td></tr>
+        <tr class="day"><td colspan="7">Вт 24.11 · 8</td></tr>
+        <tr><td class="t">11:00</td><td class="who">Руслан</td><td>автосервис</td><td>Красноярск</td><td>тг</td><td><span class="pill p-no">не вышел</span></td><td>—</td></tr>
+        <tr><td class="t">13:00</td><td class="who">@sarfarozzz1</td><td>магазин духов</td><td>Душанбе</td><td>тг</td><td><span class="pill p-ok">состоялся</span></td><td>полуцелевой, думает</td></tr>
+        <tr><td class="t">15:30</td><td class="who">@yusiboffgi</td><td>автосервис</td><td>Москва</td><td>тг</td><td><span class="pill p-no">не вышел</span></td><td>потом голосовые Максиму</td></tr>
+        <tr><td class="t">16:30</td><td class="who">@hamroz_fayziev</td><td>грузоперевозки</td><td>Москва</td><td>инста</td><td><span class="pill p-un">не состоялся</span></td><td>в списке обзвона 26.11 «созвона не было», причина не записана</td></tr>
+        <tr><td class="t">17:00</td><td class="who">@evdokimov.box</td><td>эвакуатор</td><td>Новосибирск</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>—</td></tr>
+        <tr><td class="t">17:30</td><td class="who">Вачик</td><td>автосервис</td><td>Сочи</td><td>тг</td><td><span class="pill p-ok">целевой</span></td><td>хочет +4–5 машин в день, решает с компаньоном</td></tr>
+        <tr><td class="t">19:00</td><td class="who">@andrey_grigoriev666</td><td>эвакуатор ×6</td><td>Н. Новгород</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>«уехал в область, лучше писать»</td></tr>
+        <tr><td class="t">20:00</td><td class="who">VANRO</td><td>автостекло</td><td>Липецк</td><td>инста</td><td><span class="pill p-un">не записан</span></td><td>—</td></tr>
+        <tr class="day"><td colspan="7">Ср 25.11 · 10</td></tr>
+        <tr><td class="t">17:00</td><td class="who">@evakuator__535</td><td>эвакуатор</td><td>Махачкала</td><td>инста</td><td><span class="pill p-we">сорвали мы</span></td><td>не подключились, ссылки не было</td></tr>
+        <tr><td class="t">17:30</td><td class="who">@daryn.janov</td><td>грузоперевозки</td><td>Алматы</td><td>инста</td><td><span class="pill p-we">сорвали мы</span></td><td>Максим был в пути</td></tr>
+        <tr><td class="t">18:00</td><td class="who">@andrey_grigoriev666</td><td>эвакуатор ×6</td><td>Н. Новгород</td><td>инста</td><td><span class="pill p-we">сорвали мы</span></td><td>записали без подтверждения времени</td></tr>
+        <tr><td class="t">19:00</td><td class="who">@guga_black979</td><td>эвакуатор ×3</td><td>Руза, МО</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>—</td></tr>
+        <tr><td class="t">19:30</td><td class="who">@danildanil_13</td><td>эвакуатор</td><td>Ярославль</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>просил звонок на номер</td></tr>
+        <tr><td class="t">20:00</td><td class="who">Демидов</td><td>эвакуатор ×2</td><td>Казань</td><td>инста</td><td><span class="pill p-ok">целевой</span></td><td>отказ: Директ уже есть, аудит за 2 500 не взял</td></tr>
+        <tr><td class="t">20:30</td><td class="who">@rustam.rustamov86</td><td>эвакуатор ×2</td><td>Нижневартовск</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>давал номер</td></tr>
+        <tr><td class="t">21:00</td><td class="who">Дмитрий</td><td>эвакуатор, команда</td><td>Минск</td><td>инста → тг</td><td><span class="pill p-ok">целевой</span></td><td>просил расчёт, сделан 26.11; что ответил — не записано</td></tr>
+        <tr><td class="t">22:00</td><td class="who">@andrei_5356</td><td>эвакуатор ×4</td><td>Краснодар</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>—</td></tr>
+        <tr><td class="t">—</td><td class="who">Gug</td><td>эвакуатор</td><td>Подольск</td><td>тг</td><td><span class="pill p-no">не вышел</span></td><td>«щас на заказе»</td></tr>
+        <tr class="day"><td colspan="7">Чт 26.11 · 3</td></tr>
+        <tr><td class="t">12:00</td><td class="who">@kirillmoiseev003</td><td>эвакуатор ×2</td><td>Владимирская обл.</td><td>инста</td><td><span class="pill p-un">не записан</span></td><td>—</td></tr>
+        <tr><td class="t">17:00</td><td class="who">@RomanVA</td><td>автосервис, ремонт телефонов</td><td>Тольятти</td><td>тг</td><td><span class="pill p-un">не записан</span></td><td>следующий созвон стоял на 27.11</td></tr>
+        <tr><td class="t">19:00</td><td class="who">Салават</td><td>кондиционеры</td><td>Казань</td><td>тредс</td><td><span class="pill p-mv">отменил лид</span></td><td>срочная заявка; ждём выбор 28.11</td></tr>
+        <tr class="day"><td colspan="7">Пт 27.11 · 11</td></tr>
+        <tr><td class="t">12:00</td><td class="who">@__mamiev__</td><td>эвакуатор</td><td>Нальчик</td><td>инста</td><td><span class="pill p-mv">перенёс сам</span></td><td>на сб 28.11 16:00</td></tr>
+        <tr><td class="t">13:00</td><td class="who">Davron Babaev</td><td>выездной шиномонтаж</td><td>Ош</td><td>инста</td><td><span class="pill p-ok">целевой</span></td><td>заинтересованы, ждут комплексное предложение</td></tr>
+        <tr><td class="t">14:00</td><td class="who">@Evak_Spb24</td><td>эвакуатор</td><td>СПб</td><td>рассылка</td><td><span class="pill p-ok">состоялся</span></td><td>нецелевой: Директ уже настроен</td></tr>
+        <tr><td class="t">14:00</td><td class="who">@romanroman04</td><td>пригон авто</td><td>Ростов</td><td>тг</td><td><span class="pill p-we">сорвали мы</span></td><td>Максим не успел; перенос на 28.11</td></tr>
+        <tr><td class="t">15:00</td><td class="who">@evakuator__535</td><td>эвакуатор</td><td>Махачкала</td><td>инста</td><td><span class="pill p-no">не вышел</span></td><td>продажник дозвонился: нецелевой, денег нет</td></tr>
+        <tr><td class="t">16:00</td><td class="who">@RomanVA</td><td>автосервис, ремонт телефонов</td><td>Тольятти</td><td>тг</td><td><span class="pill p-mv">перенос</span></td><td>созвонились не вовремя, пн 30.11</td></tr>
+        <tr><td class="t">17:00</td><td class="who">@pleshkov7876</td><td>эвакуаторы</td><td>Барнаул</td><td>инста</td><td><span class="pill p-ok">состоялся</span></td><td>актуально, но позже</td></tr>
+        <tr><td class="t">18:00</td><td class="who">@timofey_stom</td><td>стоматолог</td><td>Москва</td><td>тг</td><td><span class="pill p-ok">состоялся</span></td><td>нецелевой</td></tr>
+        <tr><td class="t">19:00</td><td class="who">@Yusiboff</td><td>автосервис</td><td>Москва</td><td>тг</td><td><span class="pill p-no">не вышел</span></td><td>второй раз за неделю</td></tr>
+        <tr><td class="t">20:00</td><td class="who">Денис</td><td>эвакуатор ×6</td><td>Йошкар-Ола</td><td>инста</td><td><span class="pill p-ok">состоялся</span></td><td>нецелевой</td></tr>
+        <tr><td class="t">—</td><td class="who">Эмиль (EMO)</td><td>кузовной ремонт</td><td>Люберцы</td><td>тг</td><td><span class="pill p-ok">целевой</span></td><td>очень целевой, полное КП отправлено</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">«Целевой» — состоялся и признан целевым. Брони рассылки со статусом «отменён» (10 шт.) в таблицу не входят.</p>
+</section>
+
+<section>
+  <h2>Горячие лиды на следующую неделю</h2>
+  <div class="hot">
+    <div class="hl top"><div class="h"><span class="nm">Эмиль (EMO) · кузовной, Люберцы</span><span class="when">сб 28.11, созвон в работе</span></div><p class="what">Очень целевой. 85% приехавших берёт в работу, из звонка в приезд 30–40%. КП отправлено.</p><p class="do"><b>Что делать:</b> Максим созванивается и называет цену. Закрыть датой старта и реквизитами.</p></div>
+    <div class="hl top"><div class="h"><span class="nm">Davron · выездной шиномонтаж, Ош</span><span class="when">сб 28.11</span></div><p class="what">Заинтересованы, «давай, интересно». В Яндексе и Google их нет.</p><p class="do"><b>Что делать:</b> отправить комплексное предложение (на вечер 27.11 ещё не отправлено) и созвон 28.11.</p></div>
+    <div class="hl top"><div class="h"><span class="nm">@RomanVA · автосервис, ремонт техники, Тольятти</span><span class="when">пн 30.11, 12:00</span></div><p class="what">Хочет ремонт телефонов, ноутбуков и мелкой техники, переезжает на новую точку.</p><p class="do"><b>Что делать:</b> набрать в 12:00 Тбилиси (11:00 мск), КП уже есть.</p></div>
+    <div class="hl"><div class="h"><span class="nm">@__mamiev__ · эвакуатор, Нальчик</span><span class="when">сб 28.11, 16:00</span></div><p class="what">3 человека, 5–6 заявок в день. Сам перенёс с 27.11.</p><p class="do"><b>Что делать:</b> напоминание утром и за час, ссылка за 10 минут.</p></div>
+    <div class="hl"><div class="h"><span class="nm">@romanroman04 · пригон авто, Ростов</span><span class="when">сб 28.11</span></div><p class="what">27.11 созвон сорвали мы. В CSV стоит 14:00, после срыва предложено 12:00 или 19:00.</p><p class="do"><b>Что делать:</b> подтвердить время, извиниться, выйти вовремя.</p></div>
+    <div class="hl"><div class="h"><span class="nm">a.d__paint · кузовной, Алматы</span><span class="when">решение Максима</span></div><p class="what">Цех на 7 машин, 8 человек. Горячий, но работает только после личной встречи и с полной оплатой. В CRM — отказ.</p><p class="do"><b>Что делать:</b> либо видеозвонок с живыми кабинетами, либо отпустить.</p></div>
+    <div class="hl"><div class="h"><span class="nm">@pleshkov7876 · Эвакуаторы Сибири, Барнаул</span><span class="when">через 2–3 недели</span></div><p class="what">10 заказов в день, сейчас сезон в Шерегеше, фокус на другом.</p><p class="do"><b>Что делать:</b> вернуться около 11–18.12 с идеей Новокузнецк и Шерегеш.</p></div>
+    <div class="hl"><div class="h"><span class="nm">Хвосты прошлой недели</span><span class="when">статус не обновлён</span></div><p class="what">Макеев ждёт аудит кабинета с 23.11. Вачик решал с компаньоном. Дмитрий (Минск) ждал расчёт.</p><p class="do"><b>Что делать:</b> записать, где каждый сейчас, и дать следующий шаг с датой.</p></div>
+  </div>
+  <div class="card">
+    <h3 style="margin-bottom:8px">Записаны на субботу 28.11 (Тбилиси)</h3>
+    <p class="note" style="color:var(--ink)">13:00 Арсен, эвакуатор, Ярославль (по телефону) · 14:00 Роман, пригон, Ростов · 15:00 эвакуация, Москва и МО, 4+4 машины · 16:00 mamiev, Нальчик · 17:00 эвакуация, Ковров. Салават (кондиционеры) выбирает между 12:00 и 16:00.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Выводы и узкие места</h2>
+  <ol class="find">
+    <li class="bad">Доходимость 35%: из 37 назначенных состоялось 13. Лид не вышел в 13 случаях, мы сорвали 4. Без 3 незаписанных итогов — 38%.</li>
+    <li class="bad">Перегруз вечера ломает доходимость: ср 25.11 — 10 созвонов, состоялось 2, три сорвали мы. Пт 27.11 с напоминаниями утром и за час — 6 из 11 (55%). До пятницы было 7 из 26 (27%).</li>
+    <li>Целевых 6 из 13 состоявшихся (46%). КП после созвона ушло 1 раз (Эмиль), оплат 0. Узкое место сместилось вниз: от целевого до КП и оплаты.</li>
+    <li>Инста даёт объём: 23 из 37 созвонов, но целевых 3. Телеграм даёт качество: 11 созвонов, 4 состоялось, 2 целевых — Вачик и Эмиль.</li>
+    <li>Эвакуаторы — 17 созвонов из 37, состоялось 5, целевых 2 и один «позже». Кузовной ремонт — 2 созвона, оба целевые, плюс горячий a.d__paint.</li>
+    <li class="bad">Тредс: 198 комментов, 38 постов и 8 сообщений в личку дали 1 состоявшийся созвон (Макеев найден ещё 21.11). Просмотры постов упали с 656 до 141 в день, с вечера 26.11 посты на паузе.</li>
+    <li class="bad">У 4 созвонов нет записанного итога: VANRO, Кирилл, Роман 26.11 и Азамат (созвон был, итог не записан). Каждый незаписанный итог — потерянный следующий шаг.</li>
+    <li>Касание → ответ 35% (304 → 107). Из 217 новых лидов 84 без видимой ниши: пустой профиль, почти не отвечают.</li>
+  </ol>
+</section>
+
+<section class="src">
+  <span class="eyebrow">Источники</span>
+  <span>actions.log (23–27.11, до 19:35) · CRM/comments_leads.json и leads.json (found 23–27.11) · broadcast/СОЗВОНЫ.csv · CRM/созвоны-итоги.csv · СЛОТЫ-23…28.11, лог.md · CRM/kp/ссылки.tsv · отчёты 23–26.11 (просмотры тредса) и неделя-20-26.11 (итоги созвонов 24–25.11) · итоги 27.11 со слов Максима.</span>
+  <span>Время созвонов в CSV московское, здесь пересчитано в Тбилиси (+1 ч). Телефоны в отчёт не включены.</span>
+</section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+(function(){
+  if(!window.Chart) return;
+  Chart.defaults.font.family = '"Onest", system-ui, sans-serif';
+  Chart.defaults.font.size = 12;
+  Chart.defaults.color = '#5D7268';
+  Chart.defaults.animation = false;
+  var days = ['Пн 23','Вт 24','Ср 25','Чт 26','Пт 27'];
+  var grid = {color:'#E4EEE8'};
+  var stackOpts = function(max){ return {
+    responsive:true, maintainAspectRatio:false,
+    plugins:{legend:{display:false}, tooltip:{mode:'index', intersect:false}},
+    scales:{x:{stacked:true, grid:{display:false}}, y:{stacked:true, grid:grid, beginAtZero:true, suggestedMax:max, ticks:{precision:0}}}
+  };};
+  new Chart(document.getElementById('cAct'), {type:'bar', data:{labels:days, datasets:[
+    {label:'диалоги', data:[54,76,60,59,73], backgroundColor:'#0E7A47'},
+    {label:'инста', data:[47,34,39,26,48], backgroundColor:'#17B26A'},
+    {label:'тредс-комменты', data:[40,44,38,43,33], backgroundColor:'#8ED9B3'},
+    {label:'тредс-посты', data:[14,7,12,5,0], backgroundColor:'#C9EBD8'},
+    {label:'личка (сообщение)', data:[0,0,4,5,30], backgroundColor:'#7B8F85'}
+  ]}, options:stackOpts(200)});
+  new Chart(document.getElementById('cCalls'), {type:'bar', data:{labels:days, datasets:[
+    {label:'состоялся', data:[3,2,2,0,6], backgroundColor:'#17B26A'},
+    {label:'лид не вышел', data:[2,5,5,0,2], backgroundColor:'#C9534C'},
+    {label:'сорвали мы', data:[0,0,3,0,1], backgroundColor:'#7E2F2A'},
+    {label:'перенос / отмена лидом', data:[0,0,0,1,2], backgroundColor:'#D9B56A'},
+    {label:'итог не записан / не состоялся', data:[0,1,0,2,0], backgroundColor:'#CBD5D0'}
+  ]}, options:stackOpts(12)});
+  new Chart(document.getElementById('cNiche'), {type:'bar', data:{
+    labels:['не видно','эвакуатор','кузовной','детейлинг','стоматология','автосервис','ремонт, мастер','грузоперевозки','шиномонтаж','тонировка','пригон'],
+    datasets:[{data:[84,77,12,11,8,7,7,5,4,1,1], backgroundColor:function(c){return c.dataIndex===0?'#CBD5D0':(c.dataIndex===1?'#17B26A':'#8ED9B3');}, borderRadius:4}]},
+    options:{indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
+      scales:{x:{grid:grid, beginAtZero:true, ticks:{precision:0}}, y:{grid:{display:false}}}}});
+})();
+</script>
